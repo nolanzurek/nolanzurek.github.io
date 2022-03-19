@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="165px" height="165px" viewbox="0 0 165 165" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <g id="Group-12">
+    <g id="Group">
+      <path d="M0 82.5C0 36.9365 36.9365 0 82.5 0C128.063 0 165 36.9365 165 82.5C165 128.063 128.063 165 82.5 165C36.9365 165 0 128.063 0 82.5Z" id="Ellipse" fill="#FFFFFF" fill-rule="evenodd" stroke="none" />
+      <path d="M99.8392 37.5558L68.9629 56.7098L68.9629 46.6683L91.9653 33.5747L68.9629 20.8349L68.9629 10.3953L99.8392 30.257L99.8392 37.5558ZM61.4872 0L45.297 68.2109L37.3789 68.2109L53.6133 0L61.4872 0ZM30.7878 56.7098L0 37.5558L0 30.257L30.7878 10.3953L30.7878 20.8349L7.82966 33.5304L30.7878 46.6241L30.7878 56.7098Z" transform="translate(32.93164 48.39453)" id="" fill="#000000" stroke="none" />
+    </g>
+  </g>
+</svg>

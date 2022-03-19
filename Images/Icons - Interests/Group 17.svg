@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="165px" height="165px" viewbox="0 0 165 165" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M0 11.0693C0 4.95588 4.95588 0 11.0693 0C17.1827 0 22.1385 4.95588 22.1385 11.0693C22.1385 17.1827 17.1827 22.1386 11.0693 22.1386C4.95588 22.1386 0 17.1827 0 11.0693Z" transform="translate(72.180664 38.400024)" id="path_1" />
+    <path d="M0 11.0693C0 4.95588 4.95588 0 11.0693 0C17.1827 0 22.1386 4.95588 22.1386 11.0693C22.1386 17.1827 17.1827 22.1385 11.0693 22.1385C4.95588 22.1385 0 17.1827 0 11.0693Z" transform="translate(39.5 71.08069)" id="path_2" />
+    <path d="M0 11.0693C0 4.95588 4.95588 0 11.0693 0C17.1827 0 22.1385 4.95588 22.1385 11.0693C22.1385 17.1827 17.1827 22.1385 11.0693 22.1385C4.95588 22.1385 0 17.1827 0 11.0693Z" transform="translate(72.180664 71.08069)" id="path_3" />
+    <path d="M0 11.0693C0 4.95588 4.95588 0 11.0693 0C17.1827 0 22.1385 4.95588 22.1385 11.0693C22.1385 17.1827 17.1827 22.1385 11.0693 22.1385C4.95588 22.1385 0 17.1827 0 11.0693Z" transform="translate(104.86145 71.08069)" id="path_4" />
+    <path d="M0 11.0693C0 4.95588 4.95588 0 11.0693 0C17.1827 0 22.1385 4.95588 22.1385 11.0693C22.1385 17.1827 17.1827 22.1385 11.0693 22.1385C4.95588 22.1385 0 17.1827 0 11.0693Z" transform="translate(104.86145 103.761475)" id="path_5" />
+    <clipPath id="clip_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+    <clipPath id="clip_2">
+      <use xlink:href="#path_2" />
+    </clipPath>
+    <clipPath id="clip_3">
+      <use xlink:href="#path_3" />
+    </clipPath>
+    <clipPath id="clip_4">
+      <use xlink:href="#path_4" />
+    </clipPath>
+    <clipPath id="clip_5">
+      <use xlink:href="#path_5" />
+    </clipPath>
+  </defs>
+  <g id="Group-8">
+    <g id="Group-7">
+      <path d="M0 82.5C0 36.9365 36.9365 0 82.5 0C128.063 0 165 36.9365 165 82.5C165 128.063 128.063 165 82.5 165C36.9365 165 0 128.063 0 82.5Z" id="Ellipse" fill="#FFFFFF" fill-rule="evenodd" stroke="none" />
+    </g>
+    <path d="M0 11.0693C0 4.95588 4.95588 0 11.0693 0C17.1827 0 22.1386 4.95588 22.1386 11.0693C22.1386 17.1827 17.1827 22.1386 11.0693 22.1386C4.95588 22.1386 0 17.1827 0 11.0693Z" transform="translate(39.5 38.400024)" id="Ellipse-10" fill="#000000" fill-rule="evenodd" stroke="none" />
+    <g id="Ellipse-11">
+      <g clip-path="url(#clip_1)">
+        <use xlink:href="#path_1" fill="none" stroke="#000000" stroke-width="10" />
+      </g>
+    </g>
+    <path d="M0 11.0693C0 4.95588 4.95588 0 11.0693 0C17.1827 0 22.1385 4.95588 22.1385 11.0693C22.1385 17.1827 17.1827 22.1386 11.0693 22.1386C4.95588 22.1386 0 17.1827 0 11.0693Z" transform="translate(104.86145 38.400024)" id="Ellipse-12" fill="#000000" fill-rule="evenodd" stroke="none" />
+    <g id="Ellipse-13">
+      <g clip-path="url(#clip_2)">
+        <use xlink:href="#path_2" fill="none" stroke="#000000" stroke-width="10" />
+      </g>
+    </g>
+    <g id="Ellipse-14">
+      <g clip-path="url(#clip_3)">
+        <use xlink:href="#path_3" fill="none" stroke="#000000" stroke-width="10" />
+      </g>
+    </g>
+    <g id="Ellipse-15">
+      <g clip-path="url(#clip_4)">
+        <use xlink:href="#path_4" fill="none" stroke="#000000" stroke-width="10" />
+      </g>
+    </g>
+    <path d="M0 11.0693C0 4.95588 4.95588 0 11.0693 0C17.1827 0 22.1386 4.95588 22.1386 11.0693C22.1386 17.1827 17.1827 22.1385 11.0693 22.1385C4.95588 22.1385 0 17.1827 0 11.0693Z" transform="translate(39.5 103.761475)" id="Ellipse-16" fill="#000000" fill-rule="evenodd" stroke="none" />
+    <path d="M0 11.0693C0 4.95588 4.95588 0 11.0693 0C17.1827 0 22.1385 4.95588 22.1385 11.0693C22.1385 17.1827 17.1827 22.1385 11.0693 22.1385C4.95588 22.1385 0 17.1827 0 11.0693Z" transform="translate(72.180664 103.761475)" id="Ellipse-17" fill="#000000" fill-rule="evenodd" stroke="none" />
+    <g id="Ellipse-18">
+      <g clip-path="url(#clip_5)">
+        <use xlink:href="#path_5" fill="none" stroke="#000000" stroke-width="10" />
+      </g>
+    </g>
+  </g>
+</svg>

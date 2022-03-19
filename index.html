@@ -1,0 +1,103 @@
+<html>
+
+<head>
+    <title>Nolan Zurek - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script type="text/javascript" src="processing.js"></script>
+</head>
+
+<body>
+    <div id="frontSpacer"></div>
+    <ul> 
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="notes.html">Notes</a></li> 
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="index.html">Home</a></li>
+        
+    </ul>
+    <span id="spacer"></span>
+    <div id="infotext">
+        <image src="Images/IMG_3299black and white cropped.jpg" id="npic">
+        <h1>Hi, I'm Nolan</h1>
+        <p>Computer Science Student at the <span id="waterloo">University of Waterloo</span></p>
+        <p>Gymnast on <span id="teamCan">Team Canada</header></p>
+    </div>
+    <!--
+    <section id="interests" class="split-section">
+        
+        <div id="icons">
+            <image src="Images/Icons - Interests/Group 15.svg" onmouseover="updateDesc('computer science')">
+            <image src="Images/Icons - Interests/Group 21.svg" onmouseover="updateDesc('math')">
+            <image src="Images/Icons - Interests/Group 20.svg" onmouseover="updateDesc('piano')">
+            <image src="Images/Icons - Interests/Group 19.svg" onmouseover="updateDesc('music theory')">
+            <image src="Images/Icons - Interests/Group 18.svg" onmouseover="updateDesc('gymnastics')">
+            <image src="Images/Icons - Interests/Group 16.svg" onmouseover="updateDesc('outdoors')">
+            <image src="Images/Icons - Interests/Group 17.svg" onmouseover="updateDesc('generative art')">
+        </div>
+        <h2>I'm interested in <span id="interestSwitcher">computer science</span></h2>
+    </section>
+    -->
+    <section id="projects" class="split-section">
+    <h2 id="projectsHeader">Projects</h2>
+    <div id="GraphProject" class="projectModule">
+        <image src="Images/202212128514116.png" id="GraphingImage" class="projectImage"></image>
+        <div class="projectText"> 
+        <h3 class="projectTitle">Grapher</h3>
+        
+        <p class="projectDescription">A graphing calculator capable of rendering implicit functions, polar plots, parametric equations, and slope fields.</p>
+        </div>
+    </div>  
+    <div id="TerrainProject" class="projectModule">    
+        <image src="Images/frame at 225541 on 1052021.png" id="TerrainImage" class="projectImage"></image>
+        <div class="projectText"> 
+        <h3 class="projectTitle">Terrain Generator</h3>  
+        
+        <p class="projectDescription">A procedural 3D terrain generator written in Processing.</p>
+        </div>
+    </div> 
+    <div id="MusicProject" class="projectModule">         
+        <image src="Images/822355147.png" id="MusicImage" class="projectImage"></image>
+        <div class="projectText">
+        <h3 class="projectTitle">Music Theory GL</h3>
+        
+        <p class="projectDescription">A graphics library for illustrating concepts in music theory using keyboard, chromatic circle and circle of fifths diagrams.</p>
+        </div>
+    </div>
+    </section>        
+            
+        
+    
+    <!--
+    <div id="projectsDiv"> 
+        <div class="projectModule"> 
+            <image src="Images/822355147.png" id="MusicImage">
+            <h3 class="projectTitle">Music Theory GL</h3>
+            <p class="projectDescription">A graphics library for illustrating concepts in music theory</p>
+        </div>
+        <div class="projectModule"> 
+            <image src="Images/202212128514116.png" id="GraphingImage">
+            <h3 class="projectTitle">Grapher</h3>
+            <p class="projectDescription">A graphing calculator capable of rendering implicit functions</p>
+        </div>
+        <div class="projectModule"> 
+            <image src="Images/frame at 225541 on 1052021.png" id="TerrainImage">
+            <h3 class="projectTitle">Terrain Generator</h3>
+            <p class="projectDescription">A procedural 3D terrain generator</p>
+        </div>
+    </div>
+    -->
+    <section id="bottom" class="split-section">
+        <div id="socials">
+            <a href="mailto:nolanzurek@gmail.com"><img src="Images/Socials/email.png" id="emailIcon" class="socialIcon"></a>
+            <a href="https://www.linkedin.com/in/nolan-zurek-a00471b0/"><img src="Images/Socials/linkedin.png" id="linkedinIcon" class="socialIcon"></a>
+            <a href="https://www.instagram.com/nolan_z800/?hl=en"><img src="Images/Socials/instagram.png" id="instagramIcon" class="socialIcon"></a>
+        </div>
+        <div id="terrainDiv">
+        <canvas data-processing-sources="terrainGenerator.pde"></canvas>
+    </div>
+    </section>
+</body>
+
+</html>
