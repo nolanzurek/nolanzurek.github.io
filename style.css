@@ -4,7 +4,14 @@ body {
   justify-content: center;
   max-width: 1600px;
   min-width: 800px;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;
 }
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
 #frontSpacer {
   height: 75px;
 }
