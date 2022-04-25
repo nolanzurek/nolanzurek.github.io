@@ -4,27 +4,29 @@
     <title>Nolan Zurek - Home</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
-    <script type="text/javascript" src="processing.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.6.6/processing.min.js"></script>
 </head>
 
 <body>
     <div id="frontSpacer"></div>
-    <!--
-    <ul> 
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="notes.html">Notes</a></li> 
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="blog.html">Blog</a></li>
-        <li><a href="index.html">Home</a></li>
-        
-    </ul>
-    -->
+    <div id="navbar">
+        <ul> 
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="notes.html">Notes</a></li> 
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="index.html">Home</a></li>
+        </ul>
+    </div>
+    
+    <div id="content">
+    
     <span id="spacer"></span>
     <div id="infotext">
         <image src="Images/IMG_3299black and white cropped.jpg" id="npic">
         <h1>Hi, I'm Nolan</h1>
         <p>Computer Science Student at the <span id="waterloo">University of Waterloo</span></p>
-        <p>Gymnast on <span id="teamCan">Team Canada</header></p>
+        <p>Trampoline Gymnast on <span id="teamCan">Team Canada</header></p>
     </div>
     <!--
     <section id="interests" class="split-section">
@@ -101,6 +103,7 @@
         <canvas data-processing-sources="terrainGenerator.pde"></canvas>
     </div>
     </section>
+</div>
 </body>
 
 </html>

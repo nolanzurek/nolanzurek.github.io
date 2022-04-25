@@ -1,0 +1,127 @@
+body {
+    background-image: url("Images/wavyBackground.png");
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none;
+  }
+  
+  #content {
+    margin: auto;
+    justify-content: center;
+    max-width: 1600px;
+    min-width: 800px;
+  }
+  
+  body::-webkit-scrollbar {
+    display: none;
+  }
+
+  h1 {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+    font-size: 70px;
+    text-align: center;
+  }
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(33, 33, 33, 0.5);
+    backdrop-filter: blur(10px);
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  #navbar ul li {
+    float: right;
+  }
+  
+  #navbar ul li a {
+    display: block;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  #navbar ul li a:hover {
+    background-color: rgba(10, 10, 10, 0.5);
+  }
+
+  #frontSpacer {
+    height: 40px;
+  }
+
+#notesContainer {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.NotesDiv {
+    max-width: 300px;
+    background-color: #333333;
+    border-radius: 20px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    height: 100%;
+    margin: 20px;
+    justify-content: center;
+    text-align: center;
+}
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+    margin: 10px;
+}
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    color: #AAAAAA;
+}
+
+.noteThumbnail {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 20px 20px 0px 0px;
+    margin: 0;
+}
+
+.notesDiv p a, .notesDiv p {
+    color: white;
+    text-decoration: none;
+    min-width: 100%;
+    padding: 15px 0px;
+    margin: 0px;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder; 
+}
+
+.notesDiv p {
+  background: #555555;
+}
+
+.notesDiv p:hover, .notesDiv p a:hover {
+    background-color: #666666;
+}
+
+.last {
+  border-radius: 0px 0px 20px 20px;
+}
