@@ -1,0 +1,109 @@
+#main {
+  text-align: center;
+  padding: 10px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 60px;
+  margin: 0px;
+}
+body {
+  background-image: url("Images/output.png");
+  background-attachment: fixed;
+  font-family: "Montserrat", sans-serif;
+}
+.letters {
+  width: 100%;
+  height: 100%;
+  table-layout: fixed;
+  background-color: #555555;
+  border-collapse: collapse;
+  /*    height: 83%; */
+}
+.gridItem {
+  padding: 10px;
+  font-size: 400%;
+  display: table-cell;
+  height: 15%;
+  text-align: center;
+  border: 20px solid #222222;
+  padding: 0px 0px 0px 0px;
+}
+.letter {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  margin: 0px;
+  padding: 0px;
+  /*       height 0px;   */
+}
+input {
+  width: 100%;
+  border: none;
+  background-color: #555555;
+  padding: 15px 15px;
+  height: 70px;
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: white;
+  border: none;
+  outline: none;
+}
+input:active,
+input:focus {
+  background-color: #777777;
+}
+#gridcontainer {
+  margin: auto;
+  width: 600px;
+  height: 720px;
+  mix-blend-mode: lighten;
+}
+#inputdiv {
+  width: 560px;
+  margin: auto;
+}
+#newword {
+  padding: 0px 0px;
+  width: 60%;
+  height: 70px;
+  background-color: #aaaaaa;
+  border: none;
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+}
+#stats {
+  padding: 0 0;
+  width: 40%;
+  padding: 20px 10px;
+  height: 70px;
+  float: right;
+  margin: 0px 0px 0px 0px;
+  background-color: #eeeeee;
+  border: none;
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+}
+#status {
+  margin: auto;
+  text-align: center;
+  padding: 20px 20px;
+  color: white;
+  border: none;
+  font-size: 20px;
+  font-family: "Montserrat";
+  font-weight: bolder;
+}
+#statsText {
+  margin: auto;
+  text-align: center;
+  padding: 0px 20px 20px 20px;
+  color: white;
+  border: none;
+  font-size: 20px;
+  font-family: "Montserrat";
+  font-weight: bolder;
+}
