@@ -1,0 +1,52 @@
+<!--
+
+    ISSUES
+    - Tumbling dd must be added
+        - Including all the specifc tumbling symbols
+    - DD calculations when we have more than 3 flips
+    - Skill names are not present
+    - Triff tuck dd wrong?
+
+    TODO
+    - Figure out what extra info to include
+    - Regular Skill Name in
+
+-->
+
+<html>
+  <head>
+    <title>T&T Skill Info</title>
+    <script type="text/javascript" src="TTscript.js"></script>
+    <link rel="stylesheet" href="TTstyles.css" />
+  </head>
+  <body>
+    <h1>T&T Skill Info</h1>
+    <div id="inputDiv" onclick="getDD()">
+      <input type="text" id="FigIN" />
+      <input type="radio" id="TRI" name="event" class="radioElement" checked />
+      <label for="TRI">TRI</label>
+      <input type="radio" id="DMT" name="event" class="radioElement" />
+      <label for="DMT">DMT</label>
+      <input type="radio" id="TUM" name="event" class="radioElement" />
+      <label for="TUM">TUM</label>
+    </div>
+
+    <div id="titleBar">
+      <h2 id="skillName"></h2>
+      <h2 id="skillFIG"></h2>
+    </div>
+
+    <div id="outputDiv">
+      <div id="InfoBar">
+        <h2 id="SkillInfoTitle">Skill Info</h2>
+      </div>
+      <div id="skillInfo">
+        <p id="ddOutput"></p>
+        <p id="flipsOutput"></p>
+        <p id="twistsOutput"></p>
+        <p id="shapeOutput"></p>
+        <p id="directionOutput"></p>
+      </div>
+    </div>
+  </body>
+</html>

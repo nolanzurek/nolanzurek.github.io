@@ -1,0 +1,131 @@
+:root {
+  --magenta: #f23573;
+  --light-magenta: #f5a9d6;
+  --dark-magenta: #45082c;
+  --blue: #3597f2;
+  --light-blue: #a9dbf5;
+  --dark-blue: #082f42;
+  --purple: #7e3cdb;
+  --light-purple: #b4a4de;
+  --dark-purple: #12082e;
+  --cur: #f23573;
+  --light-cur: #f5a9d6;
+  --dark-cur: #45082c;
+}
+
+body {
+  background-color: #222222;
+  font-family: "Montserrat", sans-serif;
+  margin: auto;
+  padding: 50px;
+  max-width: 1200px;
+}
+
+h1 {
+  color: var(--light-cur);
+  font-size: 40px;
+  font-weight: 800;
+}
+
+#inputDiv {
+  width: 100%;
+  display: flex;
+}
+
+#figIn {
+  width: 70%;
+  height: 50px;
+  float: left;
+  outline: none;
+  padding: 10px;
+  color: var(--cur);
+  background-color: var(--light-cur);
+  border: none;
+  border-radius: 10px 0px 0px 10px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+#eventSelector {
+  font-weight: 700;
+  width: 30%;
+}
+
+.radioElement {
+  display: none;
+}
+
+label {
+  display: flex;
+  font-size: 20px;
+  font-weight: 900;
+  color: var(--cur);
+  width: 10%;
+  background-color: var(--light-cur);
+  align-items: center;
+  justify-content: center;
+}
+
+#TUM + label {
+  border-radius: 0px 10px 10px 0px;
+}
+
+input[type="radio"]:checked + label {
+  background-color: var(--cur);
+  color: var(--light-cur);
+}
+
+#outputDiv {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  background: var(--light-cur);
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+#titleBar,
+#infoBar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  background: var(--cur);
+  border-radius: 10px 10px 0px 0px;
+  height: 50px;
+}
+
+#titleBar {
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 900;
+  padding: 10px;
+  color: var(--light-cur);
+}
+
+#skillFIG {
+  float: right;
+  /* why don't you float??? */
+}
+
+#skillName {
+  float: left;
+}
+
+#skillInfo {
+  color: var(--dark-cur);
+  padding: 10px;
+  font-size: 20px;
+}
+
+p {
+  margin: 3px;
+}
