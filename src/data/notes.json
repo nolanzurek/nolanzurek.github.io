@@ -3,7 +3,7 @@
     "title": "React.js",
     "institution": "Eve Porcello - LinkedIn Learning",
     "description": "The basics of the React framework",
-    "image": "src/images/noteThumbnails/REACT.png",
+    "image": "./images/noteThumbnails/REACT.png",
     "imageAlt": "React.js logo",
     "link": "documents/pdf/React.pdf",
     "linkAlt": "Link to the complete react.js notes"
@@ -12,7 +12,7 @@
     "title": "CS 146",
     "institution": "University of Waterloo",
     "description": "Elementary Algorithm Design and Data Abstraction - Miterm Jot Notes",
-    "image": "src/images/noteThumbnails/CS146.png",
+    "image": "./src/images/noteThumbnails/CS146.png",
     "imageAlt": "Styalized image of code",
     "link": "documents/pdf/CamScanner_03-05-2022_20.19.pdf",
     "linkAlt": "Link to CS 146 Midterm Jot Notes"
