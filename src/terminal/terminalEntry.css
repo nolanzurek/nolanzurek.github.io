@@ -1,0 +1,37 @@
+.terminalEntry {
+  background-color: #362320;
+  color: #ffffff;
+}
+
+.terminalEntry p {
+  margin: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: "Roboto Mono", monospace;
+  font-size: 15px;
+}
+
+.terminalEntry:hover {
+  background-color: #463330;
+}
+
+.path,
+.user {
+  color: #37d359;
+}
+
+.command {
+  color: #d1d337;
+}
+
+.args {
+  color: rgb(214, 216, 223);
+}
+
+.response {
+  color: rgb(214, 216, 223);
+}
+
+p.responseArrayItem {
+  margin-left: -15px;
+}

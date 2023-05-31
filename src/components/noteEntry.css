@@ -1,0 +1,69 @@
+a {
+  text-decoration: none;
+}
+
+.noteEntry {
+  height: 150px;
+  max-height: 150px;
+  /* in the noteEntry, the image should be on the left and the text should start when the image ends*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #eee;
+  /* margin-top: 20px; */
+  /* margin-bottom: 20px; */
+}
+
+a .noteEntry:hover {
+  background-color: #ddd;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+a .noteEntry:active {
+  background-color: #ccc;
+}
+
+.noteImage {
+  height: 100%;
+  width: 150px;
+}
+
+.noteEntryTextContainer h3,
+.noteEntryTextContainer .noteDescription {
+  margin: 0;
+  padding: 10px;
+}
+
+.noteEntryTextContainer h3 {
+  font-size: 25px;
+  text-decoration-thickness: 5px;
+  text-underline-offset: 6px;
+}
+
+.noteEntryTextContainer p {
+  font-size: 18px;
+}
+
+.noteEntryTextContainer {
+  overflow: scroll;
+}
+
+.noteDescription {
+  color: black;
+}
+
+.noteInstitution {
+  color: #784128;
+  padding-left: 10px;
+  margin: 0;
+}
+
+.documentLink {
+  margin-left: 10px;
+}
+
+.noteLinksContainer {
+  margin: 0;
+  margin-bottom: 15px;
+}

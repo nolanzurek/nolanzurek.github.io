@@ -1,0 +1,6 @@
+- change website theme from terminal
+- help page
+- logout
+- make file that gets saved in local storage
+- show file path each time the past entry gets drawn
+- click anywhere to focus

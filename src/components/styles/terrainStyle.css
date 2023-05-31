@@ -1,0 +1,13 @@
+/*
+The canvas will stick to the bottom of the page but is not fixed to the bottom of the viewport
+Content on the page will change, making it longer. The canvas will stay at the bottom of the page
+it will extend off the end of the page such that, if the width is increased, the hidden part will become visible
+that way, the canvas won't need to be resized to take up the full width of the page if it changes
+*/
+canvas {
+  margin: 0;
+  margin-bottom: -10px;
+  padding: 0;
+  width: 100%;
+  z-index: -1;
+}
