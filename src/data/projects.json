@@ -3,7 +3,7 @@
     "title": "Trampoline Skill Info",
     "description": "A degree of difficulty generator for skills and routines in trampoline gymnastics using the FIG Code of Points.",
     "image": "./src/images/projectThumbnails/TRSKILL.png",
-    "imageAlt": "8--<",
+    "imageAlt": "81-/",
     "link": "https://ddcalc.net/",
     "linkAlt": "Link to the DD calculator at ddcalc.net"
   },
@@ -11,7 +11,7 @@
     "title": "MIDI Visualizer",
     "description": "A basic MIDI visualizer written in Processing",
     "image": "./src/images/projectThumbnails/MIDI.png",
-    "imageAlt": "A frame from a MIDI visualization of Ravel's Gaspard de la Nuit - Ondine made with the MIDI Visualizer",
+    "imageAlt": "A styalized depiction of a MIDI visualization",
     "link": "https://github.com/nolanzurek/MIDI-Visualizer",
     "linkAlt": "Link to the MIDI Visualizer on Github"
   },
@@ -19,7 +19,7 @@
     "title": "MyFoci",
     "description": "A simple tasklist application written in React.js",
     "image": "./src/images/projectThumbnails/TODO.png",
-    "imageAlt": "A blank tasklist in MyFoci. Two categories are open; the first has four entries and the second has two.",
+    "imageAlt": "A blank tasklist",
     "link": "https://github.com/nolanzurek/MyFoci",
     "linkAlt": "Link to myFoci on Github"
   },
@@ -27,7 +27,7 @@
     "title": "Music Theory GL",
     "description": "A graphics library for illustrating concepts in music theory using keyboard, chromatic circle and circle of fifth diagrams.",
     "image": "./src/images/projectThumbnails/FIFTHS.png",
-    "imageAlt": "A chromatic circle diagram with C, C#, Eb, F, F#, G#, and Bb highlighted.",
+    "imageAlt": "An illustration of the circle of fifths",
     "link": "https://github.com/nolanzurek/MusicTheoryGL",
     "linkAlt": "Link to music theory GL on Github"
   },
