@@ -11,8 +11,6 @@ import "./app.css";
 import projects from "./data/projects.json";
 import notes from "./data/notes.json";
 
-// import socials from "./data/socials.json";
-
 import email from "./images/linkIcons/email.png";
 import github from "./images/linkIcons/github.png";
 import linkedinin from "./images/linkIcons/linkedin.png";

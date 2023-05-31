@@ -10,6 +10,12 @@ import NoteEntry from "./components/NoteEntry";
 function Notes() {
   useEffect(() => {
     window.scrollTo(0, 0);
+    notes = notes.map((note) => {
+      return {
+        ...note,
+        image: new URL(note.image, import.meta.url).href,
+      };
+    });
   }, []);
   return (
     <>
