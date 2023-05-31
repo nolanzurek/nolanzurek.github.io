@@ -3,9 +3,9 @@
     "title": "React.js",
     "institution": "Eve Porcello - LinkedIn Learning",
     "description": "The basics of the React framework",
-    "image": "./images/noteThumbnails/REACT.png",
+    "image": "./src/images/noteThumbnails/REACT.png",
     "imageAlt": "React.js logo",
-    "link": "documents/pdf/React.pdf",
+    "link": "./documents/pdf/React.pdf",
     "linkAlt": "Link to the complete react.js notes"
   },
   {
@@ -14,23 +14,23 @@
     "description": "Elementary Algorithm Design and Data Abstraction - Miterm Jot Notes",
     "image": "./src/images/noteThumbnails/CS146.png",
     "imageAlt": "Styalized image of code",
-    "link": "documents/pdf/CamScanner_03-05-2022_20.19.pdf",
+    "link": "./documents/pdf/CamScanner_03-05-2022_20.19.pdf",
     "linkAlt": "Link to CS 146 Midterm Jot Notes"
   },
   {
     "title": "Math 136",
     "institution": "University of Waterloo",
     "description": "Linear Algebra I",
-    "image": "src/images/noteThumbnails/MATH136.png",
+    "image": "./src/images/noteThumbnails/MATH136.png",
     "imageAlt": "A 2x2 identity matrix",
     "links": [
       {
-        "link": "documents/pdf/MATH136Notes.pdf",
+        "link": "../../documents/pdf/MATH136Notes.pdf",
         "linkAlt": "Complete Math 136 notes",
         "title": "Complete notes"
       },
       {
-        "link": "documents/pdf/Math 136 Review Jot Notes.pdf",
+        "link": "../../documents/pdf/Math 136 Review Jot Notes.pdf",
         "linkAlt": "Final review notes for math 136",
         "title": "Final review"
       }
@@ -40,88 +40,88 @@
     "title": "Math 138",
     "institution": "University of Waterloo",
     "description": "Calculus II",
-    "image": "src/images/noteThumbnails/MATH138.png",
+    "image": "./src/images/noteThumbnails/MATH138.png",
     "imageAlt": "A cartesian graph with a section highlighted to form an integral",
-    "link": "documents/pdf/MATH138Notes.pdf",
+    "link": "./documents/pdf/MATH138Notes.pdf",
     "linkAlt": "Link to Math 138 (Calc II) Notes"
   },
   {
     "title": "CS 135",
     "institution": "University of Waterloo",
     "description": "Designing Functional Programs",
-    "image": "src/images/noteThumbnails/CS135.png",
+    "image": "./src/images/noteThumbnails/CS135.png",
     "imageAlt": "The racket logo: a circle with a styalized lambda",
-    "link": "documents/pdf/CS135 Course Notes.pdf",
+    "link": "./documents/pdf/CS135 Course Notes.pdf",
     "linkAlt": "Link to CS 135 Course Notes"
   },
   {
     "title": "Math 135",
     "institution": "University of Waterloo",
     "description": "Algebra for Honours Mathematics",
-    "image": "src/images/noteThumbnails/MATH135.png",
+    "image": "./src/images/noteThumbnails/MATH135.png",
     "imageAlt": "A \\iff B in LaTeX",
-    "link": "documents/pdf/MATH135Notes.pdf",
+    "link": "./documents/pdf/MATH135Notes.pdf",
     "linkAlt": "Link to Math 135 Course Notes"
   },
   {
     "title": "Math 137",
     "institution": "University of Waterloo",
     "description": "Calculus I",
-    "image": "src/images/noteThumbnails/MATH137.png",
+    "image": "./src/images/noteThumbnails/MATH137.png",
     "imageAlt": "A graph of a parabola with a tangent line",
-    "link": "documents/pdf/MATH137Notes.pdf",
+    "link": "./documents/pdf/MATH137Notes.pdf",
     "linkAlt": "Link to Math 137 Course Notes"
   },
   {
     "title": "Intro to web dev",
     "institution": "Khan Academy",
     "description": "Basic HTML, CSS, and JS",
-    "image": "src/images/noteThumbnails/HTML.png",
+    "image": "./src/images/noteThumbnails/HTML.png",
     "imageAlt": "<html> </html>",
-    "link": "documents/pdf/Web Dev Notes Complete.pdf",
+    "link": "./documents/pdf/Web Dev Notes Complete.pdf",
     "linkAlt": "Link to Web Development Course Notes"
   },
   {
     "title": "Computer Science A",
     "institution": "Advanced Placement",
     "description": "Java programming, OOP, basic algorithms",
-    "image": "src/images/noteThumbnails/APCSA.png",
+    "image": "./src/images/noteThumbnails/APCSA.png",
     "imageAlt": "The Java Logo: A coffee cup",
-    "link": "documents/pdf/AP CSA Notes.pdf",
+    "link": "./documents/pdf/AP CSA Notes.pdf",
     "linkAlt": "Link to AP Computer Science A notes"
   },
   {
     "title": "Physics II",
     "institution": "Advanced Placement",
     "description": "Fluid mechanics, Thermodynamics, E&M, Optics; Quantum, Atomic, and Nuclear physics",
-    "image": "src/images/noteThumbnails/APPHYS2.png",
+    "image": "./src/images/noteThumbnails/APPHYS2.png",
     "imageAlt": "A prism splitting a beam of light into a rainbow",
-    "link": "documents/pdf/AP Physics 2 Notes.pdf",
+    "link": "./documents/pdf/AP Physics 2 Notes.pdf",
     "linkAlt": "Link to AP Physics 2 notes"
   },
   {
     "title": "Études Sociales 30 🇫🇷",
     "institution": "Alberta HS Curriculum",
     "description": "Perspectives sur l'Idéologie",
-    "image": "src/images/noteThumbnails/ES30.png",
+    "image": "./src/images/noteThumbnails/ES30.png",
     "imageAlt": "A circular map of the world",
-    "link": "documents/pdf/Notes Etudes Sociaux 30 Complete.pdf",
+    "link": "./documents/pdf/Notes Etudes Sociaux 30 Complete.pdf",
     "linkAlt": "Link to Etudes Sociaux notes"
   },
   {
     "title": "Physics 30",
     "institution": "Alberta HS Curriculum",
     "description": "Momentum and Impulse, E&M, Optics, Nuclear Physics",
-    "image": "src/images/noteThumbnails/PHYS30.png",
+    "image": "./src/images/noteThumbnails/PHYS30.png",
     "imageAlt": "A ray of light passing through a rectangular prism",
     "links": [
       {
-        "link": "documents/pdf/Physics30Notes.pdf",
+        "link": "../../documents/pdf/Physics30Notes.pdf",
         "linkAlt": "Link to Physics 30 jot notes",
         "title": "Jot Notes"
       },
       {
-        "link": "documents/pdf/Electricity and Magnetism.pdf",
+        "link": "../../documents/pdf/Electricity and Magnetism.pdf",
         "linkAlt": "Link to Electricity and Magnetism notes",
         "title": "E&M"
       }
@@ -131,16 +131,16 @@
     "title": "Chemistry 30",
     "institution": "Alberta HS Curriculum",
     "description": "Thermochemistry, Electrochemistry, Equilibrium, Organic Chemistry",
-    "image": "src/images/noteThumbnails/CHEM30.png",
+    "image": "./src/images/noteThumbnails/CHEM30.png",
     "imageAlt": "A benzene ring",
     "links": [
       {
-        "link": "documents/pdf/Chem30HandwrittenNotes.pdf",
+        "link": "../../documents/pdf/Chem30HandwrittenNotes.pdf",
         "linkAlt": "Link to Chemistry 30 jot notes",
         "title": "Jot Notes"
       },
       {
-        "link": "documents/pdf/Electrochimie.pdf",
+        "link": "../../documents/pdf/Electrochimie.pdf",
         "linkAlt": "Link to electrochimie (french electrochemistry) notes",
         "title": "Electrochimie 🇫🇷"
       }
@@ -150,9 +150,9 @@
     "title": "Physics 20",
     "institution": "Alberta HS Curriculum",
     "description": "Mechanics",
-    "image": "src/images/noteThumbnails/PHYS20.png",
+    "image": "./src/images/noteThumbnails/PHYS20.png",
     "imageAlt": "A force diagram acting on a block",
-    "link": "documents/pdf/Phys20Notes.pdf",
+    "link": "./documents/pdf/Phys20Notes.pdf",
     "linkAlt": "Link to Physics notes"
   }
 ]
