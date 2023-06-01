@@ -63,7 +63,7 @@ function Home() {
             </a>
           </p>
           <div id="socialIcons">
-            <a href="../documents/pdf/Nolan_Zurek_Resume.pdf">
+            <a href="./documents/pdf/Nolan_Zurek_Resume.pdf">
               <img src={resume} width={35}></img>
             </a>
             <a

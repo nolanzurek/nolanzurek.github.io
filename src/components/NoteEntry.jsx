@@ -1,5 +1,4 @@
 import React from "react";
-import Spacer from "./Spacer.jsx";
 
 import "./noteEntry.css";
 
