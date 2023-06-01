@@ -2,7 +2,7 @@
   {
     "title": "Trampoline Skill Info",
     "description": "A degree of difficulty generator for skills and routines in trampoline gymnastics using the FIG Code of Points.",
-    "image": "./src/images/projectThumbnails/TRSKILL.png",
+    "image": "../public/images/projectThumbnails/TRSKILL.png",
     "imageAlt": "81-/",
     "link": "https://ddcalc.net/",
     "linkAlt": "Link to the DD calculator at ddcalc.net"
@@ -10,7 +10,7 @@
   {
     "title": "MIDI Visualizer",
     "description": "A basic MIDI visualizer written in Processing",
-    "image": "./src/images/projectThumbnails/MIDI.png",
+    "image": "../public/images/projectThumbnails/MIDI.png",
     "imageAlt": "A styalized depiction of a MIDI visualization",
     "link": "https://github.com/nolanzurek/MIDI-Visualizer",
     "linkAlt": "Link to the MIDI Visualizer on Github"
@@ -18,7 +18,7 @@
   {
     "title": "MyFoci",
     "description": "A simple tasklist application written in React.js",
-    "image": "./src/images/projectThumbnails/TODO.png",
+    "image": "../public/images/projectThumbnails/TODO.png",
     "imageAlt": "A blank tasklist",
     "link": "https://github.com/nolanzurek/MyFoci",
     "linkAlt": "Link to myFoci on Github"
@@ -26,7 +26,7 @@
   {
     "title": "Music Theory GL",
     "description": "A graphics library for illustrating concepts in music theory using keyboard, chromatic circle and circle of fifth diagrams.",
-    "image": "./src/images/projectThumbnails/FIFTHS.png",
+    "image": "../public/images/projectThumbnails/FIFTHS.png",
     "imageAlt": "An illustration of the circle of fifths",
     "link": "https://github.com/nolanzurek/MusicTheoryGL",
     "linkAlt": "Link to music theory GL on Github"
@@ -34,7 +34,7 @@
   {
     "title": "Grapher",
     "description": "A graphing calculator capable of rendering Riemann sums and indefinite integrals.",
-    "image": "./src/images/projectThumbnails/INTEGRAL.png",
+    "image": "../public/images/projectThumbnails/INTEGRAL.png",
     "imageAlt": "A cartesian graph with a section highlighted to form an integral",
     "link": "https://github.com/nolanzurek/GraphR",
     "linkAlt": "Link to graphR on Github"
@@ -42,7 +42,7 @@
   {
     "title": "StanlEEG",
     "description": "A game that procedurally generates and adapts terrain based on live brainwave data. The project won second place at the NatHacks 2022 Hackathon.",
-    "image": "./src/images/projectThumbnails/stanley.png",
+    "image": "../public/images/projectThumbnails/stanley.png",
     "imageAlt": "The StanlEEG logo. The hooded game character is in the top-left corner, and there is a sheep in the bottom-right corner",
     "link": "https://devpost.com/software/project-stanley",
     "linkAlt": "Link to the StanlEEG Devpost page"
@@ -50,7 +50,7 @@
   {
     "title": "Markov Chain Text Generator - FIX LINK AND UPLOAD EXAMPLE!",
     "description": "A simple text generator that uses markov chains to produce text that is statistically similar to the user input.",
-    "image": "./src/images/projectThumbnails/MARKOV.png",
+    "image": "../public/images/projectThumbnails/MARKOV.png",
     "imageAlt": "An illustration of a Markov chain with four states 12 transition probabilities",
     "link": "https://en.wikipedia.org/wiki/Markov_chain",
     "linkAlt": "Link to a demonstration of the Markov chain text generator"
@@ -58,7 +58,7 @@
   {
     "title": "3D Procedural Terrain Generator",
     "description": "A procedural 3D terrain generator written in Processing.",
-    "image": "./src/images/projectThumbnails/3D_terrain.png",
+    "image": "../public/images/projectThumbnails/3D_terrain.png",
     "imageAlt": "A picture of an output from the 3D terrain generator. The terrain is a mountainous landscape.",
     "link": "https://github.com/nolanzurek/3D-Procedural-Terrain-Generator",
     "linkAlt": "Link to the 3D procedural terrain generator on Github"
@@ -66,7 +66,7 @@
   {
     "title": "Fractal Plotters",
     "description": "Processing Programs that can plot renders of the Mandlebrot set, Julia sets, and Newton's Fractal.",
-    "image": "./src/images/projectThumbnails/Fractals.png",
+    "image": "../public/images/projectThumbnails/Fractals.png",
     "imageAlt": "A \"Newton's Fractal\" of a fifth degree polynomial rendered in black and white.",
     "link": "https://github.com/nolanzurek/fractals",
     "linkAlt": "Like to the fractal plotter on Github"

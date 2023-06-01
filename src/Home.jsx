@@ -11,10 +11,10 @@ import "./app.css";
 import projects from "./data/projects.json";
 import notes from "./data/notes.json";
 
-import email from "./images/linkIcons/email.png";
-import github from "./images/linkIcons/github.png";
-import linkedinin from "./images/linkIcons/linkedin.png";
-import resume from "./images/linkIcons/resume.png";
+import email from "../public/images/linkIcons/email.png";
+import github from "../public/images/linkIcons/github.png";
+import linkedinin from "../public/images/linkIcons/linkedin.png";
+import resume from "../public/images/linkIcons/resume.png";
 
 function Home() {
   const [terminalOpen, setTerminalOpen] = useState(true);
