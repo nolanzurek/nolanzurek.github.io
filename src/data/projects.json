@@ -42,17 +42,17 @@
   {
     "title": "StanlEEG",
     "description": "A game that procedurally generates and adapts terrain based on live brainwave data. The project won second place at the NatHacks 2022 Hackathon.",
-    "image": "./images/projectThumbnails/stanley.png",
+    "image": "./images/projectThumbnails/STANLEY.png",
     "imageAlt": "The StanlEEG logo. The hooded game character is in the top-left corner, and there is a sheep in the bottom-right corner",
     "link": "https://devpost.com/software/project-stanley",
     "linkAlt": "Link to the StanlEEG Devpost page"
   },
   {
-    "title": "Markov Chain Text Generator - FIX LINK AND UPLOAD EXAMPLE!",
+    "title": "Markov Chain Text Generator",
     "description": "A simple text generator that uses markov chains to produce text that is statistically similar to the user input.",
     "image": "./images/projectThumbnails/MARKOV.png",
     "imageAlt": "An illustration of a Markov chain with four states 12 transition probabilities",
-    "link": "https://en.wikipedia.org/wiki/Markov_chain",
+    "link": "https://nzurek.dev",
     "linkAlt": "Link to a demonstration of the Markov chain text generator"
   },
   {
