@@ -3,7 +3,7 @@
     "title": "React.js",
     "institution": "Eve Porcello - LinkedIn Learning",
     "description": "The basics of the React framework",
-    "image": "../public/images/noteThumbnails/REACT.png",
+    "image": "./images/noteThumbnails/REACT.png",
     "imageAlt": "React.js logo",
     "link": "./documents/pdf/React.pdf",
     "linkAlt": "Link to the complete react.js notes"
@@ -12,7 +12,7 @@
     "title": "CS 146",
     "institution": "University of Waterloo",
     "description": "Elementary Algorithm Design and Data Abstraction - Miterm Jot Notes",
-    "image": "../public/images/noteThumbnails/CS146.png",
+    "image": "./images/noteThumbnails/CS146.png",
     "imageAlt": "Styalized image of code",
     "link": "./documents/pdf/CamScanner_03-05-2022_20.19.pdf",
     "linkAlt": "Link to CS 146 Midterm Jot Notes"
@@ -21,7 +21,7 @@
     "title": "Math 136",
     "institution": "University of Waterloo",
     "description": "Linear Algebra I",
-    "image": "../public/images/noteThumbnails/MATH136.png",
+    "image": "./images/noteThumbnails/MATH136.png",
     "imageAlt": "A 2x2 identity matrix",
     "links": [
       {
@@ -40,7 +40,7 @@
     "title": "Math 138",
     "institution": "University of Waterloo",
     "description": "Calculus II",
-    "image": "../public/images/noteThumbnails/MATH138.png",
+    "image": "./images/noteThumbnails/MATH138.png",
     "imageAlt": "A cartesian graph with a section highlighted to form an integral",
     "link": "./documents/pdf/MATH138Notes.pdf",
     "linkAlt": "Link to Math 138 (Calc II) Notes"
@@ -49,7 +49,7 @@
     "title": "CS 135",
     "institution": "University of Waterloo",
     "description": "Designing Functional Programs",
-    "image": "../public/images/noteThumbnails/CS135.png",
+    "image": "./images/noteThumbnails/CS135.png",
     "imageAlt": "The racket logo: a circle with a styalized lambda",
     "link": "./documents/pdf/CS135 Course Notes.pdf",
     "linkAlt": "Link to CS 135 Course Notes"
@@ -58,7 +58,7 @@
     "title": "Math 135",
     "institution": "University of Waterloo",
     "description": "Algebra for Honours Mathematics",
-    "image": "../public/images/noteThumbnails/MATH135.png",
+    "image": "./images/noteThumbnails/MATH135.png",
     "imageAlt": "A \\iff B in LaTeX",
     "link": "./documents/pdf/MATH135Notes.pdf",
     "linkAlt": "Link to Math 135 Course Notes"
@@ -67,7 +67,7 @@
     "title": "Math 137",
     "institution": "University of Waterloo",
     "description": "Calculus I",
-    "image": "../public/images/noteThumbnails/MATH137.png",
+    "image": "./images/noteThumbnails/MATH137.png",
     "imageAlt": "A graph of a parabola with a tangent line",
     "link": "./documents/pdf/MATH137Notes.pdf",
     "linkAlt": "Link to Math 137 Course Notes"
@@ -76,7 +76,7 @@
     "title": "Intro to web dev",
     "institution": "Khan Academy",
     "description": "Basic HTML, CSS, and JS",
-    "image": "../public/images/noteThumbnails/HTML.png",
+    "image": "./images/noteThumbnails/HTML.png",
     "imageAlt": "<html> </html>",
     "link": "./documents/pdf/Web Dev Notes Complete.pdf",
     "linkAlt": "Link to Web Development Course Notes"
@@ -85,7 +85,7 @@
     "title": "Computer Science A",
     "institution": "Advanced Placement",
     "description": "Java programming, OOP, basic algorithms",
-    "image": "../public/images/noteThumbnails/APCSA.png",
+    "image": "./images/noteThumbnails/APCSA.png",
     "imageAlt": "The Java Logo: A coffee cup",
     "link": "./documents/pdf/AP CSA Notes.pdf",
     "linkAlt": "Link to AP Computer Science A notes"
@@ -94,7 +94,7 @@
     "title": "Physics II",
     "institution": "Advanced Placement",
     "description": "Fluid mechanics, Thermodynamics, E&M, Optics; Quantum, Atomic, and Nuclear physics",
-    "image": "../public/images/noteThumbnails/APPHYS2.png",
+    "image": "./images/noteThumbnails/APPHYS2.png",
     "imageAlt": "A prism splitting a beam of light into a rainbow",
     "link": "./documents/pdf/AP Physics 2 Notes.pdf",
     "linkAlt": "Link to AP Physics 2 notes"
@@ -103,7 +103,7 @@
     "title": "Études Sociales 30 🇫🇷",
     "institution": "Alberta HS Curriculum",
     "description": "Perspectives sur l'Idéologie",
-    "image": "../public/images/noteThumbnails/ES30.png",
+    "image": "./images/noteThumbnails/ES30.png",
     "imageAlt": "A circular map of the world",
     "link": "./documents/pdf/Notes Etudes Sociaux 30 Complete.pdf",
     "linkAlt": "Link to Etudes Sociaux notes"
@@ -112,7 +112,7 @@
     "title": "Physics 30",
     "institution": "Alberta HS Curriculum",
     "description": "Momentum and Impulse, E&M, Optics, Nuclear Physics",
-    "image": "../public/images/noteThumbnails/PHYS30.png",
+    "image": "./images/noteThumbnails/PHYS30.png",
     "imageAlt": "A ray of light passing through a rectangular prism",
     "links": [
       {
@@ -131,7 +131,7 @@
     "title": "Chemistry 30",
     "institution": "Alberta HS Curriculum",
     "description": "Thermochemistry, Electrochemistry, Equilibrium, Organic Chemistry",
-    "image": "../public/images/noteThumbnails/CHEM30.png",
+    "image": "./images/noteThumbnails/CHEM30.png",
     "imageAlt": "A benzene ring",
     "links": [
       {
@@ -150,7 +150,7 @@
     "title": "Physics 20",
     "institution": "Alberta HS Curriculum",
     "description": "Mechanics",
-    "image": "../public/images/noteThumbnails/PHYS20.png",
+    "image": "./images/noteThumbnails/PHYS20.png",
     "imageAlt": "A force diagram acting on a block",
     "link": "./documents/pdf/Phys20Notes.pdf",
     "linkAlt": "Link to Physics notes"
