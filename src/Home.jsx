@@ -11,11 +11,6 @@ import "./app.css";
 import projects from "./data/projects.json";
 import notes from "./data/notes.json";
 
-import email from "../public/images/linkIcons/email.png";
-import github from "../public/images/linkIcons/github.png";
-import linkedinin from "../public/images/linkIcons/linkedin.png";
-import resume from "../public/images/linkIcons/resume.png";
-
 function Home() {
   const [terminalOpen, setTerminalOpen] = useState(true);
   return (
@@ -64,7 +59,7 @@ function Home() {
           </p>
           <div id="socialIcons">
             <a href="./documents/pdf/Nolan_Zurek_Resume.pdf">
-              <img src={resume} width={35}></img>
+              <img src={"./images/linkIcons/resume.png"} width={35}></img>
             </a>
             <a
               href="mailto:nolanzurek@gmail.com"
@@ -72,16 +67,16 @@ function Home() {
                 navigator.clipboard.writeText("nolanzurek@gmail.com");
               }}
             >
-              <img src={email} width={35}></img>
+              <img src={"./images/linkIcons/email.png"} width={35}></img>
             </a>
             <a href="https://github.com/nolanzurek" target="_blank">
-              <img src={github} width={35}></img>
+              <img src={"./images/linkIcons/resume.png"} width={35}></img>
             </a>
             <a
               href="https://www.linkedin.com/in/nolan-zurek-a00471b0/"
               target="_blank"
             >
-              <img src={linkedinin} width={35}></img>
+              <img src={"./images/linkIcons/linkedin.png"} width={35}></img>
             </a>
           </div>
         </div>
