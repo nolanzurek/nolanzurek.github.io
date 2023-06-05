@@ -70,7 +70,7 @@ function Home() {
               <img src={"./images/linkIcons/email.png"} width={35}></img>
             </a>
             <a href="https://github.com/nolanzurek" target="_blank">
-              <img src={"./images/linkIcons/resume.png"} width={35}></img>
+              <img src={"./images/linkIcons/github.png"} width={35}></img>
             </a>
             <a
               href="https://www.linkedin.com/in/nolan-zurek-a00471b0/"
