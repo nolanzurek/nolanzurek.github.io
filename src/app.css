@@ -9,25 +9,27 @@
   padding-right: 20px;
   padding-left: 20px;
   margin: auto;
+  background: var(--background);
 }
 
 #noTerminal {
   padding: 10px;
   outline: none;
   border: none;
-  background: #eee;
+  background: var(--container);
+  color: var(--primary-text);
   font-size: 15px;
   cursor: pointer;
 }
 
 #noTerminal:hover {
-  background: #ddd;
+  background: var(--container-hover);
   cursor: pointer;
   transition: 0.2s;
 }
 
 #noTerminal:active {
-  background: #ccc;
+  background: var(--container-active);
   /* cursor: pointer; */
 }
 
@@ -37,17 +39,17 @@ h3 {
   font-family: "Ubuntu", "Tahoma", sans-serif;
   font-weight: 1000;
   text-decoration: underline;
-  text-decoration-color: #2f6f2c;
-  color: black;
+  text-decoration-color: var(--accent1);
+  color: var(--primary-text);
 }
 
 ::selection {
-  color: white;
-  background: #362320;
+  color: var(--background);
+  background: var(--accent2-dark);
 }
 
 h3 {
-  text-decoration-color: rgb(120, 65, 40);
+  text-decoration-color: var(--accent2);
 }
 
 .mainTitle {
@@ -67,19 +69,20 @@ h3 {
 p {
   font-family: "Tahoma", sans-serif;
   font-size: 20px;
+  color: var(--primary-text);
 }
 
 .inTextLink {
-  text-decoration: #2f6f2c underline;
+  text-decoration: var(--accent1) underline;
   text-decoration-thickness: 3px;
   text-underline-offset: 4px;
-  color: black;
+  color: var(--primary-text);
 }
 
 .inTextLink:hover {
   cursor: pointer;
-  text-decoration: #36a031 underline;
-  background: #d7fdd5;
+  text-decoration: var(--accent1-lighter) underline;
+  background: var(--accent1-lightest);
   text-decoration-thickness: 3px;
   text-underline-offset: 4px;
   transition: 0.2s;
@@ -90,23 +93,36 @@ p {
   flex-direction: row;
 }
 
-#socialIcons img {
+#socialIcons img,
+#themeToggle {
   margin-right: 20px;
-  color: black;
-  background-color: #eee;
-  border: #eee 7px solid;
+  color: var(--primary-text);
+  background-color: var(--container);
+  border: var(--container) 7px solid;
 }
 
-#socialIcons img:hover {
-  background-color: #ddd;
-  border: #ddd 7px solid;
+#themeToggle {
+  margin-right: 0px;
+  margin-top: 25px;
+  padding: 0px;
+  line-height: 0px;
+}
+
+#themeToggleImg {
+}
+
+#socialIcons img:hover,
+#themeToggle:hover {
+  background-color: var(--container-hover);
+  border: var(--container-hover) 7px solid;
   cursor: pointer;
   transition: 0.2s;
 }
 
-#socialIcons img:active {
-  background-color: #ccc;
-  border: #ccc 7px solid;
+#socialIcons img:active,
+#themeToggle:active {
+  background-color: var(--container-active);
+  border: var(--container-active) 7px solid;
 }
 
 #projectEntries {

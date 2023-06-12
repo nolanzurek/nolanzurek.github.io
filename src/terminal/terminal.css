@@ -1,5 +1,5 @@
 .terminal {
-  background-color: #362320;
+  background-color: var(--accent2-dark);
   padding-top: 15px;
   padding-bottom: 15px;
   height: 200px;
@@ -14,15 +14,15 @@
 }
 
 .terminalInput {
-  background-color: #362320;
-  color: rgb(214, 216, 223);
+  background-color: var(--accent2-dark);
+  color: var(--terminal-text);
   font-family: "Roboto Mono", monospace;
   padding-right: 15px;
   margin: 0;
   outline: none;
   border: none;
   font-size: 15px;
-  caret-color: rgb(214, 216, 223);
+  caret-color: var(--terminal-text);
   /* wish this was supported in more browsers */
   caret-shape: block;
   /* change if I change the padding and margins */
@@ -36,7 +36,7 @@
 }
 
 .terminalInputPrompt {
-  color: #37d359;
+  color: var(--terminal-user);
   font-family: "Roboto Mono", monospace;
   font-size: 15px;
   padding-right: 5px;

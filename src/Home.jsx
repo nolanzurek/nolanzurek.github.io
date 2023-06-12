@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import useLocalStorage from "use-local-storage";
 import Terminal from "./terminal/Terminal.jsx";
 import Terrain from "./components/Terrain.jsx";
 import NoteEntry from "./components/NoteEntry.jsx";
@@ -13,17 +14,46 @@ import notes from "./data/notes.json";
 
 function Home() {
   const [terminalOpen, setTerminalOpen] = useState(true);
+  const defaultDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+  const [theme, setTheme] = useLocalStorage(
+    "theme",
+    defaultDark ? "dark" : "light"
+  );
   return (
     <>
       <div id="mainPage">
         <Spacer height={100} />
-        <div id="mainTitleContainer">
+
+        <div
+          id="mainTitleContainer"
+          style={{
+            display: "flex",
+            justifyContent: "space-between",
+            alignItems: "center",
+          }}
+        >
           <h1 id="mainTitle" className="mainTitle">
             Hi, I'm Nolan
           </h1>
+          <button id="themeToggle">
+            <img
+              id="themeToggleImg"
+              src={
+                theme == "dark"
+                  ? "./images/Lightmode.png"
+                  : "./images/Darkmode.png"
+              }
+              width={35}
+              onClick={() => {
+                setTheme(theme === "light" ? "dark" : "light");
+              }}
+            ></img>
+          </button>
         </div>
         <div id="terminalContainer">
-          {terminalOpen ? <Terminal id="mainPageTerminal"></Terminal> : null}
+          {terminalOpen ? (
+            <Terminal id="mainPageTerminal" setTheme={setTheme}></Terminal>
+          ) : null}
           <button
             id="noTerminal"
             onClick={() => setTerminalOpen(!terminalOpen)}
@@ -59,7 +89,14 @@ function Home() {
           </p>
           <div id="socialIcons">
             <a href="./documents/pdf/Nolan_Zurek_Resume.pdf">
-              <img src={"./images/linkIcons/resume.png"} width={35}></img>
+              <img
+                src={
+                  theme == "dark"
+                    ? "./images/linkIcons/resume_dark.png"
+                    : "./images/linkIcons/resume.png"
+                }
+                width={35}
+              ></img>
             </a>
             <a
               href="mailto:nolanzurek@gmail.com"
@@ -67,16 +104,37 @@ function Home() {
                 navigator.clipboard.writeText("nolanzurek@gmail.com");
               }}
             >
-              <img src={"./images/linkIcons/email.png"} width={35}></img>
+              <img
+                src={
+                  theme == "dark"
+                    ? "./images/linkIcons/email_dark.png"
+                    : "./images/linkIcons/email.png"
+                }
+                width={35}
+              ></img>
             </a>
             <a href="https://github.com/nolanzurek" target="_blank">
-              <img src={"./images/linkIcons/github.png"} width={35}></img>
+              <img
+                src={
+                  theme == "dark"
+                    ? "./images/linkIcons/github_dark.png"
+                    : "./images/linkIcons/github.png"
+                }
+                width={35}
+              ></img>
             </a>
             <a
               href="https://www.linkedin.com/in/nolan-zurek-a00471b0/"
               target="_blank"
             >
-              <img src={"./images/linkIcons/linkedin.png"} width={35}></img>
+              <img
+                src={
+                  theme == "dark"
+                    ? "./images/linkIcons/linkedin_dark.png"
+                    : "./images/linkIcons/linkedin.png"
+                }
+                width={35}
+              ></img>
             </a>
           </div>
         </div>

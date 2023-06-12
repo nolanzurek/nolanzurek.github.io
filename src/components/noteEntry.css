@@ -9,19 +9,19 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: #eee;
+  background-color: var(--container);
   /* margin-top: 20px; */
   /* margin-bottom: 20px; */
 }
 
 a .noteEntry:hover {
-  background-color: #ddd;
+  background-color: var(--container-hover);
   cursor: pointer;
   transition: 0.2s;
 }
 
 a .noteEntry:active {
-  background-color: #ccc;
+  background-color: var(--container-active);
 }
 
 .noteImage {
@@ -50,11 +50,11 @@ a .noteEntry:active {
 }
 
 .noteDescription {
-  color: black;
+  color: var(--primary-text);
 }
 
 .noteInstitution {
-  color: #784128;
+  color: var(--accent2);
   padding-left: 10px;
   margin: 0;
 }

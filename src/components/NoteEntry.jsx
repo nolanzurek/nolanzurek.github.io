@@ -27,7 +27,6 @@ function NoteEntry(props) {
       </a>
     );
   } else {
-    console.log(props.links);
     return (
       <div className="noteEntry">
         <div className="noteEntryTextContainer">

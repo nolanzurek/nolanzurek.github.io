@@ -37,6 +37,15 @@ const Terrain = (props) => {
       ctx.fill();
     }
 
+    // //getting the colors for the terrain from the css file
+    // const terrainStyle = getComputedStyle(document.body);
+
+    // const dirtColor = terrainStyle.getPropertyValue("--accent2");
+    // const grassColor = terrainStyle.getPropertyValue("--accent1-lighter");
+    // const treeColor = terrainStyle.getPropertyValue("--accent1");
+    // const trunkColor = terrainStyle.getPropertyValue("--accent2-dark");
+    // const skyColor = terrainStyle.getPropertyValue("--background");
+
     const noise2D = createNoise2D();
 
     let noiseData = [];
@@ -46,8 +55,9 @@ const Terrain = (props) => {
 
     const canvas = document.getElementById("terrainCanvas");
     const ctx = canvas.getContext("2d");
-    ctx.fillStyle = "white";
-    ctx.fillRect(0, 0, props.width, height + topGap + bottomGap);
+    // ctx.fillStyle = skyColor;
+    // ctx.fillRect(0, 0, props.width, height + topGap + bottomGap);
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
 
     for (let i = 0; i < props.width; i += 3) {
       if (Math.random() > 0.9) {

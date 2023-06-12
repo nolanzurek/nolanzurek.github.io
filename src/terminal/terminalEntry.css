@@ -1,6 +1,6 @@
 .terminalEntry {
-  background-color: #362320;
-  color: #ffffff;
+  background-color: var(--accent2-dark);
+  color: var(--terminal-text);
 }
 
 .terminalEntry p {
@@ -12,24 +12,24 @@
 }
 
 .terminalEntry:hover {
-  background-color: #463330;
+  background-color: var(--terminal-hover);
 }
 
 .path,
 .user {
-  color: #37d359;
+  color: var(--terminal-user);
 }
 
 .command {
-  color: #d1d337;
+  color: var(--terminal-command);
 }
 
 .args {
-  color: rgb(214, 216, 223);
+  color: var(--terminal-text);
 }
 
 .response {
-  color: rgb(214, 216, 223);
+  color: var(--terminal-text);
 }
 
 p.responseArrayItem {

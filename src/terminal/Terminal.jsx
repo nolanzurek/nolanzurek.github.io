@@ -7,10 +7,6 @@ import "./terminal.css";
 import getPath from "../utils/getPath.js";
 
 export default class Terminal extends React.Component {
-  //STATE
-  //filepath
-  //history
-
   constructor(props) {
     filesystem.notes = notes;
     filesystem.projects = projects;
@@ -105,6 +101,15 @@ export default class Terminal extends React.Component {
         break;
       case "info":
         response = this.handleINFO(commandBodyArray);
+        break;
+      case "darkmode":
+        response = this.handleTHEME("dark");
+        break;
+      case "lightmode":
+        response = this.handleTHEME("light");
+        break;
+      case "theme":
+        response = this.handleTHEME(commandBodyArray[0]);
         break;
       default:
         response = "Command not found";
@@ -225,6 +230,9 @@ export default class Terminal extends React.Component {
       "whoami  - prints the current user",
       "login   - allows you to login with a given username",
       "logout  - logs out of the terminal",
+      "darkmode - changes the theme to dark mode",
+      "lightmode - changes the theme to light mode",
+      "theme   - changes the theme to the given theme",
       'help    - prints the help page ("man" also works)',
     ];
   };
@@ -267,6 +275,15 @@ export default class Terminal extends React.Component {
     );
 
     return obj ? `${obj.title}: ${obj.description}` : "Object not found";
+  };
+
+  handleTHEME = (input) => {
+    if (input !== "dark" && input !== "light") {
+      return `Theme ${input} not found`;
+    }
+
+    this.props.setTheme(input);
+    return `Theme set to ${input}`;
   };
 
   render() {
