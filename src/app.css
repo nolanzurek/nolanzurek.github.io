@@ -108,9 +108,6 @@ p {
   line-height: 0px;
 }
 
-#themeToggleImg {
-}
-
 #socialIcons img:hover,
 #themeToggle:hover {
   background-color: var(--container-hover);
