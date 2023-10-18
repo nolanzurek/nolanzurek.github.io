@@ -1,5 +1,5 @@
 import ReactDOM from "react-dom/client";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import { useEffect } from "react";
 import useLocalStorage from "use-local-storage";
 import Home from "./Home";
@@ -15,7 +15,7 @@ export default function Website() {
     document.body.setAttribute("data-theme", theme);
   }, [theme]);
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
@@ -23,8 +23,6 @@ export default function Website() {
         <Route path="/projects" element={<Projects />} />
         <Route path="*">404 Not Found</Route>
       </Routes>{" "}
-    </BrowserRouter>
+    </HashRouter>
   );
 }
-
-//ReactDOM.createRoot(document.getElementById("root")).render(<Website />);

@@ -66,16 +66,16 @@ function Home() {
             Info
           </h2>
           <p id="educationInfo">
-            I'm a computer science student at the University of Waterloo,
-            working at{" "}
+            I study computer science and math at the University of Alberta.
+            Right now, I'm a Tech Lead at the{" "}
             <a
-              href="https://www.linkedin.com/company/kennacommunications/"
+              href="https://uofa.indyrioters.com/"
               target="_blank"
               className="inTextLink"
             >
-              Kenna
-            </a>{" "}
-            working as an Application Developer
+              University of Alberta Innovation Fund
+            </a>
+            .{" "}
           </p>
           <p id="trampolineInfo">
             I am also a trampoline gymnast on{" "}
