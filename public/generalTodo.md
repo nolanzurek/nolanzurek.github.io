@@ -1,25 +1,22 @@
 - startup animations
 - add links to buttons
-- router
-- dark/light mode with toggle
-- actual data for projects and notes
 - full tree navigable in the terminal
-- better kenna and team canada links
-- different color underlines
-- terrain generator
 - dynamic gradient?
-- organize folder structure
-- Add blog
 - Obsidian publish for notes
-- nicer social buttons
-- transitions between the themes/things loading
 - re name note entry
 - make the layout conponents on home, notes, projects have classes instead of IDs
 - email copied to clipboard notification
-- add a favicon
-- add a 404 page
-- local storage for theme
-- get all the CSS theme stuff (colors) into one place
+- add a custom 404 page
 - google analytics
 - upload markov chain generator and add it to the projects route
 - upload all the projects
+- "works" section for creative stuff
+- gymnastics section?
+- parallax?
+- rework note segment and integrate with obsidian
+- set up the blog
+- dark theme highlights are hard to read
+- add projects directly as subroutes of the project route
+- autoscroll terminal
+- sort out terminal colors
+- responsive note/project cards that don't show images on mobile
