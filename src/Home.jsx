@@ -67,7 +67,7 @@ function Home() {
           </h2>
           <p id="educationInfo">
             I study computer science and math at the University of Alberta.
-            Right now, I'm a Tech Lead at the{" "}
+            Right now, I'm the Tech Lead at the{" "}
             <a
               href="https://uofa.indyrioters.com/"
               target="_blank"

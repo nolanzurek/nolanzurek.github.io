@@ -37,7 +37,7 @@
 .sectionTitle,
 h3 {
   font-family: "Ubuntu", "Tahoma", sans-serif;
-  font-weight: 1000;
+  font-weight: bold;
   text-decoration: underline;
   text-decoration-color: var(--accent1);
   color: var(--primary-text);
