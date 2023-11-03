@@ -83,6 +83,7 @@ p {
   cursor: pointer;
   text-decoration: var(--accent1-lighter) underline;
   background: var(--accent1-lightest);
+  color: var(--terminal-hover);
   text-decoration-thickness: 3px;
   text-underline-offset: 4px;
   transition: 0.2s;
