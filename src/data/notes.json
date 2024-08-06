@@ -1,10 +1,37 @@
 [
   {
+    "title": "MATH 322",
+    "institution": "University of Alberta",
+    "description": "Graph Theory",
+    "image": "./images/noteThumbnails/MATH322.png",
+    "imageAlt": "A styalized K_5 graph with two edges extending out from each node",
+    "link": "./documents/pdf/322 Graph Theory Notes Zurek.pdf",
+    "linkAlt": "Link to Math 322 notes"
+  },
+  {
+    "title": "MATH 422",
+    "institution": "University of Alberta",
+    "description": "Coding Theory",
+    "image": "./images/noteThumbnails/MATH422.png",
+    "imageAlt": "A visualization of sphere packing in two dimensions",
+    "link": "./documents/pdf/Coding Theory Nolan Zurek.pdf",
+    "linkAlt": "Link to Math 422 notes"
+  },
+  {
+    "title": "MATH 227",
+    "institution": "University of Alberta",
+    "description": "Linear Algebra II",
+    "image": "./images/noteThumbnails/MATH227.png",
+    "imageAlt": "A 2D coordinate system transformed by a matrix, with an eigenvector highlighted",
+    "link": "./documents/pdf/Linear Algebra II Nolan Zurek.pdf",
+    "linkAlt": "Link to Math 227 notes"
+  },
+  {
     "title": "MATH 239",
     "institution": "University of Waterloo",
     "description": "Introduction to Combinatorics and Graph Theory",
     "image": "./images/noteThumbnails/MATH239.png",
-    "imageAlt": "A styalized K_5 graph with two edges extending out from each node",
+    "imageAlt": "An illustration of a member of the permutation group S_3",
     "link": "./documents/html/math239/Chapter 1 - Basic Principles.html",
     "linkAlt": "Link to Math 239 notes"
   },
@@ -48,7 +75,7 @@
         "title": "Complete notes"
       },
       {
-        "link": "../../documents/pdf/Math 136 Review Jot Notes.pdf",
+        "link": "../../documents/pdf/Linear Algebra I Summary.pdf",
         "linkAlt": "Final review notes for math 136",
         "title": "Final review"
       }
