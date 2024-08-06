@@ -27,6 +27,15 @@
     "linkAlt": "Link to Math 227 notes"
   },
   {
+    "title": "CMPUT 267",
+    "institution": "University of Alberta",
+    "description": "Machine Learning I",
+    "image": "./images/noteThumbnails/CMPUT267.png",
+    "imageAlt": "A 2D graph depicting gradient descent on a parabola",
+    "link": "./documents/pdf/CMPUT 267 Nolan Zurek.pdf",
+    "linkAlt": "Link to CMPUT 267 notes"
+  },
+  {
     "title": "CMPUT 204",
     "institution": "University of Alberta",
     "description": "Algorithms I",
