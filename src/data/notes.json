@@ -27,6 +27,15 @@
     "linkAlt": "Link to Math 227 notes"
   },
   {
+    "title": "CMPUT 204",
+    "institution": "University of Alberta",
+    "description": "Algorithms I",
+    "image": "./images/noteThumbnails/CMPUT204.png",
+    "imageAlt": "An image of an array of pointers forming a binary heap",
+    "link": "./documents/pdf/CMPUT 204 Nolan Zurek.pdf",
+    "linkAlt": "Link to CMPUT 204 notes"
+  },
+  {
     "title": "MATH 239",
     "institution": "University of Waterloo",
     "description": "Introduction to Combinatorics and Graph Theory",
