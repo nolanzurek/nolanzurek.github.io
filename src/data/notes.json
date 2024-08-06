@@ -18,13 +18,13 @@
     "linkAlt": "Link to Math 422 notes"
   },
   {
-    "title": "MATH 227",
+    "title": "CMPUT 325",
     "institution": "University of Alberta",
-    "description": "Linear Algebra II",
-    "image": "./images/noteThumbnails/MATH227.png",
-    "imageAlt": "A 2D coordinate system transformed by a matrix, with an eigenvector highlighted",
-    "link": "./documents/pdf/Linear Algebra II Nolan Zurek.pdf",
-    "linkAlt": "Link to Math 227 notes"
+    "description": "Non-Procedural Programming Langauges",
+    "image": "./images/noteThumbnails/CMPUT325.png",
+    "imageAlt": "A styalized expression of the Y combinator",
+    "link": "./documents/pdf/CMPUT 325 Nolan Zurek.pdf",
+    "linkAlt": "Link to CMPUT 325 notes"
   },
   {
     "title": "CMPUT 267",
@@ -35,6 +35,16 @@
     "link": "./documents/pdf/CMPUT 267 Nolan Zurek.pdf",
     "linkAlt": "Link to CMPUT 267 notes"
   },
+  {
+    "title": "MATH 227",
+    "institution": "University of Alberta",
+    "description": "Linear Algebra II",
+    "image": "./images/noteThumbnails/MATH227.png",
+    "imageAlt": "A 2D coordinate system transformed by a matrix, with an eigenvector highlighted",
+    "link": "./documents/pdf/Linear Algebra II Nolan Zurek.pdf",
+    "linkAlt": "Link to Math 227 notes"
+  },
+
   {
     "title": "CMPUT 204",
     "institution": "University of Alberta",
