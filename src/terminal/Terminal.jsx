@@ -5,6 +5,7 @@ import notes from "../data/notes.json";
 import projects from "../data/projects.json";
 import "./terminal.css";
 import getPath from "../utils/getPath.js";
+import themes from "../data/themes.json";
 
 export default class Terminal extends React.Component {
   constructor(props) {
@@ -278,7 +279,7 @@ export default class Terminal extends React.Component {
   };
 
   handleTHEME = (input) => {
-    if (input !== "dark" && input !== "light") {
+    if (!themes.includes(input)) {
       return `Theme ${input} not found`;
     }
 

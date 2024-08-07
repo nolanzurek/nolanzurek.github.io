@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useState } from "react";
 import useLocalStorage from "use-local-storage";
 import Terminal from "./terminal/Terminal.jsx";
@@ -15,10 +15,19 @@ import notes from "./data/notes.json";
 function Home() {
   const [terminalOpen, setTerminalOpen] = useState(true);
   const defaultDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-  const [theme, setTheme] = useLocalStorage(
+  const [storedTheme, setStoredTheme] = useLocalStorage(
     "theme",
     defaultDark ? "dark" : "light"
   );
+  const [localTheme, setLocalTheme] = useState(
+    storedTheme || (defaultDark ? "dark" : "light")
+  );
+
+  function setTheme(myTheme) {
+    setLocalTheme(myTheme);
+    setStoredTheme(myTheme);
+  }
+
   return (
     <>
       <div id="mainPage">
@@ -39,13 +48,13 @@ function Home() {
             <img
               id="themeToggleImg"
               src={
-                theme == "dark"
-                  ? "./images/Lightmode.png"
-                  : "./images/Darkmode.png"
+                localTheme == "light"
+                  ? "./images/Darkmode.png"
+                  : "./images/Lightmode.png"
               }
               width={35}
               onClick={() => {
-                setTheme(theme === "light" ? "dark" : "light");
+                setTheme(localTheme === "light" ? "dark" : "light");
               }}
             ></img>
           </button>
@@ -91,9 +100,9 @@ function Home() {
             <a href="./documents/pdf/Nolan_Zurek_Resume.pdf">
               <img
                 src={
-                  theme == "dark"
-                    ? "./images/linkIcons/resume_dark.png"
-                    : "./images/linkIcons/resume.png"
+                  localTheme == "light"
+                    ? "./images/linkIcons/resume.png"
+                    : "./images/linkIcons/resume_dark.png"
                 }
                 width={35}
               ></img>
@@ -106,9 +115,9 @@ function Home() {
             >
               <img
                 src={
-                  theme == "dark"
-                    ? "./images/linkIcons/email_dark.png"
-                    : "./images/linkIcons/email.png"
+                  localTheme == "light"
+                    ? "./images/linkIcons/email.png"
+                    : "./images/linkIcons/email_dark.png"
                 }
                 width={35}
               ></img>
@@ -116,9 +125,9 @@ function Home() {
             <a href="https://github.com/nolanzurek" target="_blank">
               <img
                 src={
-                  theme == "dark"
-                    ? "./images/linkIcons/github_dark.png"
-                    : "./images/linkIcons/github.png"
+                  localTheme == "light"
+                    ? "./images/linkIcons/github.png"
+                    : "./images/linkIcons/github_dark.png"
                 }
                 width={35}
               ></img>
@@ -129,9 +138,9 @@ function Home() {
             >
               <img
                 src={
-                  theme == "dark"
-                    ? "./images/linkIcons/linkedin_dark.png"
-                    : "./images/linkIcons/linkedin.png"
+                  localTheme == "light"
+                    ? "./images/linkIcons/linkedin.png"
+                    : "./images/linkIcons/linkedin_dark.png"
                 }
                 width={35}
               ></img>
@@ -166,7 +175,7 @@ function Home() {
         </div>
       </div>
       <div id="terrainContainer">
-        <Terrain width={window.innerWidth}></Terrain>
+        <Terrain width={window.innerWidth} theme={localTheme}></Terrain>
       </div>
     </>
   );

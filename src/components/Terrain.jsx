@@ -11,13 +11,31 @@ const noiseDetail = 1 / 200;
 const Terrain = (props) => {
   const [generationCount, setGenerationCount] = useState(0);
   useEffect(() => {
+    // //getting the colors for the terrain from the css file
+    const terrainStyle = getComputedStyle(document.body);
+
+    const dirtColor = terrainStyle.getPropertyValue("--accent2");
+    const grassColor = parseInt(
+      terrainStyle.getPropertyValue("--accent1-lighter").substring(1),
+      16
+    );
+    const treeColor = parseInt(
+      terrainStyle.getPropertyValue("--accent1").substring(1),
+      16
+    );
+    const trunkColor = parseInt(
+      terrainStyle.getPropertyValue("--accent2-dark").substring(1),
+      16
+    );
+    const skyColor = terrainStyle.getPropertyValue("--background");
+
     function drawTree(x, y) {
       y = y - 50;
       const canvas = document.getElementById("terrainCanvas");
       const ctx = canvas.getContext("2d");
-      ctx.fillStyle = `rgb(${40 + Math.random() * 15}, ${
-        110 + Math.random() * 15
-      },${40 + Math.random() * 15})`;
+      ctx.fillStyle = `rgb(${(treeColor & 0x0000ff) + Math.random() * 15}, ${
+        (treeColor & 0x00ff00) / 256 + Math.random() * 15
+      },${(treeColor & 0xff0000) / (256 * 256) + Math.random() * 15})`;
       ctx.beginPath();
       ctx.moveTo(x, y);
       ctx.lineTo(x + 30, y - 100);
@@ -25,9 +43,12 @@ const Terrain = (props) => {
       ctx.closePath();
       ctx.fill();
       //draw tree trunk
-      ctx.fillStyle = `rgb(${50 + Math.random() * 15}, ${
-        25 + Math.random() * 15
-      },${20 + Math.random() * 15})`;
+      console.log((trunkColor & 0xff0000) / (256 * 256));
+      ctx.fillStyle = `rgb(${
+        (trunkColor & 0xff0000) / (256 * 256) + Math.random() * 15
+      }, ${(trunkColor & 0x00ff00) / 256 + Math.random() * 15},${
+        (trunkColor & 0x0000ff) + Math.random() * 15
+      })`;
       ctx.beginPath();
       ctx.moveTo(x + 25, y);
       ctx.lineTo(x + 25, y + 100);
@@ -36,15 +57,6 @@ const Terrain = (props) => {
       ctx.closePath();
       ctx.fill();
     }
-
-    // //getting the colors for the terrain from the css file
-    // const terrainStyle = getComputedStyle(document.body);
-
-    // const dirtColor = terrainStyle.getPropertyValue("--accent2");
-    // const grassColor = terrainStyle.getPropertyValue("--accent1-lighter");
-    // const treeColor = terrainStyle.getPropertyValue("--accent1");
-    // const trunkColor = terrainStyle.getPropertyValue("--accent2-dark");
-    // const skyColor = terrainStyle.getPropertyValue("--background");
 
     const noise2D = createNoise2D();
 
@@ -65,7 +77,7 @@ const Terrain = (props) => {
       }
     }
 
-    ctx.fillStyle = `rgb(120, 65, 40)`;
+    ctx.fillStyle = dirtColor;
     for (let i = 0; i < props.width; i++) {
       ctx.fillRect(
         i,
@@ -77,9 +89,9 @@ const Terrain = (props) => {
 
     //draw the grass as circles at the terrain height
     for (let i = 0; i < props.width; i += 3) {
-      ctx.fillStyle = `rgb(${80 + Math.random() * 15}, ${
-        200 + Math.random() * 15
-      },${80 + Math.random() * 15})`;
+      ctx.fillStyle = `rgb(${(grassColor & 0x0000ff) + Math.random() * 15}, ${
+        (grassColor & 0x00ff00) / 256 + Math.random() * 15
+      },${(grassColor & 0xff0000) / (256 * 256) + Math.random() * 15})`;
       let size = 15 + Math.random() * 10;
       ctx.beginPath();
       ctx.fillRect(
@@ -90,7 +102,7 @@ const Terrain = (props) => {
       );
       ctx.fill();
     }
-  }, [props.width, generationCount]);
+  }, [props.width, generationCount, props.theme, localStorage.theme]);
 
   return (
     <canvas

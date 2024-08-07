@@ -154,6 +154,11 @@ p {
   #projectEntries {
     margin-left: 0px;
   }
+
+  #notesSeeMore,
+  #projectsSeeMore {
+    margin-left: 0px;
+  }
 }
 
 @media (max-width: 400px) {
