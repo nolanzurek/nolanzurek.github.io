@@ -67,3 +67,24 @@ a .noteEntry:active {
   margin: 0;
   margin-bottom: 15px;
 }
+
+/* if the width is too small (300 px) make it an image card instead */
+/* the text should be below the image */
+
+@media (max-width: 400px) {
+  .noteEntry {
+    flex-direction: column-reverse;
+    /* the height of the image isn't properly detected, so the content is under it and the height of the card is not high enough */
+    /* height: auto; does not work */
+    min-height: calc((100vw - 20px) + 5em);
+  }
+
+  .noteImage {
+    width: 100%;
+    height: auto;
+  }
+
+  .noteEntryTextContainer {
+    padding: 10px;
+  }
+}
