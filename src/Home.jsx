@@ -13,7 +13,7 @@ import projects from "./data/projects.json";
 import notes from "./data/notes.json";
 
 function Home() {
-  const [terminalOpen, setTerminalOpen] = useState(true);
+  const [terminalOpen, setTerminalOpen] = useState(false);
   const defaultDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
   const [storedTheme, setStoredTheme] = useLocalStorage(
     "theme",

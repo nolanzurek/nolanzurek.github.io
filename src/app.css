@@ -36,7 +36,7 @@
 .mainTitle,
 .sectionTitle,
 h3 {
-  font-family: "Ubuntu", "Tahoma", sans-serif;
+  font-family: "IBM Plex Sans", "Ubuntu", "Tahoma", sans-serif;
   font-weight: bold;
   text-decoration: underline;
   text-decoration-color: var(--accent1);
@@ -67,7 +67,7 @@ h3 {
 }
 
 p {
-  font-family: "Tahoma", sans-serif;
+  font-family: "IBM Plex Sans", "Tahoma", sans-serif;
   font-size: 20px;
   color: var(--primary-text);
 }
