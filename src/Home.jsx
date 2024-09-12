@@ -75,26 +75,30 @@ function Home() {
             Info
           </h2>
           <p id="educationInfo">
-            I study computer science and math at the University of Alberta.
-            Right now, I'm the Tech Lead at the{" "}
-            <a
-              href="https://uofa.indyrioters.com/"
-              target="_blank"
-              className="inTextLink"
-            >
-              University of Alberta Innovation Fund
-            </a>
-            .{" "}
+            I study computer science and mathematics at the University of
+            Alberta. My interests lie in programming langauge design and the
+            theory of computation.
           </p>
           <p id="trampolineInfo">
-            I am also a trampoline gymnast on{" "}
+            In my spare time, I compete for{" "}
             <a
               href="https://www.gymnastics.sport/site/athletes/bio_detail.php?id=41128&type=licence"
               target="_blank"
               className="inTextLink"
+              alt="Nolan Zurek FIG Profile"
             >
               Team Canada
+            </a>{" "}
+            in{" "}
+            <a
+              href="https://en.wikipedia.org/wiki/Double_mini_trampoline"
+              target="_blank"
+              className="inTextLink"
+              alt="Double Mini Trampoline Wikipedia Page"
+            >
+              double-mini trampoline
             </a>
+            .
           </p>
           <div id="socialIcons">
             <a href="./documents/pdf/Nolan_Zurek_Resume.pdf">

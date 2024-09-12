@@ -16,7 +16,7 @@
 .terminalInput {
   background-color: var(--accent2-dark);
   color: var(--terminal-text);
-  font-family: "Roboto Mono", monospace;
+  font-family: "IBM Plex Mono", "Roboto Mono", monospace;
   padding-right: 15px;
   margin: 0;
   outline: none;
@@ -37,7 +37,7 @@
 
 .terminalInputPrompt {
   color: var(--terminal-user);
-  font-family: "Roboto Mono", monospace;
+  font-family: "IBM Plex Mono", "Roboto Mono", monospace;
   font-size: 15px;
   padding-right: 5px;
   padding-left: 15px;
