@@ -76,8 +76,8 @@ function Home() {
           </h2>
           <p id="educationInfo">
             I study computer science and mathematics at the University of
-            Alberta. My interests lie in programming langauge design and the
-            theory of computation.
+            Alberta. My interests lie in programming langauge implementation and
+            the theory of computation.
           </p>
           <p id="trampolineInfo">
             In my spare time, I compete for{" "}
@@ -97,8 +97,16 @@ function Home() {
               alt="Double Mini Trampoline Wikipedia Page"
             >
               double-mini trampoline
+            </a>{" "}
+            and serve as the VP Internal/External for the{" "}
+            <a
+              href="https://ualbertamss.com/"
+              target="_blank"
+              className="inTextLink"
+              alt="University of Alberta Mathematical Sciences Society Webpage"
+            >
+              University of Alberta Mathematical Sciences Society.
             </a>
-            .
           </p>
           <div id="socialIcons">
             <a href="./documents/pdf/Nolan_Zurek_Resume.pdf">

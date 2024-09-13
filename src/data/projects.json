@@ -1,11 +1,35 @@
 [
   {
-    "title": "Trampoline Skill Info",
+    "title": "ddcalc.net",
     "description": "A degree of difficulty generator for skills and routines in trampoline gymnastics using the FIG Code of Points.",
     "image": "./images/projectThumbnails/TRSKILL.png",
     "imageAlt": "81-/",
     "link": "https://ddcalc.net/",
     "linkAlt": "Link to the DD calculator at ddcalc.net"
+  },
+  {
+    "title": "LISP Interpreter",
+    "description": "A metainterpreter for a subset of the LISP programming language. Additional language features are implemented with desugaring.",
+    "image": "./images/projectThumbnails/LISP interpreter.png",
+    "imageAlt": "A stylized depiction of a string of balanced parentheses",
+    "link": "https://github.com/nolanzurek/llisp",
+    "linkAlt": "Link to the LISP interpreter on Github"
+  },
+  {
+    "title": "Jumpscare",
+    "description": "A dead-simple project tracking tool that leverages local storage to make ongoing projects and tasks as visible as possible.",
+    "image": "./images/projectThumbnails/Jumpscare.png",
+    "imageAlt": "An abstract representation of jumpscare's UI",
+    "link": "https://zjumpscare.netlify.app/",
+    "linkAlt": "Link to Jumpscare"
+  },
+  {
+    "title": "StanlEEG",
+    "description": "A game that procedurally generates and adapts terrain based on live brainwave data. The project won second place at the NatHacks 2022 Hackathon.",
+    "image": "./images/projectThumbnails/STANLEY.png",
+    "imageAlt": "The StanlEEG logo. The hooded game character is in the top-left corner, and there is a sheep in the bottom-right corner",
+    "link": "https://devpost.com/software/project-stanley",
+    "linkAlt": "Link to the StanlEEG Devpost page"
   },
   {
     "title": "MIDI Visualizer",
@@ -14,14 +38,6 @@
     "imageAlt": "A styalized depiction of a MIDI visualization",
     "link": "https://github.com/nolanzurek/MIDI-Visualizer",
     "linkAlt": "Link to the MIDI Visualizer on Github"
-  },
-  {
-    "title": "MyFoci",
-    "description": "A simple tasklist application written in React.js",
-    "image": "./images/projectThumbnails/TODO.png",
-    "imageAlt": "A blank tasklist",
-    "link": "https://github.com/nolanzurek/MyFoci",
-    "linkAlt": "Link to myFoci on Github"
   },
   {
     "title": "Music Theory GL",
@@ -38,37 +54,5 @@
     "imageAlt": "A cartesian graph with a section highlighted to form an integral",
     "link": "https://github.com/nolanzurek/GraphR",
     "linkAlt": "Link to graphR on Github"
-  },
-  {
-    "title": "StanlEEG",
-    "description": "A game that procedurally generates and adapts terrain based on live brainwave data. The project won second place at the NatHacks 2022 Hackathon.",
-    "image": "./images/projectThumbnails/STANLEY.png",
-    "imageAlt": "The StanlEEG logo. The hooded game character is in the top-left corner, and there is a sheep in the bottom-right corner",
-    "link": "https://devpost.com/software/project-stanley",
-    "linkAlt": "Link to the StanlEEG Devpost page"
-  },
-  {
-    "title": "Markov Chain Text Generator",
-    "description": "A simple text generator that uses markov chains to produce text that is statistically similar to the user input.",
-    "image": "./images/projectThumbnails/MARKOV.png",
-    "imageAlt": "An illustration of a Markov chain with four states 12 transition probabilities",
-    "link": "https://nzurek.dev",
-    "linkAlt": "Link to a demonstration of the Markov chain text generator"
-  },
-  {
-    "title": "3D Procedural Terrain Generator",
-    "description": "A procedural 3D terrain generator written in Processing.",
-    "image": "./images/projectThumbnails/3D_terrain.png",
-    "imageAlt": "A picture of an output from the 3D terrain generator. The terrain is a mountainous landscape.",
-    "link": "https://github.com/nolanzurek/3D-Procedural-Terrain-Generator",
-    "linkAlt": "Link to the 3D procedural terrain generator on Github"
-  },
-  {
-    "title": "Fractal Plotters",
-    "description": "Processing Programs that can plot renders of the Mandlebrot set, Julia sets, and Newton's Fractal.",
-    "image": "./images/projectThumbnails/Fractals.png",
-    "imageAlt": "A \"Newton's Fractal\" of a fifth degree polynomial rendered in black and white.",
-    "link": "https://github.com/nolanzurek/fractals",
-    "linkAlt": "Like to the fractal plotter on Github"
   }
 ]
