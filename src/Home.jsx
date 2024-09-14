@@ -105,8 +105,9 @@ function Home() {
               className="inTextLink"
               alt="University of Alberta Mathematical Sciences Society Webpage"
             >
-              University of Alberta Mathematical Sciences Society.
+              University of Alberta Mathematical Sciences Society
             </a>
+            .
           </p>
           <div id="socialIcons">
             <a href="./documents/pdf/Nolan_Zurek_Resume.pdf">
@@ -157,6 +158,16 @@ function Home() {
                 width={35}
               ></img>
             </a>
+            <a href="https://www.strava.com/athletes/51610587" target="_blank">
+              <img
+                src={
+                  localTheme == "light"
+                    ? "./images/linkIcons/strava.png"
+                    : "./images/linkIcons/strava_dark.png"
+                }
+                width={35}
+              ></img>
+            </a>
           </div>
         </div>
         <div id="projectsContainer">
@@ -164,7 +175,7 @@ function Home() {
             Projects
           </h2>
           <div id="projectEntries">
-            {projects.slice(0, 2).map((project, i) => (
+            {projects.slice(0, 3).map((project, i) => (
               <NoteEntry {...project} key={i} />
             ))}
           </div>

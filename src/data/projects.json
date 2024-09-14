@@ -16,6 +16,14 @@
     "linkAlt": "Link to the LISP interpreter on Github"
   },
   {
+    "title": "2D Light Transport Simulator",
+    "description": "Collaborated to build raycasting demo that uses reflection, refraction, and diffraction to simulate light transport in a 2D environment.",
+    "image": "./images/projectThumbnails/Raycast.png",
+    "imageAlt": "A stylized depiction of a raycasting simulation",
+    "link": "https://github.com/samldr/raycaster",
+    "linkAlt": "Link to the raycaster on Github"
+  },
+  {
     "title": "Jumpscare",
     "description": "A dead-simple project tracking tool that leverages local storage to make ongoing projects and tasks as visible as possible.",
     "image": "./images/projectThumbnails/Jumpscare.png",
