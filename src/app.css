@@ -70,6 +70,7 @@ p {
   font-family: "IBM Plex Sans", "Tahoma", sans-serif;
   font-size: 20px;
   color: var(--primary-text);
+  line-height: 1.6;
 }
 
 .inTextLink {

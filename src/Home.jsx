@@ -1,16 +1,15 @@
-import React, { useEffect } from "react";
-import { useState } from "react";
+import React, { useEffect, useState } from "react";
 import useLocalStorage from "use-local-storage";
-import Terminal from "./terminal/Terminal.jsx";
-import Terrain from "./components/Terrain.jsx";
 import NoteEntry from "./components/NoteEntry.jsx";
 import SeeMore from "./components/SeeMore.jsx";
 import Spacer from "./components/Spacer.jsx";
+import Terrain from "./components/Terrain.jsx";
+import Terminal from "./terminal/Terminal.jsx";
 
 import "./app.css";
 
-import projects from "./data/projects.json";
 import notes from "./data/notes.json";
+import projects from "./data/projects.json";
 
 function Home() {
   const [terminalOpen, setTerminalOpen] = useState(false);
@@ -59,7 +58,7 @@ function Home() {
             ></img>
           </button>
         </div>
-        <div id="terminalContainer">
+        {/* <div id="terminalContainer">
           {terminalOpen ? (
             <Terminal id="mainPageTerminal" setTheme={setTheme}></Terminal>
           ) : null}
@@ -69,11 +68,11 @@ function Home() {
           >
             {terminalOpen ? "⏶ Hide the terminal" : "⏷ Show the terminal"}
           </button>
-        </div>
+        </div> */}
         <div id="infoContainer">
-          <h2 id="infoTitle" className="sectionTitle">
+          {/* <h2 id="infoTitle" className="sectionTitle">
             Info
-          </h2>
+          </h2> */}
           <p id="educationInfo">
             I study computer science and mathematics at the University of
             Alberta. My interests lie in programming langauge implementation and
@@ -109,6 +108,7 @@ function Home() {
             </a>
             .
           </p>
+          <br />
           <div id="socialIcons">
             <a href="./documents/pdf/Nolan_Zurek_Resume.pdf">
               <img
