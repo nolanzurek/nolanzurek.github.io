@@ -158,7 +158,7 @@ function Home() {
                 width={35}
               ></img>
             </a>
-            <a href="https://www.strava.com/athletes/51610587" target="_blank">
+            {/* <a href="https://www.strava.com/athletes/51610587" target="_blank">
               <img
                 src={
                   localTheme == "light"
@@ -167,7 +167,7 @@ function Home() {
                 }
                 width={35}
               ></img>
-            </a>
+            </a> */}
           </div>
         </div>
         <div id="projectsContainer">
