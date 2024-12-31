@@ -1,5 +1,14 @@
 [
   {
+    "title": "MATH 328",
+    "institution": "University of Alberta",
+    "description": "Group Theory",
+    "image": "./images/noteThumbnails/MATH328.png",
+    "imageAlt": "A styalized tiling from a member of the wallpaper group",
+    "link": "./documents/pdf/MATH 328 Nolan Zurek.pdf",
+    "linkAlt": "Link to Math 328 notes"
+  },
+  {
     "title": "MATH 322",
     "institution": "University of Alberta",
     "description": "Graph Theory",
