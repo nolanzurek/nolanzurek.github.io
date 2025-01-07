@@ -1,7 +1,8 @@
-import ReactDOM from "react-dom/client";
-import { HashRouter, Routes, Route } from "react-router-dom";
 import { useEffect } from "react";
+import ReactDOM from "react-dom/client";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import useLocalStorage from "use-local-storage";
+import Coursework from "./Coursework";
 import Home from "./Home";
 import Notes from "./Notes";
 import Projects from "./Projects";
@@ -21,6 +22,7 @@ export default function Website() {
         <Route path="/home" element={<Home />} />
         <Route path="/notes" element={<Notes />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/coursework" element={<Coursework />} />
         <Route path="*">404 Not Found</Route>
       </Routes>{" "}
     </HashRouter>

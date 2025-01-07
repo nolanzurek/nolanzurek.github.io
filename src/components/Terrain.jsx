@@ -1,7 +1,6 @@
-import React from "react";
-import { useEffect, useState } from "react";
-import "./styles/terrainStyle.css";
+import React, { useEffect, useState } from "react";
 import { createNoise2D } from "../utils/simplex-noise";
+import "./styles/terrainStyle.css";
 
 const height = 100;
 const topGap = 200;

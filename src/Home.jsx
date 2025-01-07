@@ -43,7 +43,7 @@ function Home() {
           <h1 id="mainTitle" className="mainTitle">
             Hi, I'm Nolan
           </h1>
-          <button id="themeToggle">
+          {/* <button id="themeToggle">
             <img
               id="themeToggleImg"
               src={
@@ -56,7 +56,7 @@ function Home() {
                 setTheme(localTheme === "light" ? "dark" : "light");
               }}
             ></img>
-          </button>
+          </button> */}
         </div>
         {/* <div id="terminalContainer">
           {terminalOpen ? (
@@ -75,20 +75,29 @@ function Home() {
           </h2> */}
           <p id="educationInfo">
             I study computer science and mathematics at the University of
-            Alberta. My interests lie in programming langauge implementation and
-            the theory of computation.
+            Alberta with an emphasis on programming languages, theoretical
+            computer science, and algebra. Right now, I'm one of the teaching
+            assistants for{" "}
+            <a
+              href="https://apps.ualberta.ca/catalogue/course/cmput/325"
+              target="_blank"
+              className="inTextLink"
+              alt="non-procedural programming languages (CMPUT 325) course page"
+            >
+              Non-Procedural Programming Languages
+            </a>{" "}
+            taught by prof. Jia-Huai You.
           </p>
           <p id="trampolineInfo">
             In my spare time, I compete for{" "}
-            <a
+            {/* <a
               href="https://www.gymnastics.sport/site/athletes/bio_detail.php?id=41128&type=licence"
               target="_blank"
               className="inTextLink"
               alt="Nolan Zurek FIG Profile"
-            >
-              Team Canada
-            </a>{" "}
-            in{" "}
+            > */}
+            Team Canada
+            {/* </a>{" "} */} in{" "}
             <a
               href="https://en.wikipedia.org/wiki/Double_mini_trampoline"
               target="_blank"
@@ -108,6 +117,21 @@ function Home() {
             </a>
             .
           </p>
+          <div id="internalLinks">
+            <p>
+              <a className="inTextLink" href="/#/notes">
+                Notes
+              </a>
+              {"  "}
+              <a className="inTextLink" href="/#/projects">
+                Projects
+              </a>
+              {"  "}
+              <a className="inTextLink" href="/#/coursework">
+                Coursework
+              </a>
+            </p>
+          </div>
           <br />
           <div id="socialIcons">
             <a href="./documents/pdf/Nolan_Zurek_Resume.pdf">
@@ -170,30 +194,32 @@ function Home() {
             </a> */}
           </div>
         </div>
-        <div id="projectsContainer">
-          <h2 id="projectsTitle" className="sectionTitle">
-            Projects
-          </h2>
-          <div id="projectEntries">
-            {projects.slice(0, 3).map((project, i) => (
-              <NoteEntry {...project} key={i} />
-            ))}
-          </div>
-          <div id="projectsSeeMore">
-            <SeeMore link="/projects" extraText="Projects"></SeeMore>
-          </div>
-        </div>
+
         <div id="notesContainer">
           <h2 id="notesTitle" className="sectionTitle">
             Notes
           </h2>
           <div id="noteEntries">
-            {notes.slice(0, 4).map((note, i) => (
+            {notes.slice(0, 6).map((note, i) => (
               <NoteEntry {...note} key={i} />
             ))}
           </div>
           <div id="notesSeeMore">
             <SeeMore link="/notes" extraText="Notes"></SeeMore>{" "}
+          </div>
+        </div>
+
+        <div id="projectsContainer">
+          <h2 id="projectsTitle" className="sectionTitle">
+            Projects
+          </h2>
+          <div id="projectEntries">
+            {projects.slice(0, 2).map((project, i) => (
+              <NoteEntry {...project} key={i} />
+            ))}
+          </div>
+          <div id="projectsSeeMore">
+            <SeeMore link="/projects" extraText="Projects"></SeeMore>
           </div>
         </div>
       </div>
