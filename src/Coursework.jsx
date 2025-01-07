@@ -27,24 +27,7 @@ function Projects() {
                   {entry.courses.map((course, index) => (
                     <li key={index}>
                       <p>
-                        <span
-                          style={{
-                            backgroundColor: `hsl(
-                              ${
-                                ((course.code.charCodeAt(0) +
-                                  course.code.charCodeAt(0)) *
-                                  100 +
-                                  200) %
-                                360
-                              },
-                              100%,
-                              75%
-                            )`,
-                          }}
-                        >
-                          {course.code}
-                        </span>
-                        : {course.name}
+                        <span>{course.code}</span>: {course.name}
                       </p>
                     </li>
                   ))}
