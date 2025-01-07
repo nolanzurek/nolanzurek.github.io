@@ -27,7 +27,14 @@ function Projects() {
                   {entry.courses.map((course, index) => (
                     <li key={index}>
                       <p>
-                        <span>{course.code}</span>: {course.name}
+                        <span
+                          style={{
+                            fontWeight: "bold",
+                          }}
+                        >
+                          {course.code}
+                        </span>
+                        : {course.name}
                       </p>
                     </li>
                   ))}
