@@ -75,9 +75,8 @@ function Home() {
           </h2> */}
           <p id="educationInfo">
             I study computer science and mathematics at the University of
-            Alberta with an emphasis on programming languages, theoretical
-            computer science, and algebra. Right now, I'm one of the teaching
-            assistants for{" "}
+            Alberta with an emphasis on programming languages and theoretical
+            computer science Right now, I'm a teaching assistant for{" "}
             <a
               href="https://apps.ualberta.ca/catalogue/course/cmput/325"
               target="_blank"
@@ -113,7 +112,7 @@ function Home() {
               className="inTextLink"
               alt="University of Alberta Mathematical Sciences Society Webpage"
             >
-              University of Alberta Mathematical Sciences Society
+              UAlberta Mathematical Sciences Society
             </a>
             .
           </p>
