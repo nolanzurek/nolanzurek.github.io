@@ -89,14 +89,15 @@ function Home() {
           </p>
           <p id="trampolineInfo">
             In my spare time, I compete for{" "}
-            {/* <a
-              href="https://www.gymnastics.sport/site/athletes/bio_detail.php?id=41128&type=licence"
+            <a
+              href="https://gymcan.org/meet-team-canada/"
               target="_blank"
               className="inTextLink"
               alt="Nolan Zurek FIG Profile"
-            > */}
-            Team Canada
-            {/* </a>{" "} */} in{" "}
+            >
+              Team Canada
+            </a>{" "}
+            in{" "}
             <a
               href="https://en.wikipedia.org/wiki/Double_mini_trampoline"
               target="_blank"
