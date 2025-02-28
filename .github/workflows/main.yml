@@ -44,9 +44,12 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          # Upload dist repository
           name: pages-artifact
           path: "./dist"
+      - name: Verify artifact upload
+        run: ls -l ./dist
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
+        with:
+          artifact_name: pages-artifact
