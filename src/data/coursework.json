@@ -1,0 +1,190 @@
+[
+  {
+    "term": "Fall 2021",
+    "institution": "University of Waterloo",
+    "courses": [
+      {
+        "code": "CS 135",
+        "name": "Designing Functional Programs"
+      },
+      {
+        "code": "MATH 135",
+        "name": "Algebra for Honours Mathematics"
+      },
+      {
+        "code": "MATH 137",
+        "name": "Calculus I for Honours Mathematics"
+      },
+      {
+        "code": "SPCOM 223",
+        "name": "Public Speaking"
+      },
+      {
+        "code": "SOC 101",
+        "name": "Introduction to Sociology"
+      }
+    ]
+  },
+  {
+    "term": "Winter 2022",
+    "institution": "University of Waterloo",
+    "courses": [
+      {
+        "code": "CS 146",
+        "name": "Elementary Algorithm Design and Data Abstraction (Advanced Level)"
+      },
+      {
+        "code": "MATH 136",
+        "name": "Linear Algebra I for Honours Mathematics"
+      },
+      {
+        "code": "MATH 138",
+        "name": "Calculus II for Honours Mathematics"
+      },
+      {
+        "code": "ENGL 119",
+        "name": "Communications in Mathematics and Computer Science"
+      },
+      {
+        "code": "ECON 102",
+        "name": "Introduction to Macroeconomics"
+      }
+    ]
+  },
+  {
+    "term": "Fall 2022",
+    "institution": "University of Waterloo",
+    "courses": [
+      {
+        "code": "CS 245",
+        "name": "Logic and Computation"
+      },
+      {
+        "code": "CS 246",
+        "name": "Object-Oriented Software Development"
+      },
+      {
+        "code": "MATH 239",
+        "name": "Introduction to Combinatorics and Graph Theory"
+      },
+      {
+        "code": "STAT 230",
+        "name": "Probability"
+      }
+    ]
+  },
+  {
+    "term": "Fall 2023",
+    "institution": "University of Alberta",
+    "courses": [
+      {
+        "code": "CMPUT 204",
+        "name": "Algorithms I"
+      },
+      {
+        "code": "CMPUT 229",
+        "name": "Computer Organization and Architecture I"
+      },
+      {
+        "code": "MATH 216",
+        "name": "Introduction to Analysis"
+      },
+      {
+        "code": "LING 101",
+        "name": "Introduction to Linguistics"
+      }
+    ]
+  },
+  {
+    "term": "Winter 2024",
+    "institution": "University of Alberta",
+    "courses": [
+      {
+        "code": "CMPUT 325",
+        "name": "Non-procedural Programming Languages"
+      },
+      {
+        "code": "CMPUT 267",
+        "name": "Machine Learning I"
+      },
+      {
+        "code": "MATH 227",
+        "name": "Honours Linear Algebra II"
+      },
+      {
+        "code": "MATH 422",
+        "name": "Coding Theory"
+      },
+      {
+        "code": "HGEO 100",
+        "name": "Introduction to Human Geography"
+      }
+    ]
+  },
+  {
+    "term": "Spring 2024",
+    "institution": "University of Alberta",
+    "courses": [
+      {
+        "code": "MATH 322",
+        "name": "Graph Theory"
+      },
+      {
+        "code": "NS 115",
+        "name": "Indigenous Peoples and Technoscience"
+      }
+    ]
+  },
+  {
+    "term": "Fall 2024",
+    "institution": "University of Alberta",
+    "courses": [
+      {
+        "code": "CMPUT 415",
+        "name": "Compiler Design"
+      },
+      {
+        "code": "CMPUT 304",
+        "name": "Algorithms II"
+      },
+      {
+        "code": "CMPUT 379",
+        "name": "Operating System Concepts"
+      },
+      {
+        "code": "MATH 328",
+        "name": "Group Theory"
+      },
+      {
+        "code": "MATH 217",
+        "name": "Honours Calculus III"
+      }
+    ]
+  },
+  {
+    "term": "Winter 2025 (current)",
+    "institution": "University of Alberta",
+    "courses": [
+      {
+        "code": "CMPUT 499",
+        "name": "Answer Set Programming (Topics in CS)"
+      },
+      {
+        "code": "CMPUT 474",
+        "name": "Formal Languages, Automata, and Computability"
+      },
+      {
+        "code": "CMPUT 467",
+        "name": "Machine Learning II"
+      },
+      {
+        "code": "CMPUT 361",
+        "name": "Introduction to Information Retrieval"
+      },
+      {
+        "code": "MATH 326",
+        "name": "Rings and Modules"
+      }
+    ]
+  }
+]

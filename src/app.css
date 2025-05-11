@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:1000");
+
+.spacer {
+  height: 100px;
+}
+
+#mainPage {
+  max-width: 1000px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin: auto;
+  background: var(--background);
+}
+
+#noTerminal {
+  padding: 10px;
+  outline: none;
+  border: none;
+  background: var(--container);
+  color: var(--primary-text);
+  font-size: 15px;
+  cursor: pointer;
+}
+
+#noTerminal:hover {
+  background: var(--container-hover);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+#noTerminal:active {
+  background: var(--container-active);
+  /* cursor: pointer; */
+}
+
+.mainTitle,
+.sectionTitle,
+h3 {
+  font-family: "IBM Plex Sans", "Ubuntu", "Tahoma", sans-serif;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: var(--accent1);
+  color: var(--primary-text);
+}
+
+::selection {
+  color: var(--background);
+  background: var(--accent2-dark);
+}
+
+h3 {
+  text-decoration-color: var(--accent2);
+}
+
+.mainTitle {
+  font-size: 50px;
+  text-decoration-thickness: 9px;
+  text-underline-offset: 10px;
+}
+
+.sectionTitle {
+  font-size: 30px;
+  text-decoration-thickness: 6px;
+  text-underline-offset: 7px;
+  margin-bottom: 35px;
+  margin-top: 50px;
+}
+
+p {
+  font-family: "IBM Plex Sans", "Tahoma", sans-serif;
+  font-size: 20px;
+  color: var(--primary-text);
+  line-height: 1.6;
+}
+
+.inTextLink {
+  text-decoration: var(--accent1) underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 4px;
+  color: var(--primary-text);
+}
+
+.inTextLink:hover {
+  cursor: pointer;
+  text-decoration: var(--accent1-lighter) underline;
+  background: var(--accent1-lightest);
+  color: var(--terminal-hover);
+  text-decoration-thickness: 3px;
+  text-underline-offset: 4px;
+  transition: 0.2s;
+}
+
+#socialIcons {
+  display: flex;
+  flex-direction: row;
+}
+
+#socialIcons img,
+#themeToggle {
+  margin-right: 20px;
+  color: var(--primary-text);
+  background-color: var(--container);
+  border: var(--container) 7px solid;
+}
+
+#themeToggle {
+  margin-right: 0px;
+  margin-top: 25px;
+  padding: 0px;
+  line-height: 0px;
+}
+
+#socialIcons img:hover,
+#themeToggle:hover {
+  background-color: var(--container-hover);
+  border: var(--container-hover) 7px solid;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+#socialIcons img:active,
+#themeToggle:active {
+  background-color: var(--container-active);
+  border: var(--container-active) 7px solid;
+}
+
+#projectEntries {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  margin-left: -10px;
+}
+
+#noteEntries {
+  /* these are in a grid with two columns */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  margin-left: -10px;
+  padding: 0;
+}
+
+#notesSeeMore,
+#projectsSeeMore {
+  margin-left: -10px;
+}
+
+/* media query - make the grid 1fr at small enough width */
+@media (max-width: 700px) {
+  #noteEntries {
+    grid-template-columns: 1fr;
+    margin-left: 0px;
+  }
+
+  #projectEntries {
+    margin-left: 0px;
+  }
+
+  #notesSeeMore,
+  #projectsSeeMore {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 400px) {
+  #noteEntries {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+  }
+
+  #projectEntries {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+  }
+
+  h3.noteTitle {
+    display: none;
+  }
+
+  #notesSeeMore,
+  #projectsSeeMore {
+    margin-left: 0px;
+  }
+}

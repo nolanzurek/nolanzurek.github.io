@@ -1,0 +1,249 @@
+[
+  {
+    "title": "MATH 328",
+    "institution": "University of Alberta",
+    "description": "Group Theory",
+    "image": "./images/noteThumbnails/MATH328.png",
+    "imageAlt": "A styalized tiling from a member of the wallpaper group",
+    "link": "./documents/pdf/MATH 328 Nolan Zurek.pdf",
+    "linkAlt": "Link to Math 328 notes"
+  },
+  {
+    "title": "MATH 322",
+    "institution": "University of Alberta",
+    "description": "Graph Theory",
+    "image": "./images/noteThumbnails/MATH322.png",
+    "imageAlt": "A styalized K_5 graph with two edges extending out from each node",
+    "link": "./documents/pdf/322 Graph Theory Notes Zurek.pdf",
+    "linkAlt": "Link to Math 322 notes"
+  },
+  {
+    "title": "MATH 422",
+    "institution": "University of Alberta",
+    "description": "Coding Theory",
+    "image": "./images/noteThumbnails/MATH422.png",
+    "imageAlt": "A visualization of sphere packing in two dimensions",
+    "link": "./documents/pdf/Coding Theory Nolan Zurek.pdf",
+    "linkAlt": "Link to Math 422 notes"
+  },
+  {
+    "title": "CMPUT 325",
+    "institution": "University of Alberta",
+    "description": "Non-Procedural Programming Langauges",
+    "image": "./images/noteThumbnails/CMPUT325.png",
+    "imageAlt": "A styalized expression of the Y combinator",
+    "link": "./documents/pdf/CMPUT 325 Nolan Zurek.pdf",
+    "linkAlt": "Link to CMPUT 325 notes"
+  },
+  {
+    "title": "CMPUT 267",
+    "institution": "University of Alberta",
+    "description": "Machine Learning I",
+    "image": "./images/noteThumbnails/CMPUT267.png",
+    "imageAlt": "A 2D graph depicting gradient descent on a parabola",
+    "link": "./documents/pdf/CMPUT 267 Nolan Zurek.pdf",
+    "linkAlt": "Link to CMPUT 267 notes"
+  },
+  {
+    "title": "MATH 227",
+    "institution": "University of Alberta",
+    "description": "Linear Algebra II",
+    "image": "./images/noteThumbnails/MATH227.png",
+    "imageAlt": "A 2D coordinate system transformed by a matrix, with an eigenvector highlighted",
+    "link": "./documents/pdf/Linear Algebra II Nolan Zurek.pdf",
+    "linkAlt": "Link to Math 227 notes"
+  },
+
+  {
+    "title": "CMPUT 204",
+    "institution": "University of Alberta",
+    "description": "Algorithms I",
+    "image": "./images/noteThumbnails/CMPUT204.png",
+    "imageAlt": "An image of an array of pointers forming a binary heap",
+    "link": "./documents/pdf/CMPUT 204 Nolan Zurek.pdf",
+    "linkAlt": "Link to CMPUT 204 notes"
+  },
+  {
+    "title": "MATH 239",
+    "institution": "University of Waterloo",
+    "description": "Introduction to Combinatorics and Graph Theory",
+    "image": "./images/noteThumbnails/MATH239.png",
+    "imageAlt": "An illustration of a member of the permutation group S_3",
+    "link": "./documents/html/math239/Chapter 1 - Basic Principles.html",
+    "linkAlt": "Link to Math 239 notes"
+  },
+  {
+    "title": "CS 245",
+    "institution": "University of Waterloo",
+    "description": "Computation and Logic",
+    "image": "./images/noteThumbnails/CS245.png",
+    "imageAlt": "A markov chain with four states and seven transitions",
+    "link": "./documents/pdf/CS 245 Full Notes Nolan Zurek.pdf",
+    "linkAlt": "Link to CS 245 notes"
+  },
+  {
+    "title": "STAT 230",
+    "institution": "University of Waterloo",
+    "description": "Probability",
+    "image": "./images/noteThumbnails/STAT230.png",
+    "imageAlt": "Formula: P(B|A)xP(A)/P(B) (right hand side of Bayes' Theorem)",
+    "link": "./documents/pdf/STAT 230 Full Course Nolan Zurek.pdf",
+    "linkAlt": "Link to Stat 230 notes"
+  },
+  {
+    "title": "CS 146",
+    "institution": "University of Waterloo",
+    "description": "Elementary Algorithm Design and Data Abstraction - Midterm Jot Notes",
+    "image": "./images/noteThumbnails/CS146.png",
+    "imageAlt": "Styalized image of code",
+    "link": "./documents/pdf/CamScanner_03-05-2022_20.19.pdf",
+    "linkAlt": "Link to CS 146 Midterm Jot Notes"
+  },
+  {
+    "title": "Math 136",
+    "institution": "University of Waterloo",
+    "description": "Linear Algebra I",
+    "image": "./images/noteThumbnails/MATH136.png",
+    "imageAlt": "A 2x2 identity matrix",
+    "links": [
+      {
+        "link": "../../documents/pdf/MATH136Notes.pdf",
+        "linkAlt": "Complete Math 136 notes",
+        "title": "Complete notes"
+      },
+      {
+        "link": "../../documents/pdf/Linear Algebra I Summary.pdf",
+        "linkAlt": "Final review notes for math 136",
+        "title": "Final review"
+      }
+    ]
+  },
+  {
+    "title": "Math 138",
+    "institution": "University of Waterloo",
+    "description": "Calculus II",
+    "image": "./images/noteThumbnails/MATH138.png",
+    "imageAlt": "A cartesian graph with a section highlighted to form an integral",
+    "link": "./documents/pdf/MATH138Notes.pdf",
+    "linkAlt": "Link to Math 138 (Calc II) Notes"
+  },
+  {
+    "title": "React.js",
+    "institution": "Eve Porcello - LinkedIn Learning",
+    "description": "The basics of the React framework",
+    "image": "./images/noteThumbnails/REACT.png",
+    "imageAlt": "React.js logo",
+    "link": "./documents/pdf/React.pdf",
+    "linkAlt": "Link to the complete react.js notes"
+  },
+  {
+    "title": "CS 135",
+    "institution": "University of Waterloo",
+    "description": "Designing Functional Programs",
+    "image": "./images/noteThumbnails/CS135.png",
+    "imageAlt": "The racket logo: a circle with a styalized lambda",
+    "link": "./documents/pdf/CS135 Course Notes.pdf",
+    "linkAlt": "Link to CS 135 Course Notes"
+  },
+  {
+    "title": "Math 135",
+    "institution": "University of Waterloo",
+    "description": "Algebra for Honours Mathematics",
+    "image": "./images/noteThumbnails/MATH135.png",
+    "imageAlt": "A \\iff B in LaTeX",
+    "link": "./documents/pdf/MATH135Notes.pdf",
+    "linkAlt": "Link to Math 135 Course Notes"
+  },
+  {
+    "title": "Math 137",
+    "institution": "University of Waterloo",
+    "description": "Calculus I",
+    "image": "./images/noteThumbnails/MATH137.png",
+    "imageAlt": "A graph of a parabola with a tangent line",
+    "link": "./documents/pdf/MATH137Notes.pdf",
+    "linkAlt": "Link to Math 137 Course Notes"
+  },
+  {
+    "title": "Intro to web dev",
+    "institution": "Khan Academy",
+    "description": "Basic HTML, CSS, and JS",
+    "image": "./images/noteThumbnails/HTML.png",
+    "imageAlt": "<html> </html>",
+    "link": "./documents/pdf/Web Dev Notes Complete.pdf",
+    "linkAlt": "Link to Web Development Course Notes"
+  },
+  {
+    "title": "Computer Science A",
+    "institution": "Advanced Placement",
+    "description": "Java programming, OOP, basic algorithms",
+    "image": "./images/noteThumbnails/APCSA.png",
+    "imageAlt": "The Java Logo: A coffee cup",
+    "link": "./documents/pdf/AP CSA Notes.pdf",
+    "linkAlt": "Link to AP Computer Science A notes"
+  },
+  {
+    "title": "Physics II",
+    "institution": "Advanced Placement",
+    "description": "Fluid mechanics, Thermodynamics, E&M, Optics; Quantum, Atomic, and Nuclear physics",
+    "image": "./images/noteThumbnails/APPHYS2.png",
+    "imageAlt": "A prism splitting a beam of light into a rainbow",
+    "link": "./documents/pdf/AP Physics 2 Notes.pdf",
+    "linkAlt": "Link to AP Physics 2 notes"
+  },
+  {
+    "title": "Études Sociales 30 🇫🇷",
+    "institution": "Alberta HS Curriculum",
+    "description": "Perspectives sur l'Idéologie",
+    "image": "./images/noteThumbnails/ES30.png",
+    "imageAlt": "A circular map of the world",
+    "link": "./documents/pdf/Notes Etudes Sociaux 30 Complete.pdf",
+    "linkAlt": "Link to Etudes Sociaux notes"
+  },
+  {
+    "title": "Physics 30",
+    "institution": "Alberta HS Curriculum",
+    "description": "Momentum and Impulse, E&M, Optics, Nuclear Physics",
+    "image": "./images/noteThumbnails/PHYS30.png",
+    "imageAlt": "A ray of light passing through a rectangular prism",
+    "links": [
+      {
+        "link": "../../documents/pdf/Physics30Notes.pdf",
+        "linkAlt": "Link to Physics 30 jot notes",
+        "title": "Jot Notes"
+      },
+      {
+        "link": "../../documents/pdf/Electricity and Magnetism.pdf",
+        "linkAlt": "Link to Electricity and Magnetism notes",
+        "title": "E&M"
+      }
+    ]
+  },
+  {
+    "title": "Chemistry 30",
+    "institution": "Alberta HS Curriculum",
+    "description": "Thermochemistry, Electrochemistry, Equilibrium, Organic Chemistry",
+    "image": "./images/noteThumbnails/CHEM30.png",
+    "imageAlt": "A benzene ring",
+    "links": [
+      {
+        "link": "../../documents/pdf/Chem30HandwrittenNotes.pdf",
+        "linkAlt": "Link to Chemistry 30 jot notes",
+        "title": "Jot Notes"
+      },
+      {
+        "link": "../../documents/pdf/Electrochimie.pdf",
+        "linkAlt": "Link to electrochimie (french electrochemistry) notes",
+        "title": "Electrochimie 🇫🇷"
+      }
+    ]
+  },
+  {
+    "title": "Physics 20",
+    "institution": "Alberta HS Curriculum",
+    "description": "Mechanics",
+    "image": "./images/noteThumbnails/PHYS20.png",
+    "imageAlt": "A force diagram acting on a block",
+    "link": "./documents/pdf/Phys20Notes.pdf",
+    "linkAlt": "Link to Physics notes"
+  }
+]

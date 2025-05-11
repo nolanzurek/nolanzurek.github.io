@@ -1,0 +1,33 @@
+.seeMoreDiv {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  margin: 20px 0;
+  background: var(--container);
+}
+
+.seeMoreDiv:hover {
+  background: var(--container-hover);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.seeMoreDiv:active {
+  background: var(--container-active);
+}
+
+.seeMoreDiv * {
+  margin: 10px;
+}
+
+.seeMoreText {
+  margin-left: 0px;
+  line-height: 0.8;
+  color: var(--text-alt);
+  font-size: 18px;
+}
+
+.material-icons {
+  font-size: 1.3em;
+  color: var(--text-alt);
+}

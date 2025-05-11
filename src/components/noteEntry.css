@@ -1,0 +1,90 @@
+a {
+  text-decoration: none;
+}
+
+.noteEntry {
+  height: 150px;
+  max-height: 150px;
+  /* in the noteEntry, the image should be on the left and the text should start when the image ends*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: var(--container);
+  /* margin-top: 20px; */
+  /* margin-bottom: 20px; */
+}
+
+a .noteEntry:hover {
+  background-color: var(--container-hover);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+a .noteEntry:active {
+  background-color: var(--container-active);
+}
+
+.noteImage {
+  height: 100%;
+  width: 150px;
+}
+
+.noteEntryTextContainer h3,
+.noteEntryTextContainer .noteDescription {
+  margin: 0;
+  padding: 10px;
+}
+
+.noteEntryTextContainer h3 {
+  font-size: 25px;
+  text-decoration-thickness: 5px;
+  text-underline-offset: 6px;
+}
+
+.noteEntryTextContainer p {
+  font-size: 18px;
+}
+
+.noteEntryTextContainer {
+  overflow: scroll;
+}
+
+.noteDescription {
+  color: var(--primary-text);
+}
+
+.noteInstitution {
+  color: var(--accent2);
+  padding-left: 10px;
+  margin: 0;
+}
+
+.documentLink {
+  margin-left: 10px;
+}
+
+.noteLinksContainer {
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+/* if the width is too small (300 px) make it an image card instead */
+/* the text should be below the image */
+
+@media (max-width: 400px) {
+  .noteEntry {
+    flex-direction: column-reverse;
+    /* the height of the image isn't properly detected, so the content is under it and the height of the card is not high enough */
+    /* height: auto; does not work */
+    min-height: calc((100vw - 20px) + 5em);
+  }
+
+  .noteImage {
+    width: 100%;
+    height: auto;
+  }
+
+  .noteEntryTextContainer {
+    padding: 10px;
+  }
+}

@@ -1,0 +1,37 @@
+.terminalEntry {
+  background-color: var(--accent2-dark);
+  color: var(--terminal-text);
+}
+
+.terminalEntry p {
+  margin: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: "IBM Plex Mono", "Roboto Mono", monospace;
+  font-size: 15px;
+}
+
+.terminalEntry:hover {
+  background-color: var(--terminal-hover);
+}
+
+.path,
+.user {
+  color: var(--terminal-user);
+}
+
+.command {
+  color: var(--terminal-command);
+}
+
+.args {
+  color: var(--terminal-text);
+}
+
+.response {
+  color: var(--terminal-text);
+}
+
+p.responseArrayItem {
+  margin-left: -15px;
+}

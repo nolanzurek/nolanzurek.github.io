@@ -1,0 +1,66 @@
+[
+  {
+    "title": "ddcalc.net",
+    "description": "A degree of difficulty generator for skills and routines in trampoline gymnastics using the FIG Code of Points.",
+    "image": "./images/projectThumbnails/TRSKILL.png",
+    "imageAlt": "81-/",
+    "link": "https://ddcalc.net/",
+    "linkAlt": "Link to the DD calculator at ddcalc.net"
+  },
+  {
+    "title": "LISP Interpreter",
+    "description": "A metainterpreter for a subset of the LISP programming language. Additional language features are implemented with desugaring.",
+    "image": "./images/projectThumbnails/LISP interpreter.png",
+    "imageAlt": "A stylized depiction of a string of balanced parentheses",
+    "link": "https://github.com/nolanzurek/llisp",
+    "linkAlt": "Link to the LISP interpreter on Github"
+  },
+  {
+    "title": "2D Light Transport Simulator",
+    "description": "Collaborated to build raycasting demo that uses reflection, refraction, and diffraction to simulate light transport in a 2D environment.",
+    "image": "./images/projectThumbnails/Raycast.png",
+    "imageAlt": "A stylized depiction of a raycasting simulation",
+    "link": "https://github.com/samldr/raycaster",
+    "linkAlt": "Link to the raycaster on Github"
+  },
+  {
+    "title": "Jumpscare",
+    "description": "A dead-simple project tracking tool that leverages local storage to make ongoing projects and tasks as visible as possible.",
+    "image": "./images/projectThumbnails/Jumpscare.png",
+    "imageAlt": "An abstract representation of jumpscare's UI",
+    "link": "https://zjumpscare.netlify.app/",
+    "linkAlt": "Link to Jumpscare"
+  },
+  {
+    "title": "StanlEEG",
+    "description": "A game that procedurally generates and adapts terrain based on live brainwave data. The project won second place at the NatHacks 2022 Hackathon.",
+    "image": "./images/projectThumbnails/STANLEY.png",
+    "imageAlt": "The StanlEEG logo. The hooded game character is in the top-left corner, and there is a sheep in the bottom-right corner",
+    "link": "https://devpost.com/software/project-stanley",
+    "linkAlt": "Link to the StanlEEG Devpost page"
+  },
+  {
+    "title": "MIDI Visualizer",
+    "description": "A basic MIDI visualizer written in Processing",
+    "image": "./images/projectThumbnails/MIDI.png",
+    "imageAlt": "A styalized depiction of a MIDI visualization",
+    "link": "https://github.com/nolanzurek/MIDI-Visualizer",
+    "linkAlt": "Link to the MIDI Visualizer on Github"
+  },
+  {
+    "title": "Music Theory GL",
+    "description": "A graphics library for illustrating concepts in music theory using keyboard, chromatic circle and circle of fifth diagrams.",
+    "image": "./images/projectThumbnails/FIFTHS.png",
+    "imageAlt": "An illustration of the circle of fifths",
+    "link": "https://github.com/nolanzurek/MusicTheoryGL",
+    "linkAlt": "Link to music theory GL on Github"
+  },
+  {
+    "title": "Grapher",
+    "description": "A graphing calculator capable of rendering Riemann sums and indefinite integrals.",
+    "image": "./images/projectThumbnails/INTEGRAL.png",
+    "imageAlt": "A cartesian graph with a section highlighted to form an integral",
+    "link": "https://github.com/nolanzurek/GraphR",
+    "linkAlt": "Link to graphR on Github"
+  }
+]

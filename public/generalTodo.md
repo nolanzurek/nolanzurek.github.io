@@ -1,0 +1,22 @@
+- startup animations
+- add links to buttons
+- full tree navigable in the terminal
+- dynamic gradient?
+- Obsidian publish for notes
+- re name note entry
+- make the layout conponents on home, notes, projects have classes instead of IDs
+- email copied to clipboard notification
+- add a custom 404 page
+- google analytics
+- upload markov chain generator and add it to the projects route
+- upload all the projects
+- "works" section for creative stuff
+- gymnastics section?
+- parallax?
+- rework note segment and integrate with obsidian
+- set up the blog
+- dark theme highlights are hard to read
+- add projects directly as subroutes of the project route
+- autoscroll terminal
+- sort out terminal colors
+- responsive note/project cards that don't show images on mobile

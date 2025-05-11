@@ -1,0 +1,47 @@
+.terminal {
+  background-color: var(--accent2-dark);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  height: 200px;
+  overflow-y: scroll;
+  /* hide the scrollbar */
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.terminalInput {
+  background-color: var(--accent2-dark);
+  color: var(--terminal-text);
+  font-family: "IBM Plex Mono", "Roboto Mono", monospace;
+  padding-right: 15px;
+  margin: 0;
+  outline: none;
+  border: none;
+  font-size: 15px;
+  caret-color: var(--terminal-text);
+  /* wish this was supported in more browsers */
+  caret-shape: block;
+  /* change if I change the padding and margins */
+  width: calc(100% - 30px);
+}
+
+.terminalInputContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.terminalInputPrompt {
+  color: var(--terminal-user);
+  font-family: "IBM Plex Mono", "Roboto Mono", monospace;
+  font-size: 15px;
+  padding-right: 5px;
+  padding-left: 15px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin: 0;
+}
