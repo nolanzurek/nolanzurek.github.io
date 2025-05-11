@@ -1,0 +1,2290 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="generator" content="pandoc" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=yes"
+    />
+    <title>Full Course</title>
+    <link rel="stylesheet" href="../../src/styles/noteStyle.css" />
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js"
+      type="text/javascript"
+    ></script>
+    <!--[if lt IE 9]>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <nav id="TOC" role="doc-toc">
+      <ul>
+        <li>
+          <a
+            href="#chapter-1-basic-principles"
+            id="toc-chapter-1-basic-principles"
+            >Chapter 1: Basic Principles</a
+          >
+          <ul>
+            <li>
+              <a href="#question-strategies" id="toc-question-strategies"
+                >Question strategies</a
+              >
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a
+            href="#chapter-2-generating-series"
+            id="toc-chapter-2-generating-series"
+            >Chapter 2: Generating Series</a
+          >
+          <ul>
+            <li>
+              <a href="#useful-series" id="toc-useful-series">Useful Series</a>
+            </li>
+            <li>
+              <a href="#generating-series" id="toc-generating-series"
+                >Generating Series</a
+              >
+            </li>
+            <li>
+              <a
+                href="#generating-series-lemmas"
+                id="toc-generating-series-lemmas"
+                >Generating Series Lemmas</a
+              >
+            </li>
+            <li>
+              <a href="#compositions" id="toc-compositions">Compositions</a>
+            </li>
+            <li>
+              <a href="#question-strategies-1" id="toc-question-strategies-1"
+                >Question Strategies</a
+              >
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#chapter-3-binary-strings" id="toc-chapter-3-binary-strings"
+            >Chapter 3: Binary Strings</a
+          >
+          <ul>
+            <li>
+              <a
+                href="#regular-expressions-and-rational-languages"
+                id="toc-regular-expressions-and-rational-languages"
+                >Regular Expressions and Rational Languages</a
+              >
+            </li>
+            <li>
+              <a
+                href="#unambiguous-expressions"
+                id="toc-unambiguous-expressions"
+                >Unambiguous Expressions</a
+              >
+            </li>
+            <li>
+              <a
+                href="#getting-generating-series"
+                id="toc-getting-generating-series"
+                >Getting Generating Series</a
+              >
+            </li>
+            <li>
+              <a href="#decompositions" id="toc-decompositions"
+                >Decompositions</a
+              >
+            </li>
+            <li>
+              <a
+                href="#recursive-decompositions"
+                id="toc-recursive-decompositions"
+                >Recursive Decompositions</a
+              >
+            </li>
+            <li>
+              <a href="#excluded-substrings" id="toc-excluded-substrings"
+                >Excluded substrings</a
+              >
+            </li>
+            <li>
+              <a href="#question-strategies-2" id="toc-question-strategies-2"
+                >Question Strategies</a
+              >
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a
+            href="#chapter-4-recurrence-relations"
+            id="toc-chapter-4-recurrence-relations"
+            >Chapter 4: Recurrence Relations</a
+          >
+          <ul>
+            <li>
+              <a href="#fibonacci-numbers" id="toc-fibonacci-numbers"
+                >Fibonacci Numbers</a
+              >
+            </li>
+            <li>
+              <a
+                href="#homogenous-linear-recurrence-relations"
+                id="toc-homogenous-linear-recurrence-relations"
+                >Homogenous Linear Recurrence Relations</a
+              >
+            </li>
+            <li>
+              <a
+                href="#generating-series-for-relations"
+                id="toc-generating-series-for-relations"
+                >Generating series for relations</a
+              >
+            </li>
+            <li>
+              <a
+                href="#inhomogeneous-linear-recurrence-relations"
+                id="toc-inhomogeneous-linear-recurrence-relations"
+                >Inhomogeneous Linear Recurrence Relations</a
+              >
+            </li>
+            <li><a href="#polyexps" id="toc-polyexps">Polyexps</a></li>
+            <li>
+              <a
+                href="#quadratic-recurrence-relations"
+                id="toc-quadratic-recurrence-relations"
+                >Quadratic Recurrence Relations</a
+              >
+            </li>
+            <li>
+              <a href="#catalan-numbers" id="toc-catalan-numbers"
+                >Catalan Numbers</a
+              >
+            </li>
+            <li>
+              <a href="#question-strategies-3" id="toc-question-strategies-3"
+                >Question Strategies</a
+              >
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a
+            href="#chapter-5-introduction-to-graph-theory"
+            id="toc-chapter-5-introduction-to-graph-theory"
+            >Chapter 5: Introduction to Graph Theory</a
+          >
+          <ul>
+            <li><a href="#isomorphism" id="toc-isomorphism">Isomorphism</a></li>
+            <li><a href="#degree" id="toc-degree">Degree</a></li>
+            <li>
+              <a href="#specifying-graphs" id="toc-specifying-graphs"
+                >Specifying Graphs</a
+              >
+            </li>
+            <li>
+              <a href="#paths-and-cycles" id="toc-paths-and-cycles"
+                >Paths and Cycles</a
+              >
+            </li>
+            <li>
+              <a href="#equivalence-relations" id="toc-equivalence-relations"
+                >Equivalence Relations</a
+              >
+            </li>
+            <li>
+              <a href="#connectedness" id="toc-connectedness">Connectedness</a>
+            </li>
+            <li>
+              <a href="#eulerian-circuits" id="toc-eulerian-circuits"
+                >Eulerian Circuits</a
+              >
+            </li>
+            <li><a href="#bridges" id="toc-bridges">Bridges</a></li>
+            <li>
+              <a href="#proof-strategies" id="toc-proof-strategies"
+                >Proof strategies</a
+              >
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#chapter-6-trees" id="toc-chapter-6-trees"
+            >Chapter 6: Trees</a
+          >
+          <ul>
+            <li>
+              <a href="#properties-of-trees" id="toc-properties-of-trees"
+                >Properties of Trees</a
+              >
+            </li>
+            <li>
+              <a href="#spanning-trees" id="toc-spanning-trees"
+                >Spanning Trees</a
+              >
+            </li>
+            <li>
+              <a
+                href="#characterizing-bipartite-graphs"
+                id="toc-characterizing-bipartite-graphs"
+                >Characterizing Bipartite Graphs</a
+              >
+            </li>
+            <li>
+              <a href="#breadth-first-search" id="toc-breadth-first-search"
+                >Breadth-First Search</a
+              >
+            </li>
+            <li>
+              <a href="#applications-of-bfs" id="toc-applications-of-bfs"
+                >Applications of BFS</a
+              >
+              <ul>
+                <li>
+                  <a
+                    href="#minimum-spanning-tree"
+                    id="toc-minimum-spanning-tree"
+                    >Minimum Spanning Tree</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#proof-strategies-1" id="toc-proof-strategies-1"
+                >Proof Strategies</a
+              >
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#chapter-7-planar-graphs" id="toc-chapter-7-planar-graphs"
+            >Chapter 7: Planar Graphs</a
+          >
+          <ul>
+            <li><a href="#planarity" id="toc-planarity">Planarity</a></li>
+            <li>
+              <a href="#eulers-formula" id="toc-eulers-formula"
+                >Euler’s Formula</a
+              >
+            </li>
+            <li>
+              <a
+                href="#stereographic-projection"
+                id="toc-stereographic-projection"
+                >Stereographic Projection</a
+              >
+            </li>
+            <li>
+              <a href="#platonic-solids" id="toc-platonic-solids"
+                >Platonic Solids</a
+              >
+            </li>
+            <li>
+              <a href="#nonplanar-graphs" id="toc-nonplanar-graphs"
+                >Nonplanar Graphs</a
+              >
+            </li>
+            <li>
+              <a href="#kuratowskis-theorem" id="toc-kuratowskis-theorem"
+                >Kuratowski’s Theorem</a
+              >
+            </li>
+            <li>
+              <a
+                href="#coloring-and-planar-graphs"
+                id="toc-coloring-and-planar-graphs"
+                >Coloring and Planar Graphs</a
+              >
+            </li>
+            <li>
+              <a href="#dual-planar-maps" id="toc-dual-planar-maps"
+                >Dual Planar Maps</a
+              >
+            </li>
+            <li>
+              <a href="#proof-strategies-2" id="toc-proof-strategies-2"
+                >Proof Strategies</a
+              >
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#chapter-8-matchings" id="toc-chapter-8-matchings"
+            >Chapter 8: Matchings</a
+          >
+          <ul>
+            <li>
+              <a href="#matching" id="toc-matching">Matching</a>
+              <ul>
+                <li><a href="#paths" id="toc-paths">Paths</a></li>
+              </ul>
+            </li>
+            <li><a href="#covers" id="toc-covers">Covers</a></li>
+            <li>
+              <a href="#königs-theorem" id="toc-königs-theorem"
+                >König’s Theorem</a
+              >
+              <ul>
+                <li>
+                  <a
+                    href="#algorithm-for-maximum-matching-in-bipartite-graphs"
+                    id="toc-algorithm-for-maximum-matching-in-bipartite-graphs"
+                    >Algorithm for maximum matching in bipartite graphs</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a
+                href="#applications-of-königs-theorem"
+                id="toc-applications-of-königs-theorem"
+                >Applications of König’s Theorem</a
+              >
+            </li>
+            <li>
+              <a
+                href="#systems-of-distinct-representatives"
+                id="toc-systems-of-distinct-representatives"
+                >Systems of Distinct Representatives</a
+              >
+            </li>
+            <li>
+              <a
+                href="#perfect-matchings-in-bipartite-graphs"
+                id="toc-perfect-matchings-in-bipartite-graphs"
+                >Perfect Matchings in Bipartite Graphs</a
+              >
+            </li>
+            <li>
+              <a href="#edge-coloring" id="toc-edge-coloring">Edge-coloring</a>
+            </li>
+            <li>
+              <a href="#proof-strategies-3" id="toc-proof-strategies-3"
+                >Proof Strategies</a
+              >
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <h1 id="chapter-1-basic-principles">Chapter 1: Basic Principles</h1>
+    <ul>
+      <li>
+        Cartesian product:
+        <span class="math inline"
+          >\(A \times B = \set{(a, b) \mid a \in A \land b \in B}\)</span
+        >
+        <ul>
+          <li>This generalizes to <span class="math inline">\(A^k\)</span></li>
+          <li>
+            <span class="math inline">\(A^0\)</span> is the set containing the
+            empty string <span class="math inline">\(\set{\varepsilon}\)</span>
+          </li>
+        </ul>
+      </li>
+      <li>
+        Size of cartesian product:
+        <span class="math inline">\(| A \times B| = |A| \times |B|\)</span>
+      </li>
+      <li>
+        Size of union:
+        <span class="math inline">\(|A \cup B| = |A| + |B| - |A \cap B|\)</span>
+        <ul>
+          <li>
+            Disjoint union:
+            <span class="math inline">\(|A \cup B| = |A| + |B|\)</span>
+          </li>
+          <li>
+            Inclusion exclusion (multiple unions): Subtract intersections of an
+            even number of sets, add intersections of intersections of an odd
+            number of sets.
+          </li>
+          <li>
+            <span class="math inline"
+              >\(|A_1 \cup \dots \cup A_m| = \displaystyle \left|
+              \bigcup_{i=1}^{m} A_i \right| = \displaystyle \sum_{\emptyset \ne
+              S \subseteq \set{1, 2, \dots m}} (-1)^{|S|-1}|A_S|\)</span
+            >
+          </li>
+        </ul>
+      </li>
+      <li>
+        There are <span class="math inline">\(n!\)</span> lists of an
+        <span class="math inline">\(n\)</span>-element set
+      </li>
+      <li>
+        There are <span class="math inline">\(2^n\)</span> subsets of an
+        n-element set
+      </li>
+      <li>
+        There are
+        <span class="math inline"
+          >\(\displaystyle {n \choose k} = \frac{n!}{k!(n-k)!}\)</span
+        >
+        <span class="math inline">\(k\)</span>-element subsets of
+        <span class="math inline">\(n\)</span> elements &gt; [!Binomial Theorem]
+        &gt;
+        <span class="math inline"
+          >\(\displaystyle {n \choose 0} + {n \choose 1} + \dots + {n \choose n}
+          = \sum_{x = 0}^{n} {n \choose x} = 2^n\)</span
+        >
+        &gt; Motivation: this is the number of ways to count 0-element subsets +
+        1 element subsets + … + n-element subsets, so it is the same as counting
+        all the subsets
+      </li>
+      <li>
+        <span class="math inline"
+          >\(\displaystyle {n \choose k} = {n \choose n-k}\)</span
+        >, since we choose the <span class="math inline">\(n\)</span> items
+        <em>not to pick</em>
+      </li>
+      <li>
+        Pascal’s Identity:
+        <span class="math inline"
+          >\(\displaystyle {n \choose k} = {n \choose k-1} + {n-1 \choose
+          k-1}\)</span
+        >
+        &gt; [!Multisets] &gt; For any
+        <span class="math inline">\(n \geq 0\)</span> and
+        <span class="math inline">\(t \geq 1\)</span>, there are
+        <span class="math inline"
+          >\(\displaystyle {n + t - 1 \choose t-1}\)</span
+        >
+        <span class="math inline">\(n\)</span>-element <em>multisets</em> with
+        <span class="math inline">\(t\)</span> types
+      </li>
+      <li>
+        Bijections (we assume
+        <span class="math inline"
+          >\(f : \mathcal{A} \rightarrow \mathcal{B}\)</span
+        >, <span class="math inline">\(a, a&#39; \in \mathcal{A}\)</span> and
+        <span class="math inline">\(b \in \mathcal{B}\)</span>)
+        <ul>
+          <li>
+            Surjective: for every <span class="math inline">\(b\)</span> there
+            exists an <span class="math inline">\(a\)</span> such that
+            <span class="math inline">\(f(a) = b\)</span>
+          </li>
+          <li>
+            Injective: If <span class="math inline">\(f(a) = f(a&#39;)\)</span>,
+            then we must have <span class="math inline">\(a = a&#39;\)</span>
+          </li>
+          <li>
+            Bijective: <span class="math inline">\(f\)</span> is both injective
+            and surjective (then
+            <span class="math inline"
+              >\(\mathcal{A} \leftrightarrow \mathcal{B}\)</span
+            >)
+          </li>
+          <li>
+            Mutually inverse bijection:
+            <span class="math inline"
+              >\(f^{-1} : \mathcal{B} \rightarrow \mathcal{A}\)</span
+            >
+          </li>
+        </ul>
+      </li>
+      <li>
+        Bijective proof: show two sets have the same size by establishing a
+        bijection between them
+        <ul>
+          <li>
+            Provide the function that maps one set to the other and its inverse
+            (define <span class="math inline">\(f\)</span> and
+            <span class="math inline">\(f^{-1}\)</span>)
+          </li>
+          <li>
+            (Possibly) prove that
+            <span class="math inline">\(f(f^{-1}(x)) = f^{-1}(f(x)) = x\)</span>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <h2 id="question-strategies">Question strategies</h2>
+    <ul>
+      <li>
+        Figure out exactly what each side of the equation counts (choose -&gt;
+        selecting subsets, <span class="math inline">\(2^x\)</span> -&gt; all
+        possible subsets, multiplication -&gt; and then, addition -&gt; or,
+        etc.), then think of a way to make one side count the set of the other
+        (<strong>combinatorial proof</strong>)
+        <ul>
+          <li>
+            For one thing <em>and</em> another thing (possibly more): use a pair
+            or set (ex. <span class="math inline">\((n, A)\)</span> where
+            <span class="math inline">\(n \in \mathbb{N}\)</span> and
+            <span class="math inline">\(A\)</span> is in some set)
+          </li>
+          <li>
+            Accounting for order overlaps: declare that a sequence is sorted in
+            order
+          </li>
+        </ul>
+      </li>
+      <li>
+        <strong>Bijective proofs</strong>
+        <ul>
+          <li>
+            Write out everything and try to find a pattern that turns items in
+            one set to another
+          </li>
+          <li>Then write function that links the sets</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Indicator vector</strong>: bijection between subsets of a set of
+        size <span class="math inline">\(n\)</span> and the binary strings of
+        length <span class="math inline">\(n\)</span>: each digit in the string
+        is 1 if the corresponding element is in the subset and 0 otherwise
+        <ul>
+          <li>
+            Indicator vectors that sum to
+            <span class="math inline">\(k\)</span> ⟷ subsets of size
+            <span class="math inline">\(k\)</span>
+          </li>
+        </ul>
+      </li>
+      <li>
+        Establish that a union is disjoint before counting or compensate for the
+        overlap
+      </li>
+    </ul>
+    <h1 id="chapter-2-generating-series">Chapter 2: Generating Series</h1>
+    <h2 id="useful-series">Useful Series</h2>
+    <blockquote>
+      <p>
+        [!Definition] Geometric Series
+        <span class="math inline"
+          >\(\displaystyle \frac{1}{1-x} = \sum_{n=0}^{\infty} x^n = 1 + x + x^2
+          + x^3 + \dots\)</span
+        >
+      </p>
+    </blockquote>
+    <blockquote>
+      <p>
+        [!Definition] Binomial Series
+        <span class="math inline"
+          >\(\displaystyle (1+x)^n = \sum_{k=0}^{n} {n \choose k} x^k\)</span
+        >
+        - Generating series for the number of subsets of a set of size
+        <span class="math inline">\(n\)</span>
+      </p>
+    </blockquote>
+    <blockquote>
+      <p>
+        [!Definition] Negative binomial series
+        <span class="math inline"
+          >\(\displaystyle \frac{1}{(1+x)^t} = \sum_{n=0}^{\infty} {n+t-1
+          \choose t-1} x^n\)</span
+        >
+        - I.e. the binomial series with a negative integer exponent - Generating
+        series for the number of multisets with
+        <span class="math inline">\(t \geq 1\)</span> types of elements
+        (regardless of size)
+      </p>
+    </blockquote>
+    <h2 id="generating-series">Generating Series</h2>
+    <ul>
+      <li>
+        <strong>Weight function</strong>: Function
+        <span class="math inline"
+          >\(\omega : \mathcal{A} \rightarrow \mathbb{N}\)</span
+        >
+        that encodes the “weight” of each element in the set
+        <span class="math inline">\(\mathcal{A}\)</span> as a natural number
+        <ul>
+          <li>
+            There cannot be infinite items of a given weight in a set
+            (i.e. <span class="math inline">\(\mathcal{A}\)</span> is countable
+            infinite)
+          </li>
+        </ul>
+      </li>
+      <li>
+        <strong>Generating series</strong> encode an ordered sequences of
+        numbers as the coefficients of a power series
+        <ul>
+          <li>
+            Ex.
+            <span class="math inline"
+              >\(G(x) = g_0 + g_1 x + g_2 x^2 + \dots = \displaystyle
+              \sum_{n=0}^{\infty} g_n x^n\)</span
+            >
+          </li>
+        </ul>
+      </li>
+      <li>
+        <strong>Generating series of a set</strong>: encodes the number of
+        elements of a given weight (with respect to
+        <span class="math inline">\(\omega\)</span>) in the set:
+        <span class="math inline"
+          >\(\displaystyle A(x) = \phi^{\omega}_{\mathcal{A}}(x) = \sum_{\alpha
+          \in \mathcal{A}} x^{\omega(\alpha)}\)</span
+        >
+        <ul>
+          <li>
+            I.e.
+            <span class="math inline"
+              >\(\phi_{\mathcal{A}}(x) = a_0 + a_1 x + a_2 x^2 + \dots =
+              \displaystyle \sum_{n=0}^{\infty} a_n x^n\)</span
+            >
+            where <span class="math inline">\(a_n = |\mathcal{A}_n|\)</span>
+          </li>
+          <li>
+            We also say
+            <span class="math inline">\([x^k]\mathcal{A}(x) = a_k\)</span>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <h2 id="generating-series-lemmas">Generating Series Lemmas</h2>
+    <blockquote>
+      <p>
+        [!Lemma] Sum Lemma Let <span class="math inline">\(A\)</span> and
+        <span class="math inline">\(B\)</span> be disjoint sets with weight
+        function <span class="math inline">\(\omega\)</span>. Then we have
+        <span class="math inline"
+          >\(\phi_{A \cup B}(x) = \phi_{A}(x) + \phi_{B}(x)\)</span
+        >
+        - I.e. We can add generating series together to get the generating
+        series of the disjoint union of the sets in question - This works on any
+        number of (possibly infinitely many) mutually disjoint sets (Infinite
+        Sum Lemma)
+      </p>
+    </blockquote>
+    <blockquote>
+      <p>
+        [!Lemma] Product Lemma Let <span class="math inline">\(A\)</span> and
+        <span class="math inline">\(B\)</span> be sets with the weight functions
+        <span class="math inline">\(\omega\)</span> and
+        <span class="math inline">\(\upsilon\)</span> repectively. Define the
+        weight function
+        <span class="math inline"
+          >\(\eta : A \times B \rightarrow \mathbb{N}\)</span
+        >
+        as
+        <span class="math inline"
+          >\(\eta(a, b) = \omega(a) + \upsilon(b)\)</span
+        >
+        for all <span class="math inline">\((a, b) \in A \times B\)</span>. Then
+        - <span class="math inline">\(\eta\)</span> is the weight function for
+        <span class="math inline">\(A \times B\)</span> -
+        <span class="math inline"
+          >\(\phi^{\eta}_{A \times B}(x) = \phi^{\omega}_A (x) \times
+          \phi^{\upsilon}_B (x)\)</span
+        >
+        - I.e. we can multiply generating series together - This also shows that
+        a series can be raised to a power:
+        <span class="math inline">\(\phi_{A^k}(x) = (\phi_{A}(x))^k\)</span> -
+        Multiplication of generating series:
+        <span class="math inline"
+          >\(\displaystyle \left( \sum_{n=0}^{\infty} c_n x^n \right) \left(
+          \sum_{n=0}^{\infty} d_n x^n \right) = \sum_{n=0}^{\infty}
+          \sum_{k=0}^{n} c_k d_{n-k} x^n\)</span
+        >
+        - This also works with the cartesian product of any number of sets
+      </p>
+    </blockquote>
+    <blockquote>
+      <p>
+        [!Lemma] String Lemma Let <span class="math inline">\(A\)</span> be a
+        set with a weight function
+        <span class="math inline">\(\omega : A \rightarrow \mathbb{N}\)</span>
+        where no element has weight 0. Then
+        <span class="math inline"
+          >\(\displaystyle \phi_{A^*}(x) = \frac{1}{1-\phi_{A}(x)}\)</span
+        >
+        where
+        <span class="math inline"
+          >\(A^* = \displaystyle \bigcup^{\infty}_{k=0}A^k\)</span
+        >
+        (set of all cartiesian products of
+        <span class="math inline">\(A\)</span>) - The weight function
+        <span class="math inline">\(\omega^*\)</span> for
+        <span class="math inline">\(A^*\)</span> is
+        <span class="math inline"
+          >\(\omega^* = \omega(a_1) + \omega(a_2) + \dots\)</span
+        >
+        (i.e. the sum of the weights of the elements in each tuple)
+      </p>
+    </blockquote>
+    <h2 id="compositions">Compositions</h2>
+    <ul>
+      <li>
+        <strong>Composition</strong>: finite sequence of strictly positive
+        integers
+        <span class="math inline">\(\gamma = (c_1, c_2, \dots, c_k)\)</span>
+        <ul>
+          <li>
+            Here, <span class="math inline">\(k \in \mathbb{N}\)</span> and each
+            <span class="math inline">\(c_i \geq 1 \in \mathbb{Z}\)</span>
+          </li>
+          <li>
+            The size (weight) <span class="math inline">\(|\gamma |\)</span> of
+            a composition is the sum of its parts
+          </li>
+        </ul>
+      </li>
+      <li>
+        Set of all compositions:
+        <span class="math inline"
+          >\(\mathcal{C} = \displaystyle \bigcup^{\infty}_{k=0} \set{1, 2,
+          \dots}^k = \set{1, 2, \dots}^* = \bigcup_{k=0}^{\infty}
+          \mathbb{N}_+^k\)</span
+        >
+      </li>
+      <li>
+        Generating series with respect to size:
+        <span class="math inline"
+          >\(\displaystyle \phi_{\mathcal{C}}(x) = 1 + \frac{x}{1-2x}\)</span
+        >
+        (found from string lemma)
+      </li>
+      <li>
+        For <span class="math inline">\(n \in \mathbb{N}\)</span>, the number of
+        compositions of size <span class="math inline">\(n\)</span> (<span
+          class="math inline"
+          >\([x^n]\phi_{\mathcal{C}}(x)\)</span
+        >) is 1 for <span class="math inline">\(n = 0\)</span> and
+        <span class="math inline">\(2^{n-1}\)</span> otherwise
+        <ul>
+          <li>
+            There are
+            <span class="math inline"
+              >\(\displaystyle {{n-1} \choose {k-1}}\)</span
+            >
+            compositions of size <span class="math inline">\(n\)</span> with
+            length <span class="math inline">\(k\)</span> &gt; [!proposition]
+            Proposition 2.23 &gt; There is a bijection betwen
+            <span class="math inline"
+              >\(\mathcal{C} \setminus \set{\varepsilon}\)</span
+            >
+            the set of paris <span class="math inline">\((n, A)\)</span> where
+            <span class="math inline">\(n \in \mathbb{N}\)</span> and
+            <span class="math inline">\(A \subseteq \set{1, 2, \dots n}\)</span>
+          </li>
+        </ul>
+      </li>
+      <li>
+        Bijection (rough): Sort <span class="math inline">\(A\)</span>. The gaps
+        between each element in
+        <span class="math inline">\(A\)</span> correspond to the elements in the
+        composition. The length of the corresponding composition is
+        <span class="math inline">\(|A| + 1\)</span>
+      </li>
+    </ul>
+    <h2 id="question-strategies-1">Question Strategies</h2>
+    <ul>
+      <li>
+        Find the generating series of the set of compositions with simple
+        constraints
+        <ul>
+          <li>
+            Determine the generating series of a single part and/or set of
+            allowed parts (call it <span class="math inline">\(\phi(x)\)</span>)
+          </li>
+          <li>
+            Describe the set of possible generating series, likely using an
+            infinite union to account for all sizes
+          </li>
+          <li>
+            By product lemma, the generating series for the set of compositions
+            of length <span class="math inline">\(k\)</span> is
+            <span class="math inline">\((\phi(x))^k\)</span>
+            <ul>
+              <li>
+                Constraints on length -&gt; build into exponent (ex. odd length
+                -&gt; <span class="math inline">\(\phi(x)^{2j+1}\)</span>)
+              </li>
+            </ul>
+          </li>
+          <li>
+            By string lemma, whole generating series is
+            <span class="math inline"
+              >\(\displaystyle \sum_{k=0}^{\infty} (\phi (x))^k =
+              \frac{1}{1-\phi(x)}\)</span
+            >
+            (solve using algebra)
+          </li>
+        </ul>
+      </li>
+      <li>
+        Multiple types of parts at different spots (i.e. first item is even,
+        each item is equal to the parity of its index, etc.)
+        <ul>
+          <li>Figure out the generating series for each part</li>
+          <li>
+            Figure out how to write the set of all compositions using a
+            cartesian product of the sets of possible items at each index, since
+            the whole composition is just the cartesian product of these. Cases
+            may be required (ex. odd vs. even length)
+            <ul>
+              <li>
+                Cases: take the union of the sets, which becomes adding the
+                power series together
+              </li>
+            </ul>
+          </li>
+          <li>
+            Use the sum, product, and possibly string lemmas to translate the
+            set definition into a generating series based on the generating
+            series for each part
+          </li>
+        </ul>
+      </li>
+      <li>
+        Subset with restriction (i.e. how many subsets of
+        <span class="math inline">\(\mathbb{N}\)</span> have a given property)
+        <ul>
+          <li>
+            Use proposition 2.23: figure out which property the corresponding
+            composition must have and count that
+          </li>
+        </ul>
+      </li>
+      <li>
+        Finding <span class="math inline">\([x^n]\)</span> of nested series:
+        figure out the all the possible combinations of indices of the two
+        series that add to <span class="math inline">\(n\)</span> and add their
+        coefficients
+      </li>
+    </ul>
+    <h1 id="chapter-3-binary-strings">Chapter 3: Binary Strings</h1>
+    <ul>
+      <li>
+        <strong>Binary string</strong>: finite sequence
+        <span class="math inline">\(\sigma = b_1 b_2 \dots b_n\)</span> where
+        each bit <span class="math inline">\(b_i\)</span> is either 0 or 1
+        <ul>
+          <li>
+            So, a string of length <span class="math inline">\(n\)</span> is a
+            member of the set <span class="math inline">\(\set{0, 1}^n\)</span>,
+            and the set of all binary strings is
+            <span class="math inline"
+              >\(\set{0, 1}^* = \displaystyle \bigcup_{n=0}^{\infty} \set{0,
+              1}^n\)</span
+            >
+          </li>
+        </ul>
+      </li>
+      <li>
+        There are <span class="math inline">\(2^n\)</span> binary strings of
+        length <span class="math inline">\(n\)</span>, so the generating series
+        is <span class="math inline">\(\displaystyle \frac{1}{1-2x}\)</span>
+      </li>
+    </ul>
+    <h2 id="regular-expressions-and-rational-languages">
+      Regular Expressions and Rational Languages
+    </h2>
+    <blockquote>
+      <p>
+        [!Definition] Regular Expression A
+        <strong>regular expression</strong> is one of the following: -
+        <span class="math inline">\(\varepsilon\)</span>,
+        <span class="math inline">\(0\)</span>, or
+        <span class="math inline">\(1\)</span> - “Union”: If
+        <span class="math inline">\(\mathsf{R}\)</span> and
+        <span class="math inline">\(\mathsf{S}\)</span> are regular expressions,
+        then <span class="math inline">\(\mathsf{R} \smile \mathsf{S}\)</span> -
+        Concatenation: If <span class="math inline">\(\mathsf{R}\)</span> and
+        <span class="math inline">\(\mathsf{S}\)</span> are regular expressions,
+        then <span class="math inline">\(\mathsf{R}\mathsf{S}\)</span> - We can
+        also have <span class="math inline">\(\mathsf{R}^k\)</span>, i.e. <span
+          class="math inline"
+          >\(\mathsf{R}^2 = \mathsf{R}\mathsf{R}\)</span
+        >, etc - Concatenation product: like cartesian product, except that a
+        string may be produced more than once, so we may have
+        <span class="math inline"
+          >\(|\mathcal{R}\mathcal{S}| \leq |{\mathcal{R} \times
+          \mathcal{S}}|\)</span
+        >
+        - If <span class="math inline">\(\mathsf{R}\)</span> is a regular
+        expression, then so is
+        <span class="math inline">\(\mathsf{R}^*\)</span> - Each regular
+        expression <span class="math inline">\(\mathsf{R}\)</span> will
+        <em>produce</em> a subset of the set of all binary strings
+        <span class="math inline">\(\mathcal{R} \subseteq \set{0, 1}^*\)</span>
+        called a <strong>rational language</strong> - A regular expression will
+        <em>lead</em> to a rational function
+        <span class="math inline">\(R(x)\)</span> - Sometimes,
+        <span class="math inline">\(R(x)\)</span> is the generating series for
+        <span class="math inline">\(\mathcal{R}\)</span> with respect to length
+        - Production of rational languages from regular expressions
+        <span class="math inline">\(\mathcal{R} \subseteq \set{0, 1}^*\)</span>
+        - <span class="math inline">\(\varepsilon\)</span> produces
+        <span class="math inline">\(\set{\varepsilon}\)</span>,
+        <span class="math inline">\(0\)</span> produces
+        <span class="math inline">\(\set{0}\)</span> and
+        <span class="math inline">\(1\)</span> produces
+        <span class="math inline">\(\set{1}\)</span> -
+        <span class="math inline">\(\mathsf{R} \smile \mathsf{S}\)</span>
+        produces
+        <span class="math inline">\(\mathcal{R} \cup \mathcal{S}\)</span> - This
+        union is not necessarily disjoint -
+        <span class="math inline">\(\mathsf{R} \mathsf{S}\)</span> produces
+        <span class="math inline">\(\mathcal{R}\mathcal{S}\)</span>
+        (concatenation product (for longer strings)) -
+        <span class="math inline">\(\mathsf{R}^*\)</span> produces
+        <span class="math inline"
+          >\(\mathcal{R}^* = \displaystyle \bigcup_{k=0}^{\infty}
+          \mathcal{R}^k\)</span
+        >, where <span class="math inline">\(\mathcal{R}^k\)</span> is the
+        concatenation product of <span class="math inline">\(k\)</span> copies
+        of <span class="math inline">\(\mathcal{R}\)</span> - Ex.
+        <span class="math inline">\((01)^*\)</span> produces
+        <span class="math inline"
+          >\(\set{\varepsilon, 01, 0101, 010101, \dots}\)</span
+        >
+      </p>
+    </blockquote>
+    <h2 id="unambiguous-expressions">Unambiguous Expressions</h2>
+    <ul>
+      <li>
+        A regular expression <span class="math inline">\(\mathsf{R}\)</span> is
+        <strong>unambiguous</strong> iff every string in
+        <span class="math inline">\(\mathcal{R}\)</span> is produced exactly
+        once by
+        <span class="math inline">\(\mathsf{R}\)</span>
+        <ul>
+          <li>
+            <span class="math inline">\(\varepsilon\)</span>,
+            <span class="math inline">\(0\)</span>, and
+            <span class="math inline">\(1\)</span> are unambiguous
+          </li>
+          <li>
+            <span class="math inline">\(\mathsf{R} \smile \mathsf{S}\)</span> is
+            unambiguous <span class="math inline">\(\iff\)</span>
+            <span class="math inline">\(\mathcal{R} \cup \mathcal{S}\)</span> is
+            a disjoint union
+          </li>
+          <li>
+            <span class="math inline">\(\mathsf{R}\mathsf{S}\)</span> is
+            unambiguous <span class="math inline">\(\iff\)</span>
+            <span class="math inline"
+              >\(|\mathcal{R}\mathcal{S}| = |\mathcal{R} \times
+              \mathcal{S}|\)</span
+            >
+            (i.e. no strings are produced more than once)
+          </li>
+          <li>
+            <span class="math inline">\(\mathsf{R}^*\)</span> is unambiguous
+            <span class="math inline">\(\iff\)</span> all
+            <span class="math inline">\(\mathsf{R}^k\)</span> are unambiguous
+            and
+            <span class="math inline"
+              >\(\displaystyle \bigcup_{k=0}^{\infty} \mathcal{R}^k\)</span
+            >
+            is disjoint
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <h2 id="getting-generating-series">Getting Generating Series</h2>
+    <blockquote>
+      <p>
+        [!Definition] Getting Generating Series from Regular Expressions Let
+        regular expressions <span class="math inline">\(\mathsf{R}\)</span> and
+        <span class="math inline">\(\mathsf{S}\)</span> have rational functions
+        <span class="math inline">\(R(x)\)</span> and
+        <span class="math inline">\(S(x)\)</span> -
+        <span class="math inline">\(\varepsilon\)</span> leads to
+        <span class="math inline">\(1\)</span> -
+        <span class="math inline">\(0\)</span> and
+        <span class="math inline">\(1\)</span> both lead to
+        <span class="math inline">\(x\)</span> -
+        <span class="math inline">\(\mathsf{R} \smile \mathsf{S}\)</span> leads
+        to <span class="math inline">\(R(x) + S(x)\)</span> -
+        <span class="math inline">\(\mathsf{R}\mathsf{S}\)</span> leads to
+        <span class="math inline">\(R(x)S(x)\)</span> -
+        <span class="math inline">\(\mathsf{R}^*\)</span> leads to
+        <span class="math inline">\(\displaystyle \frac{1}{1-R(x)}\)</span> -
+        Expressions must be unambiguous for this to work
+      </p>
+    </blockquote>
+    <h2 id="decompositions">Decompositions</h2>
+    <ul>
+      <li>
+        <strong>Block</strong>: maximal nonempty subsequence of consecutive
+        equal bits
+      </li>
+      <li>
+        <span class="math inline">\(0^* (1^* 10^* 0)^* 1^*\)</span> and
+        <span class="math inline">\(1^* (0^* 01^* 1)^* 0^*\)</span> build up
+        each string in <span class="math inline">\(\set{0, 1}^n\)</span> block
+        by block (both are unambiguous)
+      </li>
+      <li>
+        <strong>Prefix decomposition</strong>: rational expression
+        <span class="math inline">\(\mathsf{A}^*\mathsf{B}\)</span> where the
+        string is formed of segments created by
+        <span class="math inline">\(\mathsf{A}\)</span>, with a possible
+        terminal segment <span class="math inline">\(\mathsf{B}\)</span>
+        <ul>
+          <li>
+            Usually unambiguous <span class="math inline">\(\iff\)</span> only
+            one way for string to begin with a segment of
+            <span class="math inline">\(\mathsf{A}\)</span>
+            <span class="math inline">\(\land\)</span> string is produced by
+            <span class="math inline">\(\mathsf{B}\)</span> if does not begin
+            with a segment of <span class="math inline">\(\mathsf{A}\)</span>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <h2 id="recursive-decompositions">Recursive Decompositions</h2>
+    <ul>
+      <li>
+        Happens when a regular expression is defined in terms of itself (ex.
+        <span class="math inline"
+          >\(\mathsf{S} = \varepsilon \smile (0 \smile 1)\mathsf{S}\)</span
+        >)
+        <ul>
+          <li>
+            So, <span class="math inline">\(S(x)\)</span> is defined in terms of
+            <span class="math inline">\(S(x)\)</span> (ex.
+            <span class="math inline">\(S(x) = 1 + (x + x)S(x)\)</span>)
+          </li>
+          <li>We can solve using algebra to find a non-recursive definition</li>
+        </ul>
+      </li>
+    </ul>
+    <h2 id="excluded-substrings">Excluded substrings</h2>
+    <ul>
+      <li>
+        <span class="math inline">\(\sigma\)</span> <strong>contains</strong>
+        <span class="math inline">\(\kappa \iff\)</span> there exist
+        <span class="math inline">\(\alpha, \beta\)</span> such that
+        <span class="math inline">\(\sigma = \alpha \kappa \beta\)</span>
+        <ul>
+          <li>
+            Otherwise, <span class="math inline">\(\sigma\)</span>
+            <em>avoids</em> <span class="math inline">\(\kappa\)</span>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <blockquote>
+      <p>
+        [!Theorem] Excluded Substrings Let
+        <span class="math inline">\(\kappa\)</span> be a binary string of length
+        <span class="math inline">\(n\)</span>, and let
+        <span class="math inline">\(A_\kappa\)</span> be the set of binary
+        strings that avoid <span class="math inline">\(\kappa\)</span>. Let
+        <span class="math inline">\(\mathcal{C}\)</span> be the set of nonempty
+        suffixes <span class="math inline">\(\gamma\)</span> of
+        <span class="math inline">\(\kappa\)</span> such that
+        <span class="math inline">\(\kappa \gamma = \eta \kappa\)</span> for
+        some nonempty prefix <span class="math inline">\(\eta\)</span> of
+        <span class="math inline">\(\kappa\)</span>. Let
+        <span class="math inline">\(C(x)\)</span> =
+        <span class="math inline"
+          >\(\displaystyle \sum_{\gamma \in \mathcal{C}} x^{\ell
+          (\gamma)}\)</span
+        >. Then
+        <span class="math inline"
+          >\(A_\kappa (x) = \displaystyle \frac{1 + C(x)}{(1-2x)(1+ C(x)) +
+          x^n}\)</span
+        >
+        - Essentially, <span class="math inline">\(\gamma\)</span> are all the
+        ways that <span class="math inline">\(\kappa\)</span> can overlap with
+        itself (i.e. last <span class="math inline">\(n\)</span> characters are
+        the same as the first <span class="math inline">\(n\)</span> characters)
+        - We can use a table to find <span class="math inline">\(\gamma\)</span>
+      </p>
+    </blockquote>
+    <h2 id="question-strategies-2">Question Strategies</h2>
+    <ul>
+      <li>
+        Add a <span class="math inline">\(\varepsilon\)</span> somewhere in a
+        regular expression to account for the fact that it may be the empty
+        string if performing a block decomposition
+      </li>
+    </ul>
+    <h1 id="chapter-4-recurrence-relations">Chapter 4: Recurrence Relations</h1>
+    <h2 id="fibonacci-numbers">Fibonacci Numbers</h2>
+    <ul>
+      <li>
+        Definition:
+        <span class="math inline"
+          >\(f_0 = 1, f_1 = 1, f_n = f_{n-1} + f_{n-2}\)</span
+        >
+        for <span class="math inline">\(n \geq 2\)</span>
+      </li>
+      <li>
+        Solving generating series:
+        <span class="math inline">\(\displaystyle F(x)\)</span>
+        <span class="math inline">\(=\)</span>
+        <span class="math inline"
+          >\(\displaystyle f_0 + f_1x + \sum_{n=2}^{\infty} f_n x^n\)</span
+        >
+        <span class="math inline">\(=\)</span>
+        <span class="math inline"
+          >\(\displaystyle 1 + x + \sum_{n=2}^{\infty} (f_{n-1} + f_{n-2})
+          x^n\)</span
+        >
+        <span class="math inline">\(=\)</span>
+        <span class="math inline"
+          >\(\displaystyle 1 + x + \sum_{n=2}^{\infty} f_{n-1} x^n +
+          \sum_{n=2}^{\infty} f_{n-2}x^n\)</span
+        >
+        <span class="math inline">\(=\)</span>
+        <span class="math inline">\(1+x+x(F(x) - f_0) + x^2 F(x)\)</span>
+        <span class="math inline">\(=\)</span>
+        <span class="math inline">\(1 + xF(x) + x^2 F(x)\)</span>
+        <span class="math inline">\(\implies\)</span>
+        <span class="math inline"
+          >\(F(x) \displaystyle \frac{1}{1-x-x^2}\)</span
+        >
+      </li>
+      <li>
+        We can use inverse roots and some algebra to find that
+        <span class="math inline"
+          >\(f_n \approx \displaystyle \frac{5 + \sqrt{5}}{10} \left( \frac{1 +
+          \sqrt{5}}{2} \right)^n\)</span
+        >
+        (<span class="math inline">\(f_n\)</span> is the closest integer to this
+        expression)
+      </li>
+    </ul>
+    <h2 id="homogenous-linear-recurrence-relations">
+      Homogenous Linear Recurrence Relations
+    </h2>
+    <blockquote>
+      <p>
+        [!Definition] Homogenous Linear Recurrence Relation Let
+        <span class="math inline">\(g = (g_0, g_1, \dots)\)</span> be an
+        infinite sequence of complex numbers and let
+        <span class="math inline">\(a_1, a_2 \dots a_d\)</span> be in
+        <span class="math inline">\(\mathbb{C}\)</span>. Let
+        <span class="math inline">\(N \in \mathbb{Z} \geq d\)</span>. Then,
+        <span class="math inline">\(g\)</span> satisfies a HLRR if
+        <span class="math inline"
+          >\(g_n + a_1 g_{n-1} + a_2 g_{n-2} + \dots + a_d g_{n-d} = 0\)</span
+        >, i.e. <span class="math inline"
+          >\(g_n = -(a_1 g_{n-1} + \dots + a_d g_{n-d})\)</span
+        >
+      </p>
+    </blockquote>
+    <h2 id="generating-series-for-relations">
+      Generating series for relations
+    </h2>
+    <ul>
+      <li>
+        For the HLRR
+        <span class="math inline"
+          >\(g_n + a_1 g_{n-1} + a_2 g_{n-2} + \dots + a_d g_{n-d} = 0\)</span
+        >, we have
+        <span class="math inline"
+          >\(\displaystyle \sum_{k = n}^{\infty} (g_n + a_1 g_{n-1} + a_2
+          g_{n-2} + \dots + a_d g_{n-d})x^k = 0\)</span
+        >
+        <ul>
+          <li>
+            Split this into <span class="math inline">\(d\)</span> different
+            summations
+          </li>
+          <li>
+            Pull the coefficients
+            <span class="math inline">\(a_1 \dots a_d\)</span> in front of the
+            series
+          </li>
+          <li>
+            Write each summation in terms of the whole power series
+            <span class="math inline">\(G(x)\)</span> (recursive)
+          </li>
+          <li>
+            Derive <span class="math inline">\(G(x)\)</span> using algebra
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <blockquote>
+      <p>
+        [!Theorem] Theorem 4.8 Let
+        <span class="math inline">\(g = (g_0, g_1, g_2, \dots)\)</span> be a
+        sequence of complex numbers with generating series
+        <span class="math inline">\(G(x)\)</span>. Then 1.
+        <span class="math inline">\(g\)</span> satisfies the HLRR
+        <span class="math inline"
+          >\(g_n + a_1 g_{n-1} + a_2 g_{n-2} + \dots + a_d g_{n-d} = 0\)</span
+        >
+        for all <span class="math inline">\(n \geq N\)</span> with initial
+        conditions <span class="math inline">\(g_0, \dots, g_{N-1}\)</span> 2.
+        The series
+        <span class="math inline"
+          >\(G(x) = \displaystyle \frac{P(x)}{Q(x)}\)</span
+        >
+        is a quotient of two polynomials - Denominator:
+        <span class="math inline"
+          >\(Q(x) = 1+a_1 x + a_2 x^2 + \dots + a_d x^d\)</span
+        >
+        - Numerator:
+        <span class="math inline"
+          >\(P(x) = b_0 + b_1 x + b_2 x^2 + \dots + b_{N-1}x^{N-1}\)</span
+        >
+        where
+        <span class="math inline"
+          >\(b_k = g_k + a_1 g_{k-1} + \dots + a_d g_{k-d}\)</span
+        >
+        - I.e.
+        <span class="math inline"
+          >\(a_1 g_{n-1} + \dots + a_d g_{n-d} = \left\{\begin{array}{ll}b_0
+          &amp; n = 0 \\b_1 &amp; n=1 \\\vdots \\b_{N-1} &amp; n=N-1 \\0 &amp; n
+          \geq N \\\end{array} \right.\)</span
+        >
+        ## Partial Fractions - Partial fractions must exist for functions that a
+        ratios of polynomials where the numerator has a higher degree than the
+        denominator - These can be used to deduce a generating series for a more
+        complex function (i.e. a ratio of polynomials) by splitting it into
+        smaller, more manageable series - Theorem 4.14 (paraphrase): there must
+        be a closed form formula for a given term of a recurrence relation with
+        a generating series that is a ratio of polynomials
+      </p>
+    </blockquote>
+    <h2 id="inhomogeneous-linear-recurrence-relations">
+      Inhomogeneous Linear Recurrence Relations
+    </h2>
+    <ul>
+      <li>
+        Here,
+        <span class="math inline"
+          >\(g_n = -(a_1 g_{n-1} + a_2 g_{n-2} + \dots + a_d g_{n-d}) - c - dn =
+          0\)</span
+        >
+        for some <span class="math inline">\(c \neq 0, d \in \mathbb{Z}\)</span>
+      </li>
+      <li>
+        More general strategy for solving:
+        <ul>
+          <li>
+            Re-write as
+            <span class="math inline"
+              >\(g_n + a_1 g_{n-1} + a_2 g_{n-2} + \dots + a_d g_{n-d} = c +
+              dn\)</span
+            >
+          </li>
+          <li>
+            Multiply both side by <span class="math inline">\(x^n\)</span>
+          </li>
+          <li>
+            Take the sum over all of
+            <span class="math inline">\(n \geq 2\)</span> on each side
+          </li>
+          <li>Solve the sums and equate the two sides</li>
+        </ul>
+      </li>
+    </ul>
+    <h2 id="polyexps">Polyexps</h2>
+    <ul>
+      <li>
+        <span class="math inline"
+          >\(q : \mathbb{N} \rightarrow \mathbb{C}\)</span
+        >
+        is a <strong>polyexp</strong> iff
+        <span class="math inline">\(q(n)\)</span> can be expressed as a sum of
+        polynomials, each with a complex exponent
+      </li>
+      <li>
+        A function can be <strong>eventually polyexp</strong> if it is polyexp
+        past a certain point (i.e. if
+        <span class="math inline">\(n \geq N\)</span>) &gt; [!Theorem] Theorem
+        4.18 &gt; Let g =
+        <span class="math inline">\((g_0, g_1, g_2, \dots)\)</span> be a
+        sequence of complex numbers. The following are equivalent &gt; 1. The
+        sequence <span class="math inline">\(g\)</span> satisfies a HLRR (with
+        initial conditions) &gt; 2. The sequence
+        <span class="math inline">\(g\)</span> satisfies a possibly
+        inhomogeneous linear recurrence relation (with initial conditions) in
+        which the RHS is an eventually polyexp function &gt; 3. The generating
+        series <span class="math inline">\(G(x)\)</span> is a rational function
+        &gt; 4. The function <span class="math inline">\(g(n) = g_n\)</span> is
+        polexp
+      </li>
+    </ul>
+    <h2 id="quadratic-recurrence-relations">Quadratic Recurrence Relations</h2>
+    <ul>
+      <li>
+        A recurrence is <strong>quadratic</strong> iff its generating series
+        <span class="math inline">\(G(x)\)</span> can be expressed as
+        <span class="math inline">\(A(x)G(x)^2 + B(x)G(x) + C(x) = 0\)</span>,
+        where <span class="math inline">\(A(x), B(x), C(x)\)</span> are power
+        series
+      </li>
+      <li>
+        Using the quadratic formula, we get
+        <span class="math inline"
+          >\(G_+, G_- = \displaystyle \frac{-B(x) \pm \sqrt{B(x)^2 -
+          4A(x)C(x)}}{2A(x)}\)</span
+        >
+        <ul>
+          <li>
+            The correct series is the one without negative coefficients or
+            exponents
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <h2 id="catalan-numbers">Catalan Numbers</h2>
+    <ul>
+      <li>
+        <span class="math inline"
+          >\(C_n = \displaystyle \frac{1}{n+1} {2n \choose n}\)</span
+        >
+      </li>
+      <li>
+        These count the number of well-formed parenthesizations, binary trees,
+        lattice paths (<span class="math inline">\(n \times n\)</span> grid
+        without crossing <span class="math inline">\(y = x\)</span>), ways to
+        partition a convex polygon into triangles, etc
+      </li>
+    </ul>
+    <h2 id="question-strategies-3">Question Strategies</h2>
+    <ul>
+      <li>
+        Finding a closed form formula for a given term
+        <span class="math inline">\(n\)</span> of a recurrence relation: this is
+        simply the inside of the generating series
+      </li>
+    </ul>
+    <h1 id="chapter-5-introduction-to-graph-theory">
+      Chapter 5: Introduction to Graph Theory
+    </h1>
+    <blockquote>
+      <p>
+        [!Definition] Graph A <strong>graph</strong>
+        <span class="math inline">\(G\)</span> is a finite, nonempty set of
+        <strong>vertices</strong>
+        <span class="math inline">\(V(G)\)</span> together with a finite,
+        nonempty set of <strong>edges</strong>
+        <span class="math inline">\(E(G)\)</span>, which are
+        <em>unordered</em> pairs of distinct vertices. - Note that edges do not
+        have direction and that two vertices can have at most one edge between
+        them - <strong>Adjacent</strong> vertices have an edge connecting them.
+        That edge is <strong>incident</strong> to / <strong>joins</strong> both
+        vertices - <strong>Neighbors</strong> (<span class="math inline"
+          >\(N(u)\)</span
+        >): set of vertices adjacent to <span class="math inline">\(u\)</span> -
+        <strong>Planar</strong>: <span class="math inline">\(G\)</span> can be
+        drawn without lines crossing
+      </p>
+    </blockquote>
+    <h2 id="isomorphism">Isomorphism</h2>
+    <blockquote>
+      <p>
+        [!Definition] Isomorphism Graphs
+        <span class="math inline">\(G_1\)</span> and
+        <span class="math inline">\(G_2\)</span> are isomorphic if there exists
+        a bijection
+        <span class="math inline">\(f:V(G_1) \to V(G_2)\)</span> such that
+        vertices <span class="math inline">\(f(u)\)</span> and
+        <span class="math inline">\(f(v)\)</span> are adjacent in
+        <span class="math inline">\(G_2\)</span>
+        <span class="math inline">\(\iff\)</span> they are adjacent in
+        <span class="math inline">\(G_1\)</span> - I.e. the graphs have the same
+        shape (<em>iso=same, morph=shape</em>) -
+        <strong>Isomorphism class</strong>: set of all graphs that are
+        isomorphic to a given graph - Every graph is isomorphic to itself
+        (<strong>automorphism</strong>)
+      </p>
+    </blockquote>
+    <h2 id="degree">Degree</h2>
+    <blockquote>
+      <p>
+        [!Lemma] Handshaking Lemma For any graph
+        <span class="math inline">\(G\)</span>, we have
+        <span class="math inline"
+          >\(\displaystyle \sum_{v \in V(G)} \deg(v) = 2 | E(G)|\)</span
+        >
+        - <strong><span class="math inline">\(k\)</span>-regular graph</strong>:
+        every vertex in <span class="math inline">\(G\)</span> has degree
+        <span class="math inline">\(k\)</span> -
+        <strong>Complete graph</strong>: every set of distinct vertices is
+        adjacent (there are
+        <span class="math inline">\(\displaystyle {k \choose 2}\)</span> edges)
+        ## Bipartite Graphs [!Definition] Bipartite Graph A graph
+        <span class="math inline">\(G\)</span> that can be partitioned into two
+        sets <span class="math inline">\(A\)</span> and
+        <span class="math inline">\(B\)</span> such that all edges join a vertex
+        from <span class="math inline">\(A\)</span> to
+        <span class="math inline">\(B\)</span>. A <em>complete</em> bipartite
+        graph has all edges in <span class="math inline">\(A\)</span> adjacent
+        to all vertices in <span class="math inline">\(B\)</span>. -
+        <strong><span class="math inline">\(n\)</span>-cube</strong>: Graph
+        where the vertices are at each position in
+        <span class="math inline">\(\set{0, 1}^n\)</span> and edges connect
+        vertices with exactly one differing digit
+      </p>
+    </blockquote>
+    <h2 id="specifying-graphs">Specifying Graphs</h2>
+    <table>
+      <colgroup>
+        <col style="width: 10%" />
+        <col style="width: 90%" />
+      </colgroup>
+      <thead>
+        <tr class="header">
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="odd">
+          <td>Adjacency Matrix</td>
+          <td>
+            Matrix with rows and columns corresponding to vertices; the
+            overlapping entry is <span class="math inline">\(1\)</span> if there
+            is an edge and <span class="math inline">\(0\)</span> otherwise
+          </td>
+        </tr>
+        <tr class="even">
+          <td>Incidence Matrix</td>
+          <td>
+            Matrix where rows correspond to vertices and columns correspond to
+            edges; if the edge is incident to the vertex, the entry is
+            <span class="math inline">\(1\)</span>,
+            <span class="math inline">\(0\)</span> otherwise
+          </td>
+        </tr>
+        <tr class="odd">
+          <td>Adjacency List</td>
+          <td>List of tuples of each vertex and the list of its neighbors</td>
+        </tr>
+      </tbody>
+    </table>
+    <h2 id="paths-and-cycles">Paths and Cycles</h2>
+    <blockquote>
+      <p>
+        [!Definition] Subgraph A subgraph of
+        <span class="math inline">\(G\)</span> has a graph whose vertex set is a
+        subset is a subset <span class="math inline">\(U\)</span> of
+        <span class="math inline">\(V(G)\)</span> and whose edge set is a subset
+        of the edges in <span class="math inline">\(G\)</span> with both
+        endpoints in <span class="math inline">\(U\)</span> -
+        <strong>Spanning subgraph</strong>: The subgraph has all the vertices
+        from the original graph - <strong>Walk</strong>: sequence of alternating
+        adjacent edges and vertices - <strong>Length</strong>: number of edges
+        in the walk - <strong>Closed walk</strong>: the walk ends at the same
+        vertex it started at
+      </p>
+    </blockquote>
+    <blockquote>
+      <p>
+        [!Definition] Path (walk version) and Theorem 4.6.2 A walk where all the
+        vertices are distinct. If there was a walk between vertices, then there
+        is also a path between them
+      </p>
+    </blockquote>
+    <blockquote>
+      <p>
+        [!Definition] Cycle A cycle in a graph
+        <span class="math inline">\(G\)</span> is a subgraph of
+        <span class="math inline">\(G\)</span> with
+        <span class="math inline">\(n\)</span> 2-regular vertices, where the
+        vertices form a closed walk - <strong>Path</strong> (cycle version): The
+        subgraph obtained by removing an edge from a cycle - If every vertex in
+        <span class="math inline">\(G\)</span> has degree
+        <span class="math inline">\(\geq 2\)</span>, then
+        <span class="math inline">\(G\)</span> contains a cycle - The
+        <strong>girth</strong> <span class="math inline">\(g(G)\)</span> of
+        <span class="math inline">\(G\)</span> is the length of the shortest
+        cycle in <span class="math inline">\(G\)</span>. - If
+        <span class="math inline">\(G\)</span> has no cycles,
+        <span class="math inline">\(g(G)\)</span> is infinite -
+        <strong>Hamilton cycle</strong>: a spanning cycle (contains every vertex
+        of the graph)
+      </p>
+    </blockquote>
+    <h2 id="equivalence-relations">Equivalence Relations</h2>
+    <ul>
+      <li>
+        A relation <span class="math inline">\(\mathcal{R}\)</span> between sets
+        <span class="math inline">\(S\)</span> and
+        <span class="math inline">\(T\)</span> can be defined as a subset of
+        <span class="math inline">\(S \times T\)</span>. We will mostly consider
+        relations on <span class="math inline">\(S\)</span>, i.e. subsets of
+        <span class="math inline">\(S \times S\)</span>
+      </li>
+    </ul>
+    <table>
+      <colgroup>
+        <col style="width: 18%" />
+        <col style="width: 81%" />
+      </colgroup>
+      <thead>
+        <tr class="header">
+          <th>Name</th>
+          <th>Definition</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="odd">
+          <td>Reflexivity</td>
+          <td>
+            Each element in <span class="math inline">\(S\)</span> is related to
+            itself
+          </td>
+        </tr>
+        <tr class="even">
+          <td>Symmetry</td>
+          <td>
+            For <span class="math inline">\(a, b \in S\)</span>, if
+            <span class="math inline">\(a\)</span> is related to
+            <span class="math inline">\(b\)</span>, then
+            <span class="math inline">\(b\)</span> is related to
+            <span class="math inline">\(a\)</span>
+          </td>
+        </tr>
+        <tr class="odd">
+          <td>Transitivity</td>
+          <td>
+            For <span class="math inline">\(a, b, c \in S\)</span>, if
+            <span class="math inline">\(a, b\)</span> are related and
+            <span class="math inline">\(b, c\)</span> are related, then
+            <span class="math inline">\(a, c\)</span> are related
+          </td>
+        </tr>
+        <tr class="even">
+          <td>Equivalence relation</td>
+          <td>A relation that is reflexive, symmetric, and transitive</td>
+        </tr>
+      </tbody>
+    </table>
+    <h2 id="connectedness">Connectedness</h2>
+    <ul>
+      <li>
+        A graph <span class="math inline">\(G\)</span> is
+        <strong>connected</strong> if there is a path between any two vertices
+        &gt;[!Definition] Component &gt;A component of
+        <span class="math inline">\(G\)</span> is a subgraph
+        <span class="math inline">\(C\)</span> of
+        <span class="math inline">\(G\)</span> such that
+        <span class="math inline">\(C\)</span> is connected and no subgraph of
+        <span class="math inline">\(G\)</span> that properly contains
+        <span class="math inline">\(C\)</span> is connected (essentially, a part
+        of the graph that is completely disconnected from the rest of it)
+      </li>
+      <li>
+        <strong>Cut</strong> of
+        <span class="math inline">\(X \subseteq V(G)\)</span>: set of edges in
+        <span class="math inline">\(V(G)\)</span> that have exactly one edge in
+        <span class="math inline">\(X\)</span>
+      </li>
+      <li>
+        <span class="math inline">\(G\)</span> is disconnected
+        <span class="math inline">\(\iff\)</span> there exists an
+        <span class="math inline">\(X \subset V(G)\)</span> such that the cut of
+        <span class="math inline">\(X\)</span> is empty
+      </li>
+    </ul>
+    <h2 id="eulerian-circuits">Eulerian Circuits</h2>
+    <blockquote>
+      <p>
+        [!Definition] Eulerian Circuit A closed walk in
+        <span class="math inline">\(G\)</span> that contains every edge of
+        <span class="math inline">\(G\)</span> exactly once. - If
+        <span class="math inline">\(G\)</span> is a connected graph, then it has
+        a Eulerian circuit <span class="math inline">\(\iff\)</span> every
+        vertex has an even degree
+      </p>
+    </blockquote>
+    <h2 id="bridges">Bridges</h2>
+    <blockquote>
+      <p>
+        [!Definition] Bridge An edge
+        <span class="math inline">\(e \in E(G)\)</span> is a bridge if
+        <span class="math inline">\(G/e\)</span> has more components than
+        <span class="math inline">\(G\)</span> - If
+        <span class="math inline">\(e\)</span> is a bridge, then
+        <span class="math inline">\(G/e\)</span> must have exactly two
+        components, where each endpoint of the bridge is in a different
+        component - An edge <span class="math inline">\(e\)</span> is a bridge
+        <span class="math inline">\(\iff\)</span> it is not contained in a cycle
+      </p>
+    </blockquote>
+    <h2 id="proof-strategies">Proof strategies</h2>
+    <ul>
+      <li>Most graph theory proofs proceed by contradiction</li>
+      <li>
+        Also common: Induction, where the inductive case is applied recursively
+        to neighbors
+      </li>
+      <li>When proving directly, consider the contrapositive</li>
+      <li>
+        Longest path argument: declare
+        <span class="math inline">\(v_1, v_0, \dots v_k\)</span> to be the
+        longest path in <span class="math inline">\(G\)</span>, proceed directly
+        or by contradiction (by showing that it is not the longest path)
+        <ul>
+          <li>Often, show that this leads to a cycle</li>
+        </ul>
+      </li>
+      <li>Try forming a tree, then use the properties of trees in the proof</li>
+      <li>
+        If connectedness is assumed, the path between any two vertices can be
+        used without loss of generality
+      </li>
+    </ul>
+    <h1 id="chapter-6-trees">Chapter 6: Trees</h1>
+    <blockquote>
+      <p>
+        [!Definition] Trees and Forests A <strong>tree</strong> is a connected
+        graph with no cycles A <strong>forest</strong> is a graph with no cycles
+        (connectedness not required)
+      </p>
+    </blockquote>
+    <h2 id="properties-of-trees">Properties of Trees</h2>
+    <ul>
+      <li>
+        A unique path exists between any two vertices
+        <span class="math inline">\(u\)</span> and
+        <span class="math inline">\(v\)</span> in a tree
+        <span class="math inline">\(T\)</span>
+      </li>
+      <li>
+        Every edge <span class="math inline">\(e\)</span> of a tree
+        <span class="math inline">\(T\)</span> is a bridge
+      </li>
+      <li>
+        A tree <span class="math inline">\(T\)</span> with
+        <span class="math inline">\(n\)</span> vertices has
+        <span class="math inline">\(n-1\)</span> edges
+        <ul>
+          <li>
+            If a graph <span class="math inline">\(G\)</span> is connected with
+            <span class="math inline">\(n\)</span> vertices and
+            <span class="math inline">\(n-1\)</span> edges, then
+            <span class="math inline">\(G\)</span> is a tree
+          </li>
+        </ul>
+      </li>
+      <li>A tree with a least two vertices has at least two leaves</li>
+    </ul>
+    <h2 id="spanning-trees">Spanning Trees</h2>
+    <ul>
+      <li>
+        A <strong>spanning tree</strong> is a spanning subgraph that is also a
+        tree
+      </li>
+      <li>
+        A graph <span class="math inline">\(G\)</span> is connected
+        <span class="math inline">\(\iff\)</span>
+        <span class="math inline">\(G\)</span> has a spanning tree
+      </li>
+      <li>
+        Adding an edge to a spanning tree produces a cycle; removing a different
+        edge from this cycle produces another spanning tree
+      </li>
+      <li>
+        If <span class="math inline">\(T\)</span> is a spanning tree of
+        <span class="math inline">\(G\)</span> and
+        <span class="math inline">\(e\)</span> is an edge in
+        <span class="math inline">\(T\)</span>, then
+        <span class="math inline">\(T-e\)</span> has two components
+      </li>
+    </ul>
+    <h2 id="characterizing-bipartite-graphs">
+      Characterizing Bipartite Graphs
+    </h2>
+    <ul>
+      <li>A subgraph of a bipartite graph is also bipartite</li>
+      <li>
+        Graph <span class="math inline">\(G\)</span> is bipartite
+        <span class="math inline">\(\iff\)</span>
+        <span class="math inline">\(G\)</span> has no cycles of odd length
+      </li>
+    </ul>
+    <h2 id="breadth-first-search">Breadth-First Search</h2>
+    <ul>
+      <li>
+        <strong>Parent/predecessor</strong> function:
+        <span class="math inline">\(pr(x) : V(T) \to V(T)\)</span> is the first
+        vertex in the unique path from vertex
+        <span class="math inline">\(x\)</span> to a given vertex
+        <span class="math inline">\(u\)</span> in the tree
+        <span class="math inline">\(T\)</span>.
+        <span class="math inline">\(pr(u)\)</span> is defined as
+        <span class="math inline">\(\varnothing\)</span>
+      </li>
+      <li>
+        Algorithm for finding a spanning tree of an arbitrary
+        <span class="math inline">\(G\)</span>
+        <ul>
+          <li>
+            Select an initial vertex <span class="math inline">\(u\)</span> and
+            define <span class="math inline">\(pr(u) = \varnothing\)</span>.
+            This is the initial subgraph <span class="math inline">\(D\)</span>
+          </li>
+          <li>
+            Until <span class="math inline">\(D\)</span> is full, continue
+            adding edges to <span class="math inline">\(D\)</span> that have one
+            vertex <span class="math inline">\(r\)</span> in
+            <span class="math inline">\(D\)</span> and one vertex
+            <span class="math inline">\(v\)</span> outside it. I.e. add vertex
+            <span class="math inline">\(v\)</span> and define
+            <span class="math inline">\(pr(v) =r\)</span>.
+          </li>
+          <li>
+            Refinement (breadth-first search): at each stage, choose an edge
+            incident to the unexhausted vertex that joined the tree the earliest
+          </li>
+        </ul>
+      </li>
+      <li>
+        If <span class="math inline">\(|V(D)| = |V(G)|\)</span> when the
+        algorithm terminates, <span class="math inline">\(D\)</span> is a
+        spanning tree. Otherwise, <span class="math inline">\(G\)</span> is
+        disconnected and no spanning tree exists
+      </li>
+      <li>
+        <strong>BFS Search tree</strong>: spanning tree with directed edges from
+        each vertex to its parent; each vertex has a <strong>level</strong>,
+        which is its distance from the <strong>root</strong>. Non-tree
+        (cycle-forming) edges may be present in the graph
+        <ul>
+          <li>
+            <strong>Exhausted vertex</strong>: vertex that is not adjacent to a
+            vertex outside the tree
+          </li>
+          <li>Non-tree edges join vertices at most one level apart</li>
+        </ul>
+      </li>
+    </ul>
+    <h2 id="applications-of-bfs">Applications of BFS</h2>
+    <ul>
+      <li>
+        A connected graph <span class="math inline">\(G\)</span> with BFS tree
+        <span class="math inline">\(T\)</span> has an odd cycle
+        <span class="math inline">\(\iff\)</span>
+        <span class="math inline">\(G\)</span> has a non-tree edge joining
+        vertices at the same level in <span class="math inline">\(T\)</span>
+      </li>
+      <li>
+        The length of a shortest path from
+        <span class="math inline">\(u\)</span> to
+        <span class="math inline">\(v\)</span> in a connected graph
+        <span class="math inline">\(G\)</span> is equal to the level of
+        <span class="math inline">\(v\)</span> in any BFS tree of
+        <span class="math inline">\(G\)</span> with root
+        <span class="math inline">\(u\)</span>
+      </li>
+    </ul>
+    <h3 id="minimum-spanning-tree">Minimum Spanning Tree</h3>
+    <ul>
+      <li>
+        <strong>Minimum Spanning Tree</strong>: Spanning tree with minimum sum
+        of weighted edges
+      </li>
+      <li>
+        <em>Prim’s Algorithm</em> is a greedy algorithm for finding minimum
+        spanning trees:
+        <ul>
+          <li>
+            Let vertex <span class="math inline">\(v \in G\)</span> be
+            arbitrary; let <span class="math inline">\(T\)</span> be the tree
+            that consists of only <span class="math inline">\(v\)</span>. While
+            <span class="math inline">\(T\)</span> is not a spanning tree of
+            <span class="math inline">\(G\)</span>
+          </li>
+          <li>
+            Let <span class="math inline">\(e = uv\)</span> be an edge with the
+            smallest weight in the cut induced by
+            <span class="math inline">\(V(T)\)</span>, where
+            <span class="math inline">\(u \in V(T)\)</span> and
+            <span class="math inline">\(v \not\in V(T)\)</span>. Add
+            <span class="math inline">\(e\)</span> to
+            <span class="math inline">\(E(T)\)</span> and
+            <span class="math inline">\(v\)</span> to
+            <span class="math inline">\(V(T)\)</span>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <h2 id="proof-strategies-1">Proof Strategies</h2>
+    <ul>
+      <li>
+        Proving a graph is not bipartite: find a subgraph that is not bipartite
+        (ex. an odd cycle). Then, by contrapositive, the original graph cannot
+        be bipartite either
+      </li>
+      <li>
+        Show that a subgraph is a tree (or has a spanning tree), then derive
+        meaning from that
+      </li>
+    </ul>
+    <h1 id="chapter-7-planar-graphs">Chapter 7: Planar Graphs</h1>
+    <h2 id="planarity">Planarity</h2>
+    <blockquote>
+      <p>
+        [!Definition] Planarity A graph is <strong>planar</strong> if it can be
+        drawn on a plane such that no edges cross and no vertices are at the
+        same positions. Such a drawing is a <strong>planar embedding</strong> of
+        the graph
+      </p>
+    </blockquote>
+    <ul>
+      <li>
+        This separates the graph into <strong>faces</strong>, including the
+        unbounded outside one
+        <ul>
+          <li>The edges of a face are its <strong>boundary</strong></li>
+          <li>Faces that share a boundary are <strong>adjacent</strong></li>
+          <li>
+            <strong>Degree</strong>: number of edges in the
+            <em>boundary walk</em>
+            <ul>
+              <li>
+                A boundary will be counted twice when determining degree if it
+                is a bridge
+              </li>
+              <li>
+                If there are multiple components, then the degree is the sum of
+                that of the components
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <blockquote>
+      <p>
+        [!Lemma] Faceshaking Lemma The total degree of all the faces in the
+        planar embedding of graph <span class="math inline">\(G\)</span> is
+        <span class="math inline">\(2|E(G)|\)</span>, i.e. <span
+          class="math inline"
+          >\(\displaystyle \sum_{i=1}^{s} \deg(f_i) = 2|E(G)|\)</span
+        >
+      </p>
+    </blockquote>
+    <h2 id="eulers-formula">Euler’s Formula</h2>
+    <blockquote>
+      <p>
+        [!Theorem] Euler’s Formula Let <span class="math inline">\(G\)</span> be
+        a connected graph with
+        <span class="math inline">\(k\)</span> components,
+        <span class="math inline">\(v\)</span> vertices and
+        <span class="math inline">\(e\)</span> edges. If
+        <span class="math inline">\(G\)</span> has a planar embedding with
+        <span class="math inline">\(f\)</span> faces, then
+        <span class="math inline">\(v-e+f=k+1\)</span> - For a connected graph,
+        <span class="math inline">\(v-e+f = 2\)</span>
+      </p>
+    </blockquote>
+    <h2 id="stereographic-projection">Stereographic Projection</h2>
+    <ul>
+      <li>
+        A graph <span class="math inline">\(G\)</span> is planar
+        <span class="math inline">\(\iff\)</span>
+        <span class="math inline">\(G\)</span> can be drawn on a sphere
+      </li>
+      <li>
+        The two graphs can be converted between by
+        <em>stereographic projection</em>
+      </li>
+    </ul>
+    <h2 id="platonic-solids">Platonic Solids</h2>
+    <ul>
+      <li>
+        <strong>Platonic graph</strong>:
+        <span class="math inline">\(G\)</span> is platonic if it has a planar
+        embedding where each vertex has the same degree
+        <span class="math inline">\(d_v \geq 3\)</span> and each face has the
+        same degree <span class="math inline">\(d_f \geq 3\)</span>
+      </li>
+      <li>
+        There are exactly 5 platonic graphs, corresponding to the 5 platonic
+        solids
+      </li>
+    </ul>
+    <h2 id="nonplanar-graphs">Nonplanar Graphs</h2>
+    <ul>
+      <li>
+        If <span class="math inline">\(G\)</span> is cyclic, then the boundary
+        of each face in the planar embedding of
+        <span class="math inline">\(G\)</span> contains a cycle
+      </li>
+      <li>
+        In a planar graph <span class="math inline">\(G\)</span> with
+        <span class="math inline">\(v \geq 3\)</span> vertices and
+        <span class="math inline">\(e\)</span> edges, we have
+        <span class="math inline">\(e \leq 3v-6\)</span>
+        <ul>
+          <li>
+            If <span class="math inline">\(G\)</span> is bipartite, then we have
+            <span class="math inline">\(e \leq 2v-4\)</span>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <h2 id="kuratowskis-theorem">Kuratowski’s Theorem</h2>
+    <ul>
+      <li>
+        <strong>Edge subdivision</strong>: replacing an edge with a new path
+        with a length of at least 1 &gt;[!Theorem] Kuratowski’s Theorem &gt;A
+        graph <span class="math inline">\(G\)</span> is not planar
+        <span class="math inline">\(\iff\)</span>
+        <span class="math inline">\(G\)</span> has a subgraph that is an edge
+        subdivision of <span class="math inline">\(K_5\)</span> or
+        <span class="math inline">\(K_{3, 3}\)</span>
+      </li>
+      <li>
+        To find this subgraph, look for a long cycle and see if any connections
+        can be made to create an edge subdivision of
+        <span class="math inline">\(K_5\)</span> or
+        <span class="math inline">\(K_{3, 3}\)</span>
+      </li>
+    </ul>
+    <h2 id="coloring-and-planar-graphs">Coloring and Planar Graphs</h2>
+    <ul>
+      <li>
+        An edge <span class="math inline">\(e \in E(G)\)</span> is
+        <strong>contracted</strong> by “shortening” it such that its ends become
+        one vertex
+      </li>
+      <li>
+        <strong
+          ><span class="math inline">\(k\)</span>-coloring of
+          <span class="math inline">\(G\)</span></strong
+        >: function <span class="math inline">\(f : V(G) \to C\)</span>, where
+        <span class="math inline">\(C\)</span> is a set of “colors” of size
+        <span class="math inline">\(k\)</span>
+      </li>
+      <li>
+        A graph <span class="math inline">\(G\)</span> is 2-colorable
+        <span class="math inline">\(\iff\)</span
+        ><span class="math inline">\(G\)</span> is bipartite
+      </li>
+      <li>
+        <span class="math inline">\(K_n\)</span> is
+        <span class="math inline">\(n\)</span>-colorable, and not
+        <span class="math inline">\(k\)</span>-colorable for any
+        <span class="math inline">\(k &lt; n\)</span>
+      </li>
+      <li>
+        Every planar graph is 6-colorable (6-color theorem) and 5-colorable
+        (5-color theorem) &gt;[!Theorem] Four Color Theorem &gt;Any planar graph
+        <span class="math inline">\(G\)</span> is 4-colorable
+      </li>
+    </ul>
+    <h2 id="dual-planar-maps">Dual Planar Maps</h2>
+    <blockquote>
+      <p>
+        [!Definition] Dual graph For a planar graph
+        <span class="math inline">\(G\)</span>, the dual
+        <span class="math inline">\(G^*\)</span> of
+        <span class="math inline">\(G\)</span> is constructed replacing each
+        face of <span class="math inline">\(G\)</span> with a vertex and drawing
+        an edge between each pair of vertices whose corresponding faces were
+        adjacent - A face with degree <span class="math inline">\(k\)</span> in
+        <span class="math inline">\(G\)</span> becomes a vertex of degree
+        <span class="math inline">\(k\)</span> in
+        <span class="math inline">\(G^*\)</span> - Thus, the 4-color theorem
+        also applies to coloring the faces of planar graphs
+      </p>
+    </blockquote>
+    <h2 id="proof-strategies-2">Proof Strategies</h2>
+    <ul>
+      <li>
+        Use handshaking/faceshaking lemma to calculate the number of edges and
+        vertices
+      </li>
+      <li>
+        Average number of edges/vertices/etc.: if the average number of these is
+        <span class="math inline">\(a\)</span>, show that
+        <span class="math inline">\(\lfloor{a}\rfloor\)</span> and
+        <span class="math inline">\(\lceil{a}\rceil\)</span> edges/vertices/etc.
+        must exist
+      </li>
+      <li>
+        Use <span class="math inline">\(e \leq 3v-6\)</span> and
+        <span class="math inline">\(e \leq 2v-4\)</span> to constrain the number
+        of edges and vertices in graphs
+      </li>
+      <li>
+        Planar graphs will have the following
+        <ul>
+          <li>
+            <span class="math inline">\(K_5\)</span> or
+            <span class="math inline">\(K_{3, 3}\)</span> (Kuratowski’s theorem)
+          </li>
+          <li><span class="math inline">\(e \leq 3v-6\)</span></li>
+          <li>
+            More than one face <span class="math inline">\(\iff\)</span> at
+            least one cycle
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <h1 id="chapter-8-matchings">Chapter 8: Matchings</h1>
+    <h2 id="matching">Matching</h2>
+    <blockquote>
+      <p>
+        [!Definition] Matching A <strong>matching</strong> in a graph
+        <span class="math inline">\(G\)</span> is a set
+        <span class="math inline">\(M\)</span> of
+        <span class="math inline">\(G\)</span>’s edges such that no two edges in
+        <span class="math inline">\(M\)</span> have a common end - A vertex
+        <span class="math inline">\(v\)</span> of
+        <span class="math inline">\(G\)</span> is <strong>saturated</strong> by
+        <span class="math inline">\(M\)</span>
+        <span class="math inline">\(\iff\)</span>
+        <span class="math inline">\(v\)</span> is incident with an edge in
+        <span class="math inline">\(M\)</span> (i.e. <span class="math inline"
+          >\(v\)</span
+        >
+        is in one of the edges in <span class="math inline">\(M\)</span>) -
+        <strong>Maximum matching</strong> of
+        <span class="math inline">\(G\)</span>: the largest possible matching in
+        <span class="math inline">\(G\)</span> -
+        <strong>Perfect matching</strong> of
+        <span class="math inline">\(G\)</span>: matching that contains every
+        vertex of <span class="math inline">\(G\)</span> -
+        <strong>Job Assignment Problem</strong>: finding the maximum matching of
+        a bipartite graph
+      </p>
+    </blockquote>
+    <h3 id="paths">Paths</h3>
+    <ul>
+      <li>
+        <strong>Alternating Path</strong>: a path in
+        <span class="math inline">\(G\)</span> such that edges are alternately
+        in and not in matching <span class="math inline">\(M\)</span>
+      </li>
+      <li>
+        <strong>Augmenting Path</strong>: an alternating path that joins two
+        distinct vertices that aren’t saturated by
+        <span class="math inline">\(M\)</span> (these are on each end of the
+        path)
+      </li>
+      <li>
+        If <span class="math inline">\(M\)</span> has an augmenting path, then
+        it is not a maximum matching
+      </li>
+    </ul>
+    <h2 id="covers">Covers</h2>
+    <blockquote>
+      <p>
+        [!Definition] Cover A <strong>cover</strong> of a graph
+        <span class="math inline">\(G\)</span> is a set
+        <span class="math inline">\(C\)</span> of vertices such that every edge
+        of <span class="math inline">\(G\)</span> has at least one end in
+        <span class="math inline">\(C\)</span> - If
+        <span class="math inline">\(M\)</span> and
+        <span class="math inline">\(C\)</span> are matchings and covers of
+        <span class="math inline">\(G\)</span> respectively, then
+        <span class="math inline">\(|M| \leq |C|\)</span>. If
+        <span class="math inline">\(|M| = |C|\)</span>, then
+        <span class="math inline">\(M\)</span> is a maximum matching and
+        <span class="math inline">\(C\)</span> is a minimum cover
+      </p>
+    </blockquote>
+    <h2 id="königs-theorem">König’s Theorem</h2>
+    <blockquote>
+      <p>
+        [!Theorem] König’s Theorem In a bipartite graph, the maximum size of a
+        matching is the minimum size of a cover
+      </p>
+    </blockquote>
+    <h3 id="algorithm-for-maximum-matching-in-bipartite-graphs">
+      Algorithm for maximum matching in bipartite graphs
+    </h3>
+    <ul>
+      <li>
+        <span class="math inline">\(G\)</span> is a graph with bipartitions
+        <span class="math inline">\(A\)</span> and
+        <span class="math inline">\(B\)</span>, and matching
+        <span class="math inline">\(M\)</span>
+      </li>
+      <li>
+        From matching <span class="math inline">\(M\)</span>, construct
+        <span class="math inline">\(X\)</span> and
+        <span class="math inline">\(Y\)</span>
+      </li>
+      <li>
+        Let
+        <span class="math inline"
+          >\(\hat{X} = \set{v \in A : v \text{ is unsaturated }}\)</span
+        >
+        <span class="math inline">\(\hat{Y}\)</span> be
+        <span class="math inline">\(\emptyset\)</span>, and
+        <span class="math inline">\(pr(v)\)</span> be undefined for all vertices
+        <span class="math inline">\(v\)</span>
+      </li>
+      <li>
+        For each vertex
+        <span class="math inline">\(v \in B - \hat{Y}\)</span> that has an edge
+        <span class="math inline">\((u, v)\)</span> with
+        <span class="math inline">\(u \in \hat{X}\)</span>, add
+        <span class="math inline">\(v\)</span> to
+        <span class="math inline">\(\hat{Y}\)</span> and set
+        <span class="math inline">\(pr(v)\)</span> to
+        <span class="math inline">\(u\)</span>
+      </li>
+      <li>
+        Once the last step adds no vertex to
+        <span class="math inline">\(\hat{Y}\)</span>, return the maximum
+        matching <span class="math inline">\(M\)</span> and the minimum cover
+        <span class="math inline">\(C = \hat{Y} \cup (A - \hat{X})\)</span>
+      </li>
+      <li>
+        I.e. if there is an unsaturated vertex
+        <span class="math inline">\(v\)</span> in
+        <span class="math inline">\(Y\)</span>, find an augmenting path
+        <span class="math inline">\(P(v)\)</span> ending at
+        <span class="math inline">\(v\)</span> and use it to construct a larger
+        matching <span class="math inline">\(M&#39;\)</span>. Replace
+        <span class="math inline">\(M\)</span> with
+        <span class="math inline">\(M&#39;\)</span> and reconstruct
+        <span class="math inline">\(X\)</span> and
+        <span class="math inline">\(Y\)</span>
+      </li>
+    </ul>
+    <h2 id="applications-of-königs-theorem">Applications of König’s Theorem</h2>
+    <ul>
+      <li>
+        <strong>Neighbor set</strong>
+        <span class="math inline">\(N(D)\)</span> of
+        <span class="math inline">\(D \subseteq V(G)\)</span>: all vertices that
+        are incident to at least one vertex in
+        <span class="math inline">\(D\)</span> &gt;[!Theorem] Hall’s Theorem
+        &gt;A bipartite graph <span class="math inline">\(G\)</span> with
+        bipartition <span class="math inline">\(A, B\)</span> has a matching
+        saturating every vertex in <span class="math inline">\(A\)</span>
+        <span class="math inline">\(\iff\)</span> every
+        <span class="math inline">\(D \subseteq A\)</span> satisfies
+        <span class="math inline">\(|N(D)| \geq |D|\)</span>
+      </li>
+      <li>
+        If a given subset <span class="math inline">\(D \subseteq A\)</span> has
+        <span class="math inline">\(|N(D)| &lt; |D|\)</span>, then there are
+        more vertices than possible candidates for a member of the matching
+      </li>
+    </ul>
+    <h2 id="systems-of-distinct-representatives">
+      Systems of Distinct Representatives
+    </h2>
+    <ul>
+      <li>
+        Divide the population into different (overlapping) groups
+        <span class="math inline">\(Q_1 \dots Q_n\)</span>. What is the best way
+        to pick representatives for each group such that the representative is
+        in the group the represent and no one represents two different groups?
+      </li>
+      <li>
+        Can be constructed as a bipartite graph
+        <span class="math inline">\(A, B\)</span> where
+        <span class="math inline">\(A\)</span> is the set of people and
+        <span class="math inline">\(B\)</span> are the set of groups. Then, the
+        optimal system is the maximal matching
+      </li>
+    </ul>
+    <blockquote>
+      <p>
+        [!Theorem] Hall’s SDR Theorem The collection
+        <span class="math inline">\(Q_1 \dots Q_n \subseteq Q\)</span> has an
+        SDR <span class="math inline">\(\iff\)</span> for every subset
+        <span class="math inline">\(J \subseteq \set{1, 2, \dots n}\)</span>, we
+        have
+        <span class="math inline"
+          >\(\displaystyle \left|\bigcup_{i \in J} Q_i \right| \geq |J|\)</span
+        >
+      </p>
+    </blockquote>
+    <h2 id="perfect-matchings-in-bipartite-graphs">
+      Perfect Matchings in Bipartite Graphs
+    </h2>
+    <ul>
+      <li>
+        A bipartite graph <span class="math inline">\(G\)</span> with
+        bipartition <span class="math inline">\(A, B\)</span> has a perfect
+        matching <span class="math inline">\(\iff\)</span>
+        <span class="math inline">\(|A| = |B|\)</span> and every
+        <span class="math inline">\(D \subseteq A\)</span> satisfies
+        <span class="math inline">\(|N(D)| \geq |D|\)</span>
+      </li>
+      <li>
+        If <span class="math inline">\(G\)</span> is a
+        <span class="math inline">\(k\)</span>-regular bipartite graph with
+        <span class="math inline">\(k \geq 1\)</span>, then
+        <span class="math inline">\(G\)</span> has a perfect matching
+      </li>
+    </ul>
+    <h2 id="edge-coloring">Edge-coloring</h2>
+    <ul>
+      <li>
+        <strong>Edge <span class="math inline">\(k\)</span>-coloring</strong> a
+        graph relies on partitioning the graph into
+        <span class="math inline">\(k\)</span> matchings
+      </li>
+      <li>
+        A bipartite graph with maximum degree
+        <span class="math inline">\(\delta\)</span> has an edge
+        <span class="math inline">\(\delta\)</span>-coloring
+      </li>
+      <li>
+        Let <span class="math inline">\(G\)</span> be a bipartite graph having
+        at least one edge. Then <span class="math inline">\(G\)</span> has a
+        matching saturating each vertex of maximum degree
+      </li>
+      <li>
+        Application to timetabling: coloring the edges of a bipartite graph
+        where <span class="math inline">\(A\)</span> are the activities and
+        <span class="math inline">\(B\)</span> are the people doing the
+        activities
+      </li>
+      <li>
+        Bound edge-coloring problem: what is the smallest number of colors
+        needed to edge-color a bipartite graph if no color can be assigned to
+        more than <span class="math inline">\(m\)</span> edges?
+      </li>
+    </ul>
+    <blockquote>
+      <p>
+        [!Theorem] Theorem 8.8.1 Let <span class="math inline">\(G\)</span> be a
+        graph with <span class="math inline">\(e\)</span> edges and let
+        <span class="math inline">\(k, m \in \mathbb{N}^{+}\)</span> such that
+        <span class="math inline">\(G\)</span> has an edge
+        <span class="math inline">\(k\)</span>-coloring and
+        <span class="math inline">\(q \leq km\)</span>. Then
+        <span class="math inline">\(G\)</span> has a
+        <span class="math inline">\(k\)</span>-coloring in which every color is
+        used at most <span class="math inline">\(m\)</span> times.
+      </p>
+    </blockquote>
+    <h2 id="proof-strategies-3">Proof Strategies</h2>
+    <ul>
+      <li>
+        Consider the consequence of all theorems that relate vertices and edges
+        <ul>
+          <li>
+            I.e. Handshaking/faceshaking lemmas, Euler’s theorem,
+            <span class="math inline">\(|V| = |E| +1\)</span> for trees, etc.
+          </li>
+        </ul>
+      </li>
+      <li>
+        To show a perfect matching, assume none, then build augmenting path (for
+        contradiction)
+      </li>
+      <li>
+        Convert between cover and matching using
+        <span class="math inline">\(|M| = |C|\)</span> condition
+      </li>
+      <li>
+        If <span class="math inline">\(M\)</span> is a maximum matching, then
+        there is no edge with 2 unsaturated vertices, so the set of saturated
+        vertices is a cover
+      </li>
+      <li>
+        If a matching <span class="math inline">\(M\)</span> is a maximum
+        matching, then (by contradiction) there is no
+        <span class="math inline">\(v = (a, b) \in V\)</span> such that neither
+        <span class="math inline">\(a\)</span> nor
+        <span class="math inline">\(b\)</span> are unsaturated. Thus, the
+        saturated vertices must form a cover
+      </li>
+    </ul>
+  </body>
+</html>
